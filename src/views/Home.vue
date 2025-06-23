@@ -3,7 +3,7 @@
     <!-- 全屏图片显示 -->
     <div class="fullscreen-image-container">
       <img 
-        :src="isMobile ? '/Assets/2.png' : '/Assets/1.png'" 
+        :src="isMobile ? './Assets/2.png' : './Assets/1.png'" 
         :alt="isMobile ? '移动端首页图片' : '桌面端首页图片'"
         class="fullscreen-image"
       />
