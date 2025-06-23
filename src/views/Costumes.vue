@@ -161,9 +161,12 @@
       <section class="content-section">
         <h2>制作工艺展示</h2>
         <div class="video-section">
-          <div class="video-placeholder">
+          <div class="video-container">
             <h3>鱼皮服饰制作工艺视频</h3>
-            <p>详细展示赫哲族传统鱼皮服饰的制作过程</p>
+            <video controls width="100%" style="max-width: 700px;">
+              <source src="./Videos/赫哲族鱼皮靰鞡制作小片_x264.mp4" type="video/mp4">
+              您的浏览器不支持视频播放。
+            </video>
           </div>
         </div>
         

@@ -6,8 +6,11 @@
       <!-- 实地考察调研视频 -->
       <section class="video-section">
         <h2>实地考察调研纪实</h2>
-        <div class="video-placeholder">
-          <p>实地考察调研视频将在此处展示</p>
+        <div class="video-container">
+          <video controls width="100%" style="max-width: 800px;">
+            <source src="./Videos/实地考察调研纪实_x264.mp4" type="video/mp4">
+            您的浏览器不支持视频播放。
+          </video>
         </div>
       </section>
 
