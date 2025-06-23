@@ -28,199 +28,420 @@
         </div>
       </section>
 
-      <!-- 鱼皮工艺作品 -->
-      <section class="content-section">
-        <h2>鱼皮工艺作品</h2>
-        <p>鱼皮工艺是赫哲族最具特色的传统技艺，这里展示的鱼皮服饰和用品体现了赫哲人对自然资源的巧妙利用和精湛的手工技艺。</p>
-        
-        <div class="artwork-grid">
-          <div class="artwork-item featured">
-            <div class="artwork-image">
-              <img src="/Images/鱼皮衣.webp" alt="传统鱼皮衣" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>传统鱼皮衣</h3>
-              <p class="description">采用传统工艺制作的鱼皮衣，展现了赫哲族独特的服饰文化。</p>
-              <div class="artwork-tags">
-                <span class="tag">国家级文物</span>
-                <span class="tag">传统工艺</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <img src="/Images/鱼皮衣2.webp" alt="鱼皮靰鞡" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>鱼皮靰鞡</h3>
-              <p class="description">用鱼皮制作的传统鞋履，防水耐用，是渔民的理想鞋履。</p>
-              <div class="artwork-tags">
-                <span class="tag">实用工艺</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <img src="/Images/鱼皮晾晒.webp" alt="鱼皮画" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>鱼皮画</h3>
-              <p class="description">在鱼皮上绘制的传统图案，展现了赫哲族的艺术审美。</p>
-              <div class="artwork-tags">
-                <span class="tag">艺术创新</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <img src="/Images/鱼皮衣3.webp" alt="鱼皮手工包" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>鱼皮手工包</h3>
-              <p class="description">结合传统工艺与现代设计的鱼皮手工包。</p>
-              <div class="artwork-tags">
-                <span class="tag">现代应用</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- 桦皮工艺作品 -->
+
+      <!-- 现代设计作品 -->
       <section class="content-section">
-        <h2>桦皮工艺作品</h2>
-        <p>桦皮工艺作品展现了赫哲人对桦树皮这一天然材料的巧妙运用，制作出各种实用美观的生活用品和交通工具。</p>
+        <h2>现代设计作品</h2>
+        <p>融合传统赫哲族文化元素与现代设计理念的创新作品，展现了传统文化在新时代的传承与发展。</p>
         
         <div class="artwork-grid">
           <div class="artwork-item">
             <div class="artwork-image">
-              <img src="/Images/船.webp" alt="桦皮船模型" />
+              <img src="/Assets/罗列所有作品/乌苏里渔歌-刘欣欣/刘欣欣.jpg" alt="乌苏里渔歌" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>桦皮船模型</h3>
-              <p class="description">按照传统工艺制作的桦皮船模型，展现了赫哲族的造船技艺。</p>
-              <div class="artwork-tags">
-                <span class="tag">传统技艺</span>
-                <span class="tag">交通工具</span>
-              </div>
+              <h3>乌苏里渔歌</h3>
+              <p class="description">设计者：刘欣欣</p>
             </div>
           </div>
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <img src="/Images/房屋.webp" alt="桦皮房屋" />
+              <img src="/Assets/罗列所有作品/云织梦-张艺馨/张艺馨.jpg" alt="云织梦" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>桦皮房屋</h3>
-              <p class="description">用桦树皮建造的传统房屋，体现了赫哲族的建筑智慧。</p>
-              <div class="artwork-tags">
-                <span class="tag">生活用品</span>
-              </div>
+              <h3>云织梦</h3>
+              <p class="description">设计者：张艺馨</p>
             </div>
           </div>
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <img src="/Images/房屋2.webp" alt="桦皮房屋" />
+              <img src="/Assets/罗列所有作品/冬渔裘歌-李雨婷/李雨婷.jpg" alt="冬渔裘歌" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>桦皮房屋</h3>
-              <p class="description">传统的桦皮房屋建筑，展现了赫哲族独特的居住文化。</p>
-              <div class="artwork-tags">
-                <span class="tag">装饰工艺</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 木雕作品 -->
-      <section class="content-section">
-        <h2>木雕工艺作品</h2>
-        <p>木雕作品体现了赫哲族工匠的精湛技艺，从实用器具到装饰品，每一件作品都蕴含着深厚的文化内涵。</p>
-        
-        <div class="artwork-grid">
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <img src="/Images/鱼皮衣.webp" alt="木雕鱼" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>木雕鱼</h3>
-              <p class="artist">制作者：尤永贵</p>
-              <p class="description">精雕细琢的木雕鱼，象征着赫哲族的渔猎文化。</p>
-              <div class="artwork-tags">
-                <span class="tag">文化象征</span>
-              </div>
+              <h3>冬渔裘歌</h3>
+              <p class="description">设计者：李雨婷</p>
             </div>
           </div>
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <img src="/Images/鱼皮衣2.webp" alt="传统木制餐具" />
+              <img src="/Assets/罗列所有作品/冰河书虫-曾胜积/曾胜积.jpg" alt="冰河书虫" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>传统木制餐具</h3>
-              <p class="artist">制作者：葛德胜</p>
-              <p class="description">手工雕刻的木碗、木勺等餐具，实用美观。</p>
-              <div class="artwork-tags">
-                <span class="tag">生活用品</span>
-              </div>
+              <h3>冰河书虫</h3>
+              <p class="description">设计者：曾胜积</p>
             </div>
           </div>
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <img src="/Images/船.webp" alt="图腾木雕" />
+              <img src="/Assets/罗列所有作品/冻土诗社-徐兴隆/徐兴隆.jpg" alt="冻土诗社" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>图腾木雕</h3>
-              <p class="artist">制作者：孙大力</p>
-              <p class="description">雕刻有熊、虎等图腾的木雕作品，体现了赫哲族的信仰文化。</p>
-              <div class="artwork-tags">
-                <span class="tag">宗教文化</span>
-              </div>
+              <h3>冻土诗社</h3>
+              <p class="description">设计者：徐兴隆</p>
             </div>
           </div>
-        </div>
-      </section>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/十里鱼亭-王梦青/王梦青.jpg" alt="十里鱼亭" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>十里鱼亭</h3>
+              <p class="description">设计者：王梦青</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/墨金骁-王铭瑶/王铭瑶.jpg" alt="墨金骁" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>墨金骁</h3>
+              <p class="description">设计者：王铭瑶</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/水纹铆钉-张诗涵/2b410945cad8d3c3409d34438deb008.jpg" alt="水纹铆钉" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>水纹铆钉</h3>
+              <p class="description">设计者：张诗涵</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/江天鳞影-马荣佟/马荣佟.jpg" alt="江天鳞影" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>江天鳞影</h3>
+              <p class="description">设计者：马荣佟</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/江歌鱼影-邹佳欣/ec8c466cf6482bd6ff1863547fcb110.jpg" alt="江歌鱼影" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>江歌鱼影</h3>
+              <p class="description">设计者：邹佳欣</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/江鳞溯光-杨柳/杨柳.jpg" alt="江鳞溯光" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>江鳞溯光</h3>
+              <p class="description">设计者：杨柳</p>
+            </div>
+          </div>
+          
+          <div class="artwork-item">
+            <div class="artwork-image">
+              <img src="/Assets/罗列所有作品/泽韵新生-陶楠/陶楠.jpg" alt="泽韵新生" />
+              <div class="artwork-overlay">
+                <button class="view-detail">查看详情</button>
+              </div>
+            </div>
+            <div class="artwork-info">
+              <h3>泽韵新生</h3>
+              <p class="description">设计者：陶楠</p>
+            </div>
+          </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/洄游鳞裳-岳玺雯/岳玺雯.jpg" alt="洄游鳞裳" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>洄游鳞裳</h3>
+               <p class="description">设计者：岳玺雯</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/源鳞-邹翠萍/邹翠萍-源·鳞-效果图.jpg" alt="源鳞" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>源鳞</h3>
+               <p class="description">设计者：邹翠萍</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/溯渔成裳-李瑶/8dfa16ab8df1ac4055b8ac85cda074d.jpg" alt="溯渔成裳" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>溯渔成裳</h3>
+               <p class="description">设计者：李瑶</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/赫迹溯踪-万爽/万爽.jpg" alt="赫迹溯踪" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>赫迹溯踪</h3>
+               <p class="description">设计者：万爽</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/阿那江声-张思玥/三套横版最终版.jpg" alt="阿那江声" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>阿那江声</h3>
+               <p class="description">设计者：张思玥</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/雪野渔光-何玉婷/何玉婷.jpg" alt="雪野渔光" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>雪野渔光</h3>
+               <p class="description">设计者：何玉婷</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/韵织风尚-付乐乐/付乐乐.jpg" alt="韵织风尚" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>韵织风尚</h3>
+               <p class="description">设计者：付乐乐</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼悦-向省旭/静态效果图.jpg" alt="鱼悦" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼悦</h3>
+               <p class="description">设计者：向省旭</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼皮新语-孟佳安/孟佳安.jpg" alt="鱼皮新语" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼皮新语</h3>
+               <p class="description">设计者：孟佳安</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼皮絮语-袁乙帆/8594e59132d68d7fec083c5656ab3f6.jpg" alt="鱼皮絮语" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼皮絮语</h3>
+               <p class="description">设计者：袁乙帆</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼皮鎏金-牛清玉/19d248a14bceb24890ef41aa277e7f4.jpg" alt="鱼皮鎏金" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼皮鎏金</h3>
+               <p class="description">设计者：牛清玉</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼纹绮梦-杨慧莹/杨慧莹.jpg" alt="鱼纹绮梦" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼纹绮梦</h3>
+               <p class="description">设计者：杨慧莹</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼纹鹿影-白聪/白聪.jpg" alt="鱼纹鹿影" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼纹鹿影</h3>
+               <p class="description">设计者：白聪</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼韵之风-王任莲/王任莲.jpg" alt="鱼韵之风" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼韵之风</h3>
+               <p class="description">设计者：王任莲</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鱼韵赫风-李宇欣/李宇欣.jpg" alt="鱼韵赫风" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鱼韵赫风</h3>
+               <p class="description">设计者：李宇欣</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鳞光入袂-吴寒风/吴寒风.jpg" alt="鳞光入袂" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鳞光入袂</h3>
+               <p class="description">设计者：吴寒风</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鳞溯秋缃-刘馨月/6c22aa980177ba1520f82fbb62099a4.jpg" alt="鳞溯秋缃" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鳞溯秋缃</h3>
+               <p class="description">设计者：刘馨月</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鳞衣赫彩-赵洋/赵洋.jpg" alt="鳞衣赫彩" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鳞衣赫彩</h3>
+               <p class="description">设计者：赵洋</p>
+             </div>
+           </div>
+           
+           <div class="artwork-item">
+             <div class="artwork-image">
+               <img src="/Assets/罗列所有作品/鳞青墨韵-赵心雨/赵心雨.jpg" alt="鳞青墨韵" />
+               <div class="artwork-overlay">
+                 <button class="view-detail">查看详情</button>
+               </div>
+             </div>
+             <div class="artwork-info">
+               <h3>鳞青墨韵</h3>
+               <p class="description">设计者：赵心雨</p>
+             </div>
+           </div>
+         </div>
+       </section>
 
-
-
-
-    </div>
+     </div>
   </div>
   
   <!-- 灯箱模态框 -->
@@ -475,21 +696,7 @@ const viewDetail = (artworkName) => {
   margin-bottom: 1rem;
 }
 
-.artwork-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
 
-.tag {
-  background: var(--primary-color);
-  color: white;
-  padding: 0.3rem 0.8rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  margin-right: 0.5rem;
-  display: inline-block;
-}
 
 
 

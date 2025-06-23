@@ -13,45 +13,25 @@
       <!-- 兽皮服饰 -->
       <section class="content-section">
         <h2>兽皮服饰</h2>
-        <div class="costume-grid">
-          <div class="costume-item">
-            <div class="costume-image">
-              <div class="image-placeholder">狍皮大衣</div>
-            </div>
-            <div class="costume-info">
-              <h3>狍（鹿）皮大衣</h3>
-              <p>冬季穿的衣裤用"成皮"缝制，绒毛多，皮板厚，暖和而耐用。</p>
-            </div>
+        <div class="costume-list">
+          <div class="costume-text-item">
+            <h3>狍（鹿）皮大衣</h3>
+            <p>冬季穿的衣裤用"成皮"缝制，绒毛多，皮板厚，暖和而耐用。</p>
           </div>
           
-          <div class="costume-item">
-            <div class="costume-image">
-              <div class="image-placeholder">皮帽子</div>
-            </div>
-            <div class="costume-info">
-              <h3>狍头皮帽子</h3>
-              <p>用狍头皮制作的帽子，保暖性能极佳，是赫哲人冬季必备的头部装饰。</p>
-            </div>
+          <div class="costume-text-item">
+            <h3>狍头皮帽子</h3>
+            <p>用狍头皮制作的帽子，保暖性能极佳，是赫哲人冬季必备的头部装饰。</p>
           </div>
           
-          <div class="costume-item">
-            <div class="costume-image">
-              <div class="image-placeholder">手闷子</div>
-            </div>
-            <div class="costume-info">
-              <h3>手闷子</h3>
-              <p>用兽皮制作的手套，在严寒的冬季保护双手不受冻伤。</p>
-            </div>
+          <div class="costume-text-item">
+            <h3>手闷子</h3>
+            <p>用兽皮制作的手套，在严寒的冬季保护双手不受冻伤。</p>
           </div>
           
-          <div class="costume-item">
-            <div class="costume-image">
-              <div class="image-placeholder">靰鞡</div>
-            </div>
-            <div class="costume-info">
-              <h3>靰鞡</h3>
-              <p>用兽皮或鱼皮制作的鞋子，轻便耐用，适合在雪地中行走。</p>
-            </div>
+          <div class="costume-text-item">
+            <h3>靰鞡</h3>
+            <p>用兽皮或鱼皮制作的鞋子，轻便耐用，适合在雪地中行走。</p>
           </div>
         </div>
         
@@ -80,31 +60,41 @@
         <div class="costume-grid">
           <div class="costume-item featured">
             <div class="costume-image">
-              <div class="image-placeholder">鱼皮衣</div>
+              <img src="/Images/鱼皮衣.webp" alt="传统鱼皮衣" />
             </div>
             <div class="costume-info">
-              <h3>鱼皮衣</h3>
+              <h3>传统鱼皮衣</h3>
               <p>用鱼皮制作的衣服，轻便透气，具有独特的光泽和纹理。制作工艺复杂，需要经过多道工序。</p>
             </div>
           </div>
           
           <div class="costume-item">
             <div class="costume-image">
-              <div class="image-placeholder">鱼皮套裤</div>
+              <img src="/Images/鱼皮衣2.webp" alt="鱼皮服饰" />
             </div>
             <div class="costume-info">
-              <h3>鱼皮套裤</h3>
-              <p>用鱼皮制作的裤子，防水性能好，适合在水边作业时穿着。</p>
+              <h3>鱼皮服饰</h3>
+              <p>精美的鱼皮服饰，展现了赫哲族独特的服饰文化和精湛的手工技艺。</p>
             </div>
           </div>
           
           <div class="costume-item">
             <div class="costume-image">
-              <div class="image-placeholder">鱼皮靰鞡</div>
+              <img src="/Images/房屋.webp" alt="鱼皮工艺品" />
             </div>
             <div class="costume-info">
-              <h3>鱼皮靰鞡</h3>
-              <p>用鱼皮制作的鞋子，具有良好的防水性能，是渔民的理想鞋履。</p>
+              <h3>鱼皮工艺品</h3>
+              <p>结合传统工艺与现代设计的鱼皮制品，展现了传统技艺的传承与创新。</p>
+            </div>
+          </div>
+          
+          <div class="costume-item">
+            <div class="costume-image">
+              <img src="/Images/鱼皮晾晒.webp" alt="鱼皮制作工艺" />
+            </div>
+            <div class="costume-info">
+              <h3>鱼皮制作工艺</h3>
+              <p>鱼皮晾晒是制作鱼皮服饰的重要工序，体现了赫哲族对自然材料的巧妙利用。</p>
             </div>
           </div>
         </div>
@@ -333,6 +323,18 @@ onMounted(() => {
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+
+.costume-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.costume-item:hover .costume-image img {
+  transform: scale(1.05);
 }
 
 .image-placeholder {
@@ -577,6 +579,10 @@ onMounted(() => {
   .steps-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+  
+  .costume-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -595,6 +601,39 @@ onMounted(() => {
   .steps-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* 兽皮服饰文字列表 */
+.costume-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.costume-text-item {
+  background: rgba(139, 69, 19, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--primary-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.costume-text-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.costume-text-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.costume-text-item p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
 }
 
 @keyframes fadeIn {
