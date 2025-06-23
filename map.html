@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赫哲族数字博物馆 | 传统文化展览</title>
+    
+    <!-- 引入霞鹜文楷字体 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <style>
+        :root {
+            --primary-color: #8B4513; /* 古铜色 */
+            --secondary-color: #D2691E; /* 橙棕色 */
+            --accent-color: #CD853F; /* 沙棕色 */
+            --text-color: #2F1B14; /* 深棕色 */
+            --bg-color: #FDF5E6; /* 古纸色 */
+            --panel-bg: #FAF0E6; /* 亚麻色 */
+            --border-color: #8B4513;
+            --shadow-color: rgba(139, 69, 19, 0.3);
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'LXGW WenKai', '华文中宋', 'STZhongsong', serif;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #F5DEB3 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        /* 古风背景纹理 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(139, 69, 19, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(210, 105, 30, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255, 255, 255, 0.05) 10px,
+                rgba(255, 255, 255, 0.05) 20px
+            );
+            animation: float 20s linear infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header .subtitle {
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        
+        .museum-intro {
+            background: var(--panel-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 20px var(--shadow-color);
+            position: relative;
+        }
+        
+        .museum-intro::before {
+            content: '◆';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--panel-bg);
+            color: var(--primary-color);
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        
+        .museum-intro h2 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-top: 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+        
+        .museum-intro p {
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 15px;
+            text-indent: 2em;
+        }
+        
+        .map-container {
+            background: var(--panel-bg);
+            border: 3px solid var(--border-color);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 12px 30px var(--shadow-color);
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .map-container::before,
+        .map-container::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: 3px solid var(--border-color);
+        }
+        
+        .map-container::before {
+            top: -3px;
+            left: -3px;
+            border-right: none;
+            border-bottom: none;
+        }
+        
+        .map-container::after {
+            bottom: -3px;
+            right: -3px;
+            border-left: none;
+            border-top: none;
+        }
+        
+        .map-title {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        #map {
+            height: 700px;
+            width: 100%;
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-panel {
+            background: var(--panel-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 6px 15px var(--shadow-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 30px;
+        }
+        
+        .info-panel:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px var(--shadow-color);
+        }
+        
+        .info-panel h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.4em;
+            border-bottom: 1px solid var(--accent-color);
+            padding-bottom: 8px;
+        }
+        
+        .info-panel p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .coordinates {
+            font-family: 'LXGW WenKai', monospace;
+            font-size: 14px;
+            color: var(--secondary-color);
+            background: rgba(139, 69, 19, 0.1);
+            padding: 5px 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .operation-guide {
+            background: var(--panel-bg);
+            border: 2px solid var(--accent-color);
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .operation-guide h4 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        
+        .operation-guide ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .operation-guide li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+            
+            #map {
+                height: 500px;
+            }
+        }
+        
+        /* 古风装饰元素 */
+        .decorative-border {
+            border-image: repeating-linear-gradient(
+                45deg,
+                var(--border-color),
+                var(--border-color) 10px,
+                var(--accent-color) 10px,
+                var(--accent-color) 20px
+            ) 1;
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>赫哲族数字博物馆</h1>
+        <p class="subtitle">传承千年文化 · 展现民族瑰宝</p>
+    </header>
+    
+    <div class="container">
+        <div class="museum-intro fade-in">
+            <h2>博物馆简介</h2>
+            <p>赫哲族是中国北方古老的渔猎民族，主要分布在黑龙江、松花江、乌苏里江流域。本数字博物馆致力于保护和传承赫哲族珍贵的文化遗产，通过现代科技手段展现这个民族独特的历史文化、传统工艺、服饰艺术和生活方式。</p>
+            <p>在这里，您可以深入了解赫哲族的历史变迁、精湛的鱼皮制作工艺、绚丽多彩的传统服饰，以及丰富的文化作品。让我们一同走进这个充满智慧与美丽的民族世界。</p>
+        </div>
+        
+        <div class="map-container fade-in">
+            <h2 class="map-title">文化展览导览图</h2>
+            <div id="map"></div>
+        </div>
+        
+        <div class="info-panel fade-in">
+            <h3>参观指南</h3>
+            <div class="operation-guide">
+                <h4>操作说明</h4>
+                <ul>
+                    <li>🖱️ 滚轮缩放 - 放大缩小展览内容</li>
+                    <li>🖐️ 拖拽移动 - 浏览不同展区</li>
+                    <li>👆 点击区域 - 查看详细展品信息</li>
+                    <li>📍 鼠标悬停 - 显示精确位置坐标</li>
+                </ul>
+                <p><strong>当前位置：</strong><span id="coordinates" class="coordinates">请移动鼠标浏览展厅</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <script>
+        // 图片尺寸
+        const imageWidth = 1367;
+        const imageHeight = 606;
+        
+        // 创建简单坐标系的CRS
+        const SimpleCRS = L.extend({}, L.CRS.Simple, {
+            transformation: new L.Transformation(1, 0, 1, 0)
+        });
+        
+        // 初始化地图
+        const map = L.map('map', {
+            crs: SimpleCRS,
+            minZoom: -2,
+            maxZoom: 3,
+            zoomControl: true,
+            attributionControl: false
+        });
+        
+        // 计算图片边界
+        const bounds = [[0, 0], [imageHeight, imageWidth]];
+        
+        // 添加图片图层
+        const imageOverlay = L.imageOverlay('./Assets/map/layer1.png', bounds, {
+            opacity: 1.0,
+            interactive: false
+        }).addTo(map);
+        
+        // 设置地图视图到图片范围
+        map.fitBounds(bounds);
+        
+        // 坐标显示功能
+        const coordinatesElement = document.getElementById('coordinates');
+        
+        map.on('mousemove', function(e) {
+            const x = Math.max(0, Math.min(imageWidth, Math.round(e.latlng.lng)));
+            const y = Math.max(0, Math.min(imageHeight, Math.round(e.latlng.lat)));
+            coordinatesElement.textContent = `展厅坐标: X:${x}, Y:${y}`;
+        });
+        
+        map.on('mouseout', function(e) {
+            coordinatesElement.textContent = '请移动鼠标浏览展厅';
+        });
+        
+        // 创建展区信息弹窗函数
+        function createExhibitionPopup(title, description, features) {
+            return `
+                <div style="font-family: 'LXGW WenKai', serif; max-width: 300px;">
+                    <h3 style="color: #8B4513; margin-top: 0; border-bottom: 2px solid #CD853F; padding-bottom: 5px;">${title}</h3>
+                    <p style="line-height: 1.6; margin-bottom: 10px;">${description}</p>
+                    <div style="background: #FAF0E6; padding: 10px; border-radius: 8px; border-left: 4px solid #8B4513;">
+                        <strong>展品特色：</strong><br>
+                        ${features.map(feature => `• ${feature}`).join('<br>')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        // 赫哲族历史展区 - 完全透明
+        const hezheHistoryBounds = [[184, 163], [301, 413]];
+        const hezheRectangle = L.rectangle(hezheHistoryBounds, {
+            color: 'transparent',
+            weight: 0,
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            interactive: true
+        }).addTo(map);
+        
+        hezheRectangle.bindPopup(createExhibitionPopup(
+            '赫哲族历史文化展区',
+            '深入了解赫哲族的历史渊源、社会组织、宗教信仰和文化传统。',
+            ['古代渔猎生活场景复原', '历史文献珍贵资料', '传统社会组织介绍', '宗教信仰文物展示']
+        ));
+        
+        // 制作工艺展区 - 完全透明
+        const craftBounds = [[435, 154], [566, 407]];
+        const craftRectangle = L.rectangle(craftBounds, {
+            color: 'transparent',
+            weight: 0,
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            interactive: true
+        }).addTo(map);
+        
+        craftRectangle.bindPopup(createExhibitionPopup(
+            '传统制作工艺展区',
+            '展示赫哲族独特的鱼皮制作技艺和其他传统手工艺品的制作过程。',
+            ['鱼皮制作工艺流程', '传统工具展示', '工艺大师作品', '制作技法视频演示']
+        ));
+        
+        // 作品展示区 - 完全透明
+        const exhibitionBounds = [[188, 925], [297, 1184]];
+        const exhibitionRectangle = L.rectangle(exhibitionBounds, {
+            color: 'transparent',
+            weight: 0,
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            interactive: true
+        }).addTo(map);
+        
+        exhibitionRectangle.bindPopup(createExhibitionPopup(
+            '文化作品展示区',
+            '汇集赫哲族各类传统文化作品，包括手工艺品、艺术创作和文化用品。',
+            ['精美手工艺品', '传统艺术作品', '日常生活用品', '现代传承创新作品']
+        ));
+        
+        // 传统服饰展区 - 完全透明
+        const costumeBounds = [[433, 931], [564, 1185]];
+        const costumeRectangle = L.rectangle(costumeBounds, {
+            color: 'transparent',
+            weight: 0,
+            fillColor: 'transparent',
+            fillOpacity: 0,
+            interactive: true
+        }).addTo(map);
+        
+        costumeRectangle.bindPopup(createExhibitionPopup(
+            '传统服饰展区',
+            '展现赫哲族绚丽多彩的传统服饰文化，包括不同场合的服装和装饰品。',
+            ['节日盛装展示', '日常服饰介绍', '服饰制作工艺', '装饰图案寓意解析']
+        ));
+        
+        // 添加比例尺控件
+        L.control.scale({
+            position: 'bottomright',
+            metric: false,
+            imperial: false
+        }).addTo(map);
+        
+        // 添加淡入动画
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+        
+        console.log('赫哲族数字博物馆初始化完成');
+        console.log('展厅尺寸:', imageWidth, 'x', imageHeight);
+        console.log('展区边界:', bounds);
+    </script>
+</body>
+</html>

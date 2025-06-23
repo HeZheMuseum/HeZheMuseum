@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #8B4513; /* 古铜色 */
+    --secondary-color: #D2691E; /* 橙棕色 */
+    --accent-color: #CD853F; /* 沙棕色 */
+    --text-color: #2F1B14; /* 深棕色 */
+    --bg-color: #FDF5E6; /* 古纸色 */
+    --panel-bg: #FAF0E6; /* 亚麻色 */
+    --border-color: #8B4513;
+    --shadow-color: rgba(139, 69, 19, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'LXGW WenKai', '华文中宋', 'STZhongsong', serif;
+    background: linear-gradient(135deg, var(--bg-color) 0%, #F5DEB3 100%);
+    color: var(--text-color);
+    min-height: 100vh;
+    position: relative;
+}
+
+/* 古风背景纹理 */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(139, 69, 19, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(210, 105, 30, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+}
