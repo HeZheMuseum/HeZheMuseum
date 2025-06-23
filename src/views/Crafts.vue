@@ -723,7 +723,9 @@ onMounted(() => {
 }
 
 .item-list {
-  space-y: 1rem;
+  & > * + * {
+    margin-top: 1rem;
+  }
 }
 
 .list-item {
