@@ -38,22 +38,46 @@
         <div class="video-section">
           <h3>鱼皮制作工艺视频</h3>
           <div class="video-container">
-            <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="/Videos/赫哲族鱼皮加工工艺_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
-            <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="/Videos/赫哲族鱼皮镂刻制作技艺_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
-            <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="/Videos/鱼皮花卉制作技艺_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
-            <video controls width="100%" style="max-width: 600px;">
-              <source src="/Videos/赫哲族鱼皮立体工艺_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/赫哲族鱼皮加工工艺_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼皮加工工艺</p>
+            </div>
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/赫哲族鱼皮镂刻制作技艺_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼皮镂刻制作技艺</p>
+            </div>
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/鱼皮花卉制作技艺_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼皮花卉制作技艺</p>
+            </div>
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/赫哲族鱼皮立体工艺_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼皮立体工艺</p>
+            </div>
           </div>
         </div>
         
@@ -149,9 +173,6 @@
             <h3>交通工具</h3>
             <div class="product-grid">
               <div class="product-item">
-                <div class="product-image">
-                  <div class="image-placeholder">桦皮船</div>
-                </div>
                 <div class="product-info">
                   <h4>桦皮船（乌莫日沉）</h4>
                   <p>用桦树皮制作的轻便小船，一人即可扛起，划行灵巧，是叉鱼和传递信息的得力助手。</p>
@@ -159,9 +180,6 @@
               </div>
               
               <div class="product-item">
-                <div class="product-image">
-                  <div class="image-placeholder">快马子</div>
-                </div>
                 <div class="product-info">
                   <h4>快马子（威呼）</h4>
                   <p>"其快马以桦皮为之，长丈余，宽约二尺，两头渐窄，才容一人，其快如风"。</p>
@@ -174,9 +192,6 @@
             <h3>生活用具</h3>
             <div class="product-grid">
               <div class="product-item">
-                <div class="product-image">
-                  <div class="image-placeholder">桦皮篓</div>
-                </div>
                 <div class="product-info">
                   <h4>桦皮篓</h4>
                   <p>用于储存和运输各种物品的容器，轻便耐用。</p>
@@ -184,9 +199,6 @@
               </div>
               
               <div class="product-item">
-                <div class="product-image">
-                  <div class="image-placeholder">桦皮盒</div>
-                </div>
                 <div class="product-info">
                   <h4>桦皮盒</h4>
                   <p>用于存放小件物品的精美容器，常有装饰图案。</p>
@@ -467,6 +479,98 @@ onMounted(() => {
   margin: 2rem 0;
 }
 
+.video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-frame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 
+    0 25px 50px rgba(0,0,0,0.15),
+    0 10px 20px rgba(0,0,0,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.05));
+  padding: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 1rem;
+}
+
+.video-frame:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 35px 70px rgba(0,0,0,0.2),
+    0 15px 30px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.custom-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  background: #000;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.video-overlay-gradient {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 15px;
+  background: linear-gradient(
+    45deg,
+    rgba(139, 69, 19, 0.1) 0%,
+    rgba(210, 105, 30, 0.1) 50%,
+    rgba(139, 69, 19, 0.1) 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.video-frame:hover .video-overlay-gradient {
+  opacity: 1;
+}
+
+.video-title {
+  text-align: center;
+  color: #8B4513;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.5rem;
+  background: rgba(255,255,255,0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.video-wrapper:hover .video-title {
+  background: rgba(255,255,255,1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
 .video-placeholder {
   background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
   border: 2px dashed #ccc;
@@ -475,6 +579,12 @@ onMounted(() => {
   text-align: center;
   color: #666;
   font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .video-wrapper {
+    max-width: 100%;
+  }
 }
 
 /* 制作流程 */
@@ -605,22 +715,6 @@ onMounted(() => {
 
 .product-item:hover {
   transform: translateY(-8px);
-}
-
-.product-image {
-  height: 150px;
-  background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-placeholder {
-  font-size: 1.1rem;
-  color: #666;
-  background: rgba(255,255,255,0.8);
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
 }
 
 .product-info {

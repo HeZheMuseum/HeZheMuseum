@@ -153,10 +153,15 @@
         <div class="video-section">
           <div class="video-container">
             <h3>鱼皮服饰制作工艺视频</h3>
-            <video controls width="100%" style="max-width: 700px;">
-              <source src="/Videos/赫哲族鱼皮靰鞡制作小片_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/赫哲族鱼皮靰鞡制作小片_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+            </div>
           </div>
         </div>
         
@@ -453,6 +458,102 @@ onMounted(() => {
 /* 视频区域 */
 .video-section {
   margin: 2rem 0;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.video-frame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 
+    0 25px 50px rgba(0,0,0,0.15),
+    0 10px 20px rgba(0,0,0,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.05));
+  padding: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-frame:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 35px 70px rgba(0,0,0,0.2),
+    0 15px 30px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.custom-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  background: #000;
+  position: relative;
+  z-index: 2;
+}
+
+.custom-video::-webkit-media-controls-panel {
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.8) 100%);
+  border-radius: 0 0 15px 15px;
+}
+
+.custom-video::-webkit-media-controls-play-button,
+.custom-video::-webkit-media-controls-pause-button {
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  margin: 0 8px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.custom-video::-webkit-media-controls-timeline {
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.custom-video::-webkit-media-controls-current-time-display,
+.custom-video::-webkit-media-controls-time-remaining-display {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  font-weight: 500;
+}
+
+.video-overlay-gradient {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 15px;
+  background: linear-gradient(
+    45deg,
+    rgba(139, 69, 19, 0.1) 0%,
+    rgba(210, 105, 30, 0.1) 50%,
+    rgba(139, 69, 19, 0.1) 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.video-frame:hover .video-overlay-gradient {
+  opacity: 1;
 }
 
 .video-placeholder {

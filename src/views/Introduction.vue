@@ -27,10 +27,13 @@
         </div>
         <div class="video-container">
           <div class="video-wrapper">
-            <video controls width="100%" style="max-width: 800px;">
-              <source src="/Videos/实地考察调研纪实_x264.mp4" type="video/mp4">
-              您的浏览器不支持视频播放。
-            </video>
+            <div class="video-frame">
+              <video controls width="100%" class="custom-video">
+                <source src="/Videos/实地考察调研纪实_x264.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+              </video>
+              <div class="video-overlay-gradient"></div>
+            </div>
           </div>
           <p class="video-description">深入赫哲族聚居地，记录真实的民族文化传承现状</p>
         </div>
@@ -899,17 +902,67 @@ onUnmounted(() => {
 
 .video-wrapper {
   position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
   width: 100%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
-.video-wrapper video {
+.video-frame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 
+    0 25px 50px rgba(0,0,0,0.4),
+    0 10px 20px rgba(0,0,0,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+  padding: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-frame:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 35px 70px rgba(0,0,0,0.5),
+    0 15px 30px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.custom-video {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 15px;
+  background: #000;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.video-overlay-gradient {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 15px;
+  background: linear-gradient(
+    45deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    rgba(118, 75, 162, 0.1) 50%,
+    rgba(102, 126, 234, 0.1) 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.video-frame:hover .video-overlay-gradient {
+  opacity: 1;
 }
 
 .video-placeholder {
