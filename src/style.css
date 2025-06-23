@@ -1,18 +1,18 @@
 :root {
-    /* 主色调 - 古典棕色系 */
+    /* 主色调 - 古典棕色系，增强对比度 */
     --primary-color: #8B4513; /* 古铜色 */
     --secondary-color: #D2691E; /* 橙棕色 */
     --accent-color: #CD853F; /* 沙棕色 */
-    --text-color: #2F1B14; /* 深棕色 */
-    --text-light: #5D4037; /* 浅棕色文字 */
-    --text-muted: #8D6E63; /* 柔和文字 */
+    --text-color: #1A0F0A; /* 更深的棕色，提高对比度 */
+    --text-light: #4A2C20; /* 深化浅棕色文字 */
+    --text-muted: #6D4C41; /* 深化柔和文字 */
     
-    /* 背景色系 */
-    --bg-color: #FDF5E6; /* 古纸色 */
-    --bg-gradient: linear-gradient(135deg, #FDF5E6 0%, #F5DEB3 50%, #FAEBD7 100%);
-    --panel-bg: #FAF0E6; /* 亚麻色 */
-    --card-bg: #FFFEF7; /* 卡片背景 */
-    --overlay-bg: rgba(139, 69, 19, 0.95);
+    /* 背景色系 - 简化背景，提高内容可读性 */
+    --bg-color: #FEFCF8; /* 更亮的古纸色 */
+    --bg-gradient: linear-gradient(135deg, #FEFCF8 0%, #F8F3E8 50%, #FDF9F0 100%);
+    --panel-bg: #FCFAF6; /* 更亮的亚麻色 */
+    --card-bg: #FFFFFF; /* 纯白卡片背景 */
+    --overlay-bg: rgba(0, 0, 0, 0.75); /* 更深的覆盖层提高文字对比度 */
     
     /* 边框和阴影 */
     --border-color: #8B4513;
@@ -38,15 +38,15 @@
     --spacing-xl: 32px;
     --spacing-xxl: 48px;
     
-    /* 字体大小 */
-    --font-size-xs: 0.75rem;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
+    /* 字体大小 - 增大基础字体提升可读性 */
+    --font-size-xs: 0.875rem;
+    --font-size-sm: 1rem;
+    --font-size-base: 1.125rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 1.75rem;
+    --font-size-3xl: 2.25rem;
+    --font-size-4xl: 2.75rem;
     
     /* 过渡效果 */
     --transition-fast: 0.15s ease;

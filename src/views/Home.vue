@@ -170,7 +170,7 @@ export default {
   margin: 0;
 }
 
-/* 图片覆盖层 */
+/* 图片覆盖层 - 增强对比度 */
 .image-overlay {
   position: absolute;
   top: 0;
@@ -179,9 +179,9 @@ export default {
   height: 100%;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(0, 0, 0, 0.1) 50%,
-    rgba(0, 0, 0, 0.4) 100%
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.7) 100%
   );
   display: flex;
   flex-direction: column;
@@ -207,15 +207,18 @@ export default {
   font-size: var(--font-size-4xl);
   font-weight: 700;
   margin-bottom: var(--spacing-lg);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9), 1px 1px 3px rgba(0, 0, 0, 0.8);
   letter-spacing: 2px;
+  color: #FFFFFF;
 }
 
 .welcome-subtitle {
   font-size: var(--font-size-xl);
   margin-bottom: var(--spacing-xxl);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 1px 1px 2px rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  color: #F5F5F5;
+  font-weight: 500;
 }
 
 .welcome-actions {
@@ -231,25 +234,32 @@ export default {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
 }
 
-/* 滚动提示 */
+/* 滚动提示 - 增强可见性 */
 .scroll-hint {
   position: absolute;
   bottom: var(--spacing-xl);
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   animation: bounce 2s infinite;
+  background: rgba(0, 0, 0, 0.4);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(5px);
 }
 
 .scroll-hint span {
   display: block;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   margin-bottom: var(--spacing-xs);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-weight: 500;
 }
 
 .scroll-arrow {
@@ -291,36 +301,42 @@ export default {
 
 .quick-nav-item {
   text-decoration: none;
-  color: inherit;
+  color: var(--text-color);
   transition: all var(--transition-normal);
   text-align: center;
   padding: var(--spacing-xl);
-  border: 2px solid transparent;
+  border: 2px solid var(--border-light);
+  box-shadow: 0 4px 12px var(--shadow-light);
 }
 
 .quick-nav-item:hover {
+  transform: translateY(-5px);
   border-color: var(--primary-color);
-  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 30px var(--shadow-color);
+  background: var(--card-bg);
 }
 
-.quick-nav-item .nav-icon {
-  font-size: 3rem;
-  margin-bottom: var(--spacing-lg);
+.nav-icon {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-md);
+  display: block;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .quick-nav-item h3 {
   font-size: var(--font-size-xl);
   color: var(--primary-color);
-  margin-bottom: var(--spacing-md);
-  font-weight: 600;
+  margin: var(--spacing-md) 0;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .quick-nav-item p {
-  color: var(--text-muted);
-  font-size: var(--font-size-base);
+  color: var(--text-light);
   margin: 0;
-  line-height: 1.6;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
