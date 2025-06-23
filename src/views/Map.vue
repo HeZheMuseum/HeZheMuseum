@@ -285,6 +285,8 @@ export default {
   text-align: center;
   margin-bottom: var(--spacing-xl);
   color: white;
+  opacity: 0;
+  transform: translateY(30px);
 }
 
 .header-decoration {
@@ -337,6 +339,8 @@ export default {
   border: 1px solid rgba(255, 255, 255, 0.3);
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
 }
 
 
@@ -437,6 +441,8 @@ export default {
   border: 1px solid rgba(255, 255, 255, 0.3);
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
 }
 
 
@@ -590,7 +596,7 @@ export default {
 
 /* 动画 */
 .fade-in {
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 0.8s ease-out both;
 }
 
 .fade-in:nth-child(1) { animation-delay: 0.1s; }

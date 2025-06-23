@@ -529,7 +529,9 @@ const viewDetail = (artworkName) => {
   color: white;
   margin-bottom: 3rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  animation: fadeIn 1s ease-out;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1s ease-out both;
 }
 
 .content-section {
@@ -539,6 +541,8 @@ const viewDetail = (artworkName) => {
   margin-bottom: 2rem;
   box-shadow: 0 8px 32px rgba(0,0,0,0.1);
   backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateY(30px);
   animation: fadeIn 1s ease-out both;
 }
 
@@ -798,14 +802,7 @@ const viewDetail = (artworkName) => {
   line-height: 1.6;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 
 @keyframes scaleIn {
   from {
