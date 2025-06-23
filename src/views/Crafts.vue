@@ -39,19 +39,19 @@
           <h3>鱼皮制作工艺视频</h3>
           <div class="video-container">
             <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="./Videos/赫哲族鱼皮加工工艺_x264.mp4" type="video/mp4">
+              <source src="/Videos/赫哲族鱼皮加工工艺_x264.mp4" type="video/mp4">
               您的浏览器不支持视频播放。
             </video>
             <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="./Videos/赫哲族鱼皮镂刻制作技艺_x264.mp4" type="video/mp4">
+              <source src="/Videos/赫哲族鱼皮镂刻制作技艺_x264.mp4" type="video/mp4">
               您的浏览器不支持视频播放。
             </video>
             <video controls width="100%" style="max-width: 600px; margin-bottom: 20px;">
-              <source src="./Videos/鱼皮花卉制作技艺_x264.mp4" type="video/mp4">
+              <source src="/Videos/鱼皮花卉制作技艺_x264.mp4" type="video/mp4">
               您的浏览器不支持视频播放。
             </video>
             <video controls width="100%" style="max-width: 600px;">
-              <source src="./Videos/赫哲族鱼皮立体工艺_x264.mp4" type="video/mp4">
+              <source src="/Videos/赫哲族鱼皮立体工艺_x264.mp4" type="video/mp4">
               您的浏览器不支持视频播放。
             </video>
           </div>

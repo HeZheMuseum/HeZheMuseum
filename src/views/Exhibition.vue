@@ -36,14 +36,13 @@
         <div class="artwork-grid">
           <div class="artwork-item featured">
             <div class="artwork-image">
-              <div class="image-placeholder">传统鱼皮衣</div>
+              <img src="/Images/鱼皮衣.webp" alt="传统鱼皮衣" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
               <h3>传统鱼皮衣</h3>
-              <p class="artist">制作者：尤文凤（国家级传承人）</p>
               <p class="description">采用传统工艺制作的鱼皮衣，展现了赫哲族独特的服饰文化。</p>
               <div class="artwork-tags">
                 <span class="tag">国家级文物</span>
@@ -54,14 +53,13 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">鱼皮靰鞡</div>
+              <img src="/Images/鱼皮衣2.webp" alt="鱼皮靰鞡" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
               <h3>鱼皮靰鞡</h3>
-              <p class="artist">制作者：葛玉霞</p>
               <p class="description">用鱼皮制作的传统鞋履，防水耐用，是渔民的理想鞋履。</p>
               <div class="artwork-tags">
                 <span class="tag">实用工艺</span>
@@ -71,14 +69,13 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">鱼皮画</div>
+              <img src="/Images/鱼皮晾晒.webp" alt="鱼皮画" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
               <h3>鱼皮画</h3>
-              <p class="artist">制作者：孙玉林</p>
               <p class="description">在鱼皮上绘制的传统图案，展现了赫哲族的艺术审美。</p>
               <div class="artwork-tags">
                 <span class="tag">艺术创新</span>
@@ -88,14 +85,13 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">鱼皮手工包</div>
+              <img src="/Images/鱼皮衣3.webp" alt="鱼皮手工包" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
               <h3>鱼皮手工包</h3>
-              <p class="artist">制作者：刘桂兰</p>
               <p class="description">结合传统工艺与现代设计的鱼皮手工包。</p>
               <div class="artwork-tags">
                 <span class="tag">现代应用</span>
@@ -113,14 +109,13 @@
         <div class="artwork-grid">
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">桦皮船模型</div>
+              <img src="/Images/船.webp" alt="桦皮船模型" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
               <h3>桦皮船模型</h3>
-              <p class="artist">制作者：吴桂凤</p>
               <p class="description">按照传统工艺制作的桦皮船模型，展现了赫哲族的造船技艺。</p>
               <div class="artwork-tags">
                 <span class="tag">传统技艺</span>
@@ -131,15 +126,14 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">桦皮篓</div>
+              <img src="/Images/房屋.webp" alt="桦皮房屋" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>桦皮篓</h3>
-              <p class="artist">制作者：王海珠</p>
-              <p class="description">用桦树皮编制的储物篓，轻便耐用，装饰精美。</p>
+              <h3>桦皮房屋</h3>
+              <p class="description">用桦树皮建造的传统房屋，体现了赫哲族的建筑智慧。</p>
               <div class="artwork-tags">
                 <span class="tag">生活用品</span>
               </div>
@@ -148,15 +142,14 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">桦皮盒</div>
+              <img src="/Images/房屋2.webp" alt="桦皮房屋" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
             </div>
             <div class="artwork-info">
-              <h3>装饰桦皮盒</h3>
-              <p class="artist">制作者：尤明国</p>
-              <p class="description">精美的桦皮盒，表面装饰有传统图案。</p>
+              <h3>桦皮房屋</h3>
+              <p class="description">传统的桦皮房屋建筑，展现了赫哲族独特的居住文化。</p>
               <div class="artwork-tags">
                 <span class="tag">装饰工艺</span>
               </div>
@@ -173,7 +166,7 @@
         <div class="artwork-grid">
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">木雕鱼</div>
+              <img src="/Images/鱼皮衣.webp" alt="木雕鱼" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
@@ -190,7 +183,7 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">木制餐具</div>
+              <img src="/Images/鱼皮衣2.webp" alt="传统木制餐具" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
@@ -207,7 +200,7 @@
           
           <div class="artwork-item">
             <div class="artwork-image">
-              <div class="image-placeholder">图腾木雕</div>
+              <img src="/Images/船.webp" alt="图腾木雕" />
               <div class="artwork-overlay">
                 <button class="view-detail">查看详情</button>
               </div>
@@ -224,151 +217,33 @@
         </div>
       </section>
 
-      <!-- 现代创新作品 -->
-      <section class="content-section">
-        <h2>现代创新作品</h2>
-        <p>在传承传统工艺的基础上，现代赫哲族艺术家们融入了新的设计理念和制作技法，创作出既保持传统特色又符合现代审美的创新作品。</p>
-        
-        <div class="artwork-grid">
-          <div class="artwork-item featured">
-            <div class="artwork-image">
-              <div class="image-placeholder">现代鱼皮艺术品</div>
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>现代鱼皮艺术品</h3>
-              <p class="artist">设计者：李雪梅</p>
-              <p class="description">融合现代设计理念的鱼皮艺术品，展现了传统工艺的现代魅力。</p>
-              <div class="artwork-tags">
-                <span class="tag">现代设计</span>
-                <span class="tag">文创产品</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <div class="image-placeholder">创意桦皮灯具</div>
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>创意桦皮灯具</h3>
-              <p class="artist">设计者：张文华</p>
-              <p class="description">将桦皮工艺应用于现代灯具设计，传统与现代的完美结合。</p>
-              <div class="artwork-tags">
-                <span class="tag">创新应用</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="artwork-item">
-            <div class="artwork-image">
-              <div class="image-placeholder">数字化鱼皮画</div>
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
-            </div>
-            <div class="artwork-info">
-              <h3>数字化鱼皮画</h3>
-              <p class="artist">创作者：赫哲族青年艺术团</p>
-              <p class="description">运用数字技术重现传统鱼皮画的艺术魅力。</p>
-              <div class="artwork-tags">
-                <span class="tag">数字艺术</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- 互动体验区 -->
-      <section class="content-section">
-        <h2>互动体验区</h2>
-        <p>通过虚拟现实和增强现实技术，让观众能够身临其境地体验赫哲族传统工艺的制作过程。</p>
-        
-        <div class="interactive-section">
-          <div class="experience-card">
-            <div class="experience-icon">🥽</div>
-            <h3>VR体验</h3>
-            <p>戴上VR设备，亲身体验鱼皮服饰的制作过程</p>
-            <button class="experience-btn">开始体验</button>
-          </div>
-          
-          <div class="experience-card">
-            <div class="experience-icon">📱</div>
-            <h3>AR展示</h3>
-            <p>使用手机扫描，查看作品的3D模型和制作工艺</p>
-            <button class="experience-btn">扫描体验</button>
-          </div>
-          
-          <div class="experience-card">
-            <div class="experience-icon">🎮</div>
-            <h3>互动游戏</h3>
-            <p>通过游戏的方式学习赫哲族传统工艺知识</p>
-            <button class="experience-btn">开始游戏</button>
-          </div>
-          
-          <div class="experience-card">
-            <div class="experience-icon">🎥</div>
-            <h3>工艺视频</h3>
-            <p>观看传承人亲自演示传统工艺制作过程</p>
-            <button class="experience-btn">观看视频</button>
-          </div>
-        </div>
-      </section>
 
-      <!-- 作品征集 -->
-      <section class="content-section">
-        <h2>作品征集</h2>
-        <p>我们长期征集赫哲族传统工艺作品和现代创新作品，为传承和发展赫哲族文化贡献力量。</p>
-        
-        <div class="submission-info">
-          <div class="submission-card">
-            <h3>征集范围</h3>
-            <ul>
-              <li>传统鱼皮工艺作品</li>
-              <li>桦皮工艺制品</li>
-              <li>木雕艺术品</li>
-              <li>现代创新设计</li>
-              <li>数字艺术作品</li>
-            </ul>
-          </div>
-          
-          <div class="submission-card">
-            <h3>参与方式</h3>
-            <ul>
-              <li>在线提交作品信息</li>
-              <li>邮寄实物作品</li>
-              <li>现场展示交流</li>
-              <li>参加征集活动</li>
-            </ul>
-          </div>
-          
-          <div class="submission-card">
-            <h3>奖励机制</h3>
-            <ul>
-              <li>优秀作品展示</li>
-              <li>传承人认证</li>
-              <li>文化推广支持</li>
-              <li>经济奖励</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div class="submission-action">
-          <button class="submit-btn">提交作品</button>
-          <button class="contact-btn">联系我们</button>
-        </div>
-      </section>
+
+    </div>
+  </div>
+  
+  <!-- 灯箱模态框 -->
+  <div v-if="showLightbox" class="lightbox-overlay" @click="closeLightbox">
+    <div class="lightbox-content" @click.stop>
+      <button class="lightbox-close" @click="closeLightbox">&times;</button>
+      <img :src="currentImage" :alt="currentArtwork" class="lightbox-image" />
+      <div class="lightbox-info">
+        <h3>{{ currentArtwork }}</h3>
+        <p>{{ currentDescription }}</p>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+
+// 灯箱相关的响应式数据
+const showLightbox = ref(false)
+const currentImage = ref('')
+const currentArtwork = ref('')
+const currentDescription = ref('')
 
 onMounted(() => {
   // 页面加载动画
@@ -376,27 +251,42 @@ onMounted(() => {
   sections.forEach((section, index) => {
     section.style.animationDelay = `${index * 0.1}s`
   })
+  
+  // 为所有查看详情按钮添加点击事件
+  const viewDetailButtons = document.querySelectorAll('.view-detail')
+  viewDetailButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+      const artworkItem = e.target.closest('.artwork-item')
+      const img = artworkItem.querySelector('img')
+      const title = artworkItem.querySelector('h3').textContent
+      const description = artworkItem.querySelector('.description').textContent
+      
+      openLightbox(img.src, title, description)
+    })
+  })
 })
 
-// 查看详情功能
+// 打开灯箱
+const openLightbox = (imageSrc, artworkName, description) => {
+  currentImage.value = imageSrc
+  currentArtwork.value = artworkName
+  currentDescription.value = description
+  showLightbox.value = true
+  document.body.style.overflow = 'hidden' // 禁止背景滚动
+}
+
+// 关闭灯箱
+const closeLightbox = () => {
+  showLightbox.value = false
+  document.body.style.overflow = 'auto' // 恢复背景滚动
+}
+
+// 查看详情功能（保留兼容性）
 const viewDetail = (artworkName) => {
   alert(`查看 ${artworkName} 的详细信息`)
 }
 
-// 体验功能
-const startExperience = (type) => {
-  alert(`启动 ${type} 体验`)
-}
 
-// 提交作品
-const submitArtwork = () => {
-  alert('跳转到作品提交页面')
-}
-
-// 联系我们
-const contactUs = () => {
-  alert('跳转到联系页面')
-}
 </script>
 
 <style scoped>
@@ -483,9 +373,10 @@ const contactUs = () => {
 /* 作品网格 */
 .artwork-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
   margin-top: 2rem;
+  align-items: start;
 }
 
 .artwork-item {
@@ -494,6 +385,7 @@ const contactUs = () => {
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: fit-content;
 }
 
 .artwork-item:hover {
@@ -506,13 +398,20 @@ const contactUs = () => {
 }
 
 .artwork-image {
-  height: 250px;
+  aspect-ratio: 4/3;
   background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+
+.artwork-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-placeholder {
@@ -568,12 +467,7 @@ const contactUs = () => {
   font-size: 1.3rem;
 }
 
-.artist {
-  color: #666;
-  font-style: italic;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
+
 
 .description {
   color: #555;
@@ -597,133 +491,152 @@ const contactUs = () => {
   display: inline-block;
 }
 
-/* 互动体验区 */
-.interactive-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
 
-.experience-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.experience-card:hover {
-  transform: translateY(-5px);
-}
-
-.experience-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.experience-card h3 {
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-.experience-card p {
-  color: #666;
-  margin-bottom: 1.5rem;
-}
-
-.experience-btn {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: white;
-  border: none;
-  padding: 0.75rem 2rem;
-  border-radius: 25px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.experience-btn:hover {
-  transform: scale(1.05);
-}
-
-/* 作品征集 */
-.submission-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.submission-card {
-  background: rgba(139, 69, 19, 0.1);
-  padding: 1.5rem;
-  border-radius: 10px;
-  border-left: 4px solid var(--primary-color);
-}
-
-.submission-card h3 {
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-.submission-card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.submission-card li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(139, 69, 19, 0.2);
-  color: #333;
-}
-
-.submission-card li:last-child {
-  border-bottom: none;
-}
-
-.submission-action {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.submit-btn, .contact-btn {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: white;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 25px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  margin: 0 1rem;
-  transition: transform 0.3s ease;
-}
-
-.submit-btn:hover, .contact-btn:hover {
-  transform: scale(1.05);
-}
-
-.contact-btn {
-  background: linear-gradient(135deg, #666, #555);
-}
 
 /* 响应式设计 */
+@media (max-width: 1200px) {
+  .artwork-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
   }
   
+  .artwork-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
   .page-title {
     font-size: 2rem;
   }
-  
-  .content-section {
-    padding: 1.5rem;
+}
+
+/* 灯箱样式 */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: scaleIn 0.3s ease;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.lightbox-close:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.lightbox-image {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  display: block;
+}
+
+.lightbox-info {
+  padding: 20px;
+  background: white;
+}
+
+.lightbox-info h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.lightbox-info p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .lightbox-content {
+    max-width: 95%;
+    max-height: 95%;
   }
   
-  .artwork-grid {
-    grid-template-columns: 1fr;
+  .lightbox-info {
+    padding: 15px;
+  }
+  
+  .lightbox-info h3 {
+    font-size: 1.3rem;
+  }
+  
+  .lightbox-close {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    top: 10px;
+    right: 15px;
+  }
+}
+
+  .content-section {
+    padding: 1.5rem;
   }
   
   .artwork-item.featured {
@@ -733,11 +646,6 @@ const contactUs = () => {
   .exhibition-stats {
     grid-template-columns: repeat(2, 1fr);
   }
-  
-  .interactive-section {
-    grid-template-columns: 1fr;
-  }
-}
 
 @media (max-width: 480px) {
   .page-title {
@@ -748,17 +656,13 @@ const contactUs = () => {
     padding: 1rem;
   }
   
+  .artwork-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  
   .exhibition-stats {
     grid-template-columns: 1fr;
-  }
-  
-  .submission-action {
-    flex-direction: column;
-  }
-  
-  .submit-btn, .contact-btn {
-    margin: 0.5rem 0;
-    width: 100%;
   }
 }
 

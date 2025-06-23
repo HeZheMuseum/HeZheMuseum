@@ -164,7 +164,7 @@
           <div class="video-container">
             <h3>鱼皮服饰制作工艺视频</h3>
             <video controls width="100%" style="max-width: 700px;">
-              <source src="./Videos/赫哲族鱼皮靰鞡制作小片_x264.mp4" type="video/mp4">
+              <source src="/Videos/赫哲族鱼皮靰鞡制作小片_x264.mp4" type="video/mp4">
               您的浏览器不支持视频播放。
             </video>
           </div>
@@ -374,11 +374,13 @@ onMounted(() => {
 }
 
 .season-card {
-  background: linear-gradient(135deg, #2c5530, #1a3d1f);
-  color: white;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  color: #2c3e50;
   padding: 1.5rem;
   border-radius: 10px;
   text-align: center;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .season-card h4 {

@@ -6,8 +6,69 @@
         :src="isMobile ? './Assets/2.png' : './Assets/1.png'" 
         :alt="isMobile ? '移动端首页图片' : '桌面端首页图片'"
         class="fullscreen-image"
+        @load="onImageLoad"
       />
+      
+      <!-- 图片加载遮罩 -->
+      <div v-if="!imageLoaded" class="image-loading">
+        <div class="loading-spinner"></div>
+        <p>正在加载精美图片...</p>
+      </div>
+      
+      <!-- 图片覆盖层内容 -->
+      <div class="image-overlay" :class="{ 'visible': imageLoaded }">
+        <div class="overlay-content fade-in-up">
+          <h1 class="welcome-title">欢迎来到赫哲族数字博物馆</h1>
+          <p class="welcome-subtitle">探索中国北方古老渔猎民族的文化瑰宝</p>
+          <div class="welcome-actions">
+            <router-link to="/about" class="btn btn-primary">
+              开始探索
+            </router-link>
+            <router-link to="/map" class="btn btn-outline">
+              文化地图
+            </router-link>
+          </div>
+        </div>
+        
+        <!-- 滚动提示 -->
+        <div class="scroll-hint">
+          <span>向下滚动探索更多</span>
+          <div class="scroll-arrow">↓</div>
+        </div>
+      </div>
     </div>
+    
+    <!-- 快速导航区域 -->
+    <section class="quick-nav-section">
+      <div class="container">
+        <h2 class="section-title text-center">快速导航</h2>
+        <div class="quick-nav-grid">
+          <router-link to="/introduction" class="quick-nav-item card">
+            <div class="nav-icon">🏛️</div>
+            <h3>赫哲族介绍</h3>
+            <p>了解赫哲族的历史文化</p>
+          </router-link>
+          
+          <router-link to="/crafts" class="quick-nav-item card">
+            <div class="nav-icon">🎨</div>
+            <h3>制作工艺</h3>
+            <p>探索传统手工艺技术</p>
+          </router-link>
+          
+          <router-link to="/exhibition" class="quick-nav-item card">
+            <div class="nav-icon">🖼️</div>
+            <h3>作品展示</h3>
+            <p>欣赏精美的传统作品</p>
+          </router-link>
+          
+          <router-link to="/costumes" class="quick-nav-item card">
+            <div class="nav-icon">👘</div>
+            <h3>传统服饰</h3>
+            <p>领略绚丽的服饰文化</p>
+          </router-link>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -18,9 +79,16 @@ export default {
   name: 'Home',
   setup() {
     const isMobile = ref(false)
+    const imageLoaded = ref(false)
     
     const checkMobile = () => {
       isMobile.value = window.innerWidth <= 768
+    }
+    
+    const onImageLoad = () => {
+      setTimeout(() => {
+        imageLoaded.value = true
+      }, 500) // 添加一点延迟以显示加载效果
     }
     
     onMounted(() => {
@@ -33,7 +101,9 @@ export default {
     })
     
     return {
-      isMobile
+      isMobile,
+      imageLoaded,
+      onImageLoad
     }
   }
 }
@@ -43,41 +113,333 @@ export default {
 .home {
   padding: 0;
   margin: 0;
-  height: calc(100vh - 40px); /* 减去导航栏高度 */
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .fullscreen-image-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .fullscreen-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 填满容器，可能会裁剪图片 */
+  object-fit: cover;
   display: block;
+  transition: transform var(--transition-slow);
+}
+
+.fullscreen-image:hover {
+  transform: scale(1.02);
+}
+
+/* 图片加载状态 */
+.image-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-gradient);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid var(--border-light);
+  border-top: 4px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--spacing-lg);
+}
+
+.image-loading p {
+  color: var(--text-color);
+  font-size: var(--font-size-lg);
+  margin: 0;
+}
+
+/* 图片覆盖层 */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity var(--transition-slow);
+  z-index: 1;
+}
+
+.image-overlay.visible {
+  opacity: 1;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: var(--spacing-xl);
+}
+
+.welcome-title {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+}
+
+.welcome-subtitle {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-xxl);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+}
+
+.welcome-actions {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.welcome-actions .btn {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 滚动提示 */
+.scroll-hint {
+  position: absolute;
+  bottom: var(--spacing-xl);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  animation: bounce 2s infinite;
+}
+
+.scroll-hint span {
+  display: block;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xs);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.scroll-arrow {
+  font-size: var(--font-size-xl);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0) translateX(-50%);
+  }
+  40% {
+    transform: translateY(-10px) translateX(-50%);
+  }
+  60% {
+    transform: translateY(-5px) translateX(-50%);
+  }
+}
+
+/* 快速导航区域 */
+.quick-nav-section {
+  padding: var(--spacing-xxl) 0;
+  background: var(--panel-bg);
+}
+
+.section-title {
+  font-size: var(--font-size-3xl);
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xxl);
+  font-weight: 600;
+}
+
+.quick-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.quick-nav-item {
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-normal);
+  text-align: center;
+  padding: var(--spacing-xl);
+  border: 2px solid transparent;
+}
+
+.quick-nav-item:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-5px) scale(1.02);
+}
+
+.quick-nav-item .nav-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-lg);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.quick-nav-item h3 {
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+.quick-nav-item p {
+  color: var(--text-muted);
+  font-size: var(--font-size-base);
+  margin: 0;
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-  .home {
-    height: calc(100vh - 35px); /* 移动端导航栏稍小 */
+  .welcome-title {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .welcome-subtitle {
+    font-size: var(--font-size-lg);
+  }
+  
+  .welcome-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+  }
+  
+  .welcome-actions .btn {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: var(--font-size-base);
+    width: 200px;
+  }
+  
+  .quick-nav-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+  }
+  
+  .quick-nav-item {
+    padding: var(--spacing-lg);
+  }
+  
+  .quick-nav-item .nav-icon {
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .home {
-    height: calc(100vh - 30px);
+  .overlay-content {
+    padding: var(--spacing-lg);
+  }
+  
+  .welcome-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .welcome-subtitle {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .welcome-actions .btn {
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--font-size-sm);
+    width: 150px;
+  }
+  
+  .scroll-hint {
+    bottom: var(--spacing-lg);
+  }
+  
+  .scroll-hint span {
+    font-size: var(--font-size-xs);
+  }
+  
+  .quick-nav-section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .section-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .quick-nav-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  
+  .quick-nav-item {
+    padding: var(--spacing-md);
+  }
+  
+  .quick-nav-item .nav-icon {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .quick-nav-item h3 {
+    font-size: var(--font-size-lg);
   }
 }
 
 @media (max-width: 320px) {
-  .home {
-    height: calc(100vh - 25px);
+  .welcome-title {
+    font-size: var(--font-size-xl);
+    letter-spacing: 1px;
+  }
+  
+  .welcome-subtitle {
+    font-size: var(--font-size-sm);
+  }
+  
+  .welcome-actions .btn {
+    width: 120px;
+    font-size: var(--font-size-xs);
+  }
+  
+  .quick-nav-item .nav-icon {
+    font-size: 1.5rem;
+  }
+  
+  .quick-nav-item h3 {
+    font-size: var(--font-size-base);
+  }
+  
+  .quick-nav-item p {
+    font-size: var(--font-size-sm);
   }
 }
 </style>
