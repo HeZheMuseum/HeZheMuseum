@@ -18,27 +18,7 @@
         </div>
       </div>
       
-      <!-- 实地考察调研视频 -->
-      <section class="video-section fade-in">
-        <div class="section-header">
-          <div class="section-icon">🎬</div>
-          <h2 class="section-title">实地考察调研纪实</h2>
-          <div class="section-decoration"></div>
-        </div>
-        <div class="video-container">
-          <div class="video-wrapper">
-            <div class="video-frame">
-              <video controls width="100%" class="custom-video">
-                <source src="/Videos/实地考察调研纪实_x264.mp4" type="video/mp4">
-                您的浏览器不支持视频播放。
-              </video>
-              <div class="video-overlay-gradient"></div>
-            </div>
-          </div>
-          <p class="video-description">深入赫哲族聚居地，记录真实的民族文化传承现状</p>
-        </div>
-      </section>
-
+     
       <!-- 族称 -->
       <section class="content-section fade-in">
         <div class="section-header">
