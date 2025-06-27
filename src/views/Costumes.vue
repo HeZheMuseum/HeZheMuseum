@@ -78,15 +78,6 @@
             </div>
           </div>
           
-          <div class="costume-item">
-            <div class="costume-image">
-              <img src="/Images/房屋.webp" alt="鱼皮工艺品" />
-            </div>
-            <div class="costume-info">
-              <h3>鱼皮工艺品</h3>
-              <p>结合传统工艺与现代设计的鱼皮制品，展现了传统技艺的传承与创新。</p>
-            </div>
-          </div>
           
           <div class="costume-item">
             <div class="costume-image">
