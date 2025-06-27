@@ -151,8 +151,8 @@
             </div>
             <div class="tool-item">
               <div class="tool-icon">🧵</div>
-              <h4>鱼筋线</h4>
-              <p>用鱼的筋络制作的线，结实耐用</p>
+              <h4>木铡刀</h4>
+              <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
             </div>
             <div class="tool-item">
               <div class="tool-icon">✂️</div>
