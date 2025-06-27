@@ -168,7 +168,43 @@
         <h2>桦皮工艺</h2>
         <p>桦皮工艺是赫哲族另一项重要的传统技艺，桦树皮质地轻便、防水耐用，是制作各种生活用具和交通工具的理想材料。</p>
         
+        <!-- 桦皮工艺视频展示 -->
+        <div class="video-section">
+          <h3>桦皮工艺制作视频</h3>
+          <div class="video-container">
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/桦树皮画制作工艺.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">桦树皮画制作工艺</p>
+            </div>
+          </div>
+        </div>
+        
         <div class="birch-products">
+          <div class="product-category">
+            <h3>桦树皮画艺术</h3>
+            <div class="product-grid">
+              <div class="product-item">
+                <div class="product-info">
+                  <h4>桦树皮画</h4>
+                  <p>在桦树皮上绘制各种图案，展现赫哲族的艺术创造力和对自然的理解，是传统工艺与现代艺术的完美结合。</p>
+                </div>
+              </div>
+              
+              <div class="product-item">
+                <div class="product-info">
+                  <h4>桦皮雕刻画</h4>
+                  <p>在桦树皮上雕刻精美图案，通过层次感和立体效果展现赫哲族的传统文化和生活场景。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div class="product-category">
             <h3>交通工具</h3>
             <div class="product-grid">
@@ -209,6 +245,59 @@
         </div>
         
 
+      </section>
+
+      <!-- 传统生活用具制作 -->
+      <section class="content-section">
+        <h2>传统生活用具制作</h2>
+        <p>赫哲族传统生活用具制作工艺体现了民族智慧和对自然资源的充分利用，这些用具不仅实用，更承载着深厚的文化内涵。</p>
+        
+        <!-- 传统生活用具制作视频展示 -->
+        <div class="video-section">
+          <h3>传统生活用具制作工艺视频</h3>
+          <div class="video-container">
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/赫哲族传统生活用具制作_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">赫哲族传统生活用具制作</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="traditional-tools">
+          <div class="tools-category">
+            <h3>渔猎用具</h3>
+            <div class="tools-list">
+              <div class="tool-detail">
+                <h4>鱼叉</h4>
+                <p>用于叉鱼的重要工具，制作精良，使用灵活。</p>
+              </div>
+              <div class="tool-detail">
+                <h4>渔网</h4>
+                <p>编织精密的渔网，是赫哲族重要的捕鱼工具。</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tools-category">
+            <h3>生活器具</h3>
+            <div class="tools-list">
+              <div class="tool-detail">
+                <h4>储物容器</h4>
+                <p>用各种材料制作的储物容器，实用美观。</p>
+              </div>
+              <div class="tool-detail">
+                <h4>炊具</h4>
+                <p>传统的烹饪用具，适应渔猎生活需要。</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- 木雕工艺 -->
@@ -254,6 +343,23 @@
         <h2>骨角工艺</h2>
         <p>赫哲族充分利用动物的骨头和角，制作各种工具和装饰品，体现了对自然资源的充分利用。</p>
         
+        <!-- 鱼骨工艺视频展示 -->
+        <div class="video-section">
+          <h3>鱼骨工艺制作视频</h3>
+          <div class="video-container">
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/鱼骨粘贴画_x264.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼骨粘贴画制作技艺</p>
+            </div>
+          </div>
+        </div>
+        
         <div class="bone-craft-grid">
           <div class="craft-item">
             <h3>工具类</h3>
@@ -287,6 +393,24 @@
               <div class="list-item">
                 <span class="item-name">护身符</span>
                 <span class="item-desc">用兽牙制作的护身符</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="craft-item">
+            <h3>鱼骨工艺</h3>
+            <div class="item-list">
+              <div class="list-item">
+                <span class="item-name">鱼骨粘贴画</span>
+                <span class="item-desc">用鱼骨制作的装饰画作</span>
+              </div>
+              <div class="list-item">
+                <span class="item-name">鱼骨雕刻</span>
+                <span class="item-desc">在鱼骨上雕刻图案</span>
+              </div>
+              <div class="list-item">
+                <span class="item-name">鱼骨饰品</span>
+                <span class="item-desc">用鱼骨制作的各种装饰品</span>
               </div>
             </div>
           </div>
@@ -820,6 +944,58 @@ onMounted(() => {
 .item-desc {
   color: #666;
   font-size: 0.9rem;
+}
+
+/* 传统生活用具制作 */
+.traditional-tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tools-category {
+  background: rgba(139, 69, 19, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #8B4513;
+}
+
+.tools-category h3 {
+  color: #8B4513;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tools-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tool-detail {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tool-detail:hover {
+  transform: translateY(-3px);
+}
+
+.tool-detail h4 {
+  color: #8B4513;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.tool-detail p {
+  color: #555;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 /* 现代发展 */
