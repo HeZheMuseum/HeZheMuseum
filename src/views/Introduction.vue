@@ -479,8 +479,7 @@
                 <div class="art-icon">💃</div>
                 <h3 class="art-title">歌舞</h3>
               </div>
-              <p class="art-description">赫哲人的乐曲主要是民歌曲调，分为"嫁令阔"、"伊玛堪"、"白本初"、"博布力"等。《乌苏里船歌》便是在传统民歌曲调《等阿哥》的曲调基础上创作的，是赫哲族民间音乐的瑰宝。</p>
-              
+                          
               <div class="music-types">
                 <div class="music-item">
                   <div class="music-icon">🎵</div>
