@@ -208,7 +208,8 @@
           </div>
         </div>
         
-      
+
+      </section>
 
       <!-- 木雕工艺 -->
       <section class="content-section">
