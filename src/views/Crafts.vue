@@ -208,43 +208,7 @@
           </div>
         </div>
         
-        <!-- 桦皮工艺制作步骤 -->
-        <div class="birch-process">
-          <h3>桦皮工艺制作步骤</h3>
-          <div class="steps-grid">
-            <div class="step-card">
-              <div class="step-number">1</div>
-              <h4>采集</h4>
-              <p>选择合适的桦树，在适当季节剥取桦树皮</p>
-            </div>
-            <div class="step-card">
-              <div class="step-number">2</div>
-              <h4>处理</h4>
-              <p>清理桦皮表面，去除杂质和多余部分</p>
-            </div>
-            <div class="step-card">
-              <div class="step-number">3</div>
-              <h4>软化</h4>
-              <p>用特殊方法使桦皮变得柔软易于加工</p>
-            </div>
-            <div class="step-card">
-              <div class="step-number">4</div>
-              <h4>裁剪</h4>
-              <p>按照制作物品的需要裁剪桦皮</p>
-            </div>
-            <div class="step-card">
-              <div class="step-number">5</div>
-              <h4>缝制</h4>
-              <p>用鱼筋线或其他材料缝制成型</p>
-            </div>
-            <div class="step-card">
-              <div class="step-number">6</div>
-              <h4>装饰</h4>
-              <p>添加图案和装饰，完成制作</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <!-- 木雕工艺 -->
       <section class="content-section">
