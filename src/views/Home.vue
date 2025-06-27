@@ -18,7 +18,7 @@
       <!-- 图片覆盖层内容 -->
       <div class="image-overlay" :class="{ 'visible': imageLoaded }">
         <div class="overlay-content fade-in-up">
-          <h1 class="welcome-title">欢迎来到赫哲族数字博物馆</h1>
+          <h1 class="welcome-title">欢迎来到抚远市非遗数字博物馆</h1>
           <p class="welcome-subtitle">探索中国北方古老渔猎民族的文化瑰宝</p>
           <div class="welcome-actions">
             <router-link to="/about" class="btn btn-primary">
