@@ -293,7 +293,7 @@
                 <div class="activity-icon">🎣</div>
                 <h3 class="activity-title">传统渔业</h3>
               </div>
-              <p class="activity-description">赫哲族在春、秋、冬三季捕鱼。从开江的"谷雨"到"小满"的一个多月时间为春季鱼汛期，是网捕的好季节。端午节前后，为捕捞鲟鱼、鳇鱼的旺季。从"白露"开始为秋季鱼汛期，是捕获大玛哈鱼(鲑)的好季节。</p>
+              <p class="activity-description">赫哲族在春、秋、冬三季捕鱼。从开江的"谷雨"到"小满"的一个多月时间为春季鱼汛期，是网捕的好季节。端午节前后，为捕捞鲟鱼、鳇鱼的旺季。从"白露"开始为秋季鱼汛期，是捕获大马哈鱼(鲑)的好季节。</p>
               
               <div class="activity-details">
                 <div class="detail-group">
