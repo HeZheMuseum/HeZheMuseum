@@ -41,8 +41,8 @@
             </div>
             <div class="highlight-card">
               <div class="highlight-icon-large">🎭</div>
-              <h4 class="highlight-title">非遗文化传承</h4>
-              <p class="highlight-desc">口头史诗"伊玛堪"入选国家及联合国濒危非遗名录</p>
+              <h4 class="highlight-title">文化遗产传承</h4>
+              <p class="highlight-desc">口头史诗"伊玛堪"入选国家及联合国濒危文化遗产名录</p>
             </div>
             <div class="highlight-card">
               <div class="highlight-icon-large">⚔️</div>
@@ -171,7 +171,7 @@
                 <div class="heritage-icon">📖</div>
                 <h4 class="heritage-title">伊玛堪（说唱文学）</h4>
                 <div class="heritage-badges">
-                  <span class="heritage-badge national">国家级非遗</span>
+                  <span class="heritage-badge national">国家级文化遗产</span>
                   <span class="heritage-badge unesco">联合国急需保护</span>
                 </div>
               </div>
@@ -180,7 +180,7 @@
               <div class="heritage-details">
                 <div class="detail-item">
                   <span class="detail-label">传承人代表</span>
-                  <span class="detail-value">卢艳华在饶河县开展伊玛堪传习课程并录制赫汉对照教材</span>
+                  <span class="detail-value">赵文，女，赫哲族，1987年5月出生，黑龙江省交通投资集团乌苏中队职员，抚远市赫哲族伊玛堪艺术团团长，省级伊玛堪传承人。从2010年开始学习伊玛堪说唱，荣获省伊玛堪保护先进个人、2024年黑龙江省最美家庭、佳木斯最美巾帼奋斗者，2024年第四季度"龙江好人"等荣誉。她深耕传统文化传承，创办赫哲族伊玛堪艺术团，培养30余名学员，其中5名成员已被评为县级伊玛堪传承人。积极推进文化遗产进校园活动，免费为乌苏镇赫哲族小学教授赫哲语言说唱课程。在2023年黑龙江省赫哲族伊玛堪传习成果大赛中获得二等奖，2024年成为黑龙江省第七批省级非物质文化遗产代表性传承人。她以"小人物"传播大能量，点亮文化传承之光，让古老的赫哲族文化在新时代焕发生机与活力</span>
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">保护意义</span>
@@ -441,7 +441,7 @@
                   <div class="detail-items">
                     <span class="detail-tag">鲟鱼</span>
                     <span class="detail-tag">鳇鱼</span>
-                    <span class="detail-tag">玛哈鱼</span>
+                    <span class="detail-tag">马哈鱼</span>
                     <span class="detail-tag">鲤鱼</span>
                     <span class="detail-tag">鲫鱼</span>
                   </div>
@@ -621,13 +621,7 @@
                 <div class="music-item">
                   <div class="music-icon">🎵</div>
                   <div class="music-name">嫁令阔</div>
-                  <div class="music-description">民歌曲调</div>
-                </div>
-                
-                <div class="music-item">
-                  <div class="music-icon">📖</div>
-                  <div class="music-name">伊玛堪</div>
-                  <div class="music-description">说唱故事</div>
+                  <div class="music-description">传统民歌</div>
                 </div>
                 
                 <div class="music-item">
@@ -660,12 +654,6 @@
               
               <div class="literature-types">
                 <div class="literature-item">
-                  <div class="lit-icon">📖</div>
-                  <div class="lit-name">伊玛堪</div>
-                  <div class="lit-type">说唱故事</div>
-                </div>
-                
-                <div class="literature-item">
                   <div class="lit-icon">📜</div>
                   <div class="lit-name">特仑固</div>
                   <div class="lit-type">传说</div>
@@ -678,9 +666,49 @@
                 </div>
                 
                 <div class="literature-item">
-                  <div class="lit-icon">🎵</div>
-                  <div class="lit-name">嫁令阔</div>
-                  <div class="lit-type">民歌</div>
+                  <div class="lit-icon">💬</div>
+                  <div class="lit-name">赫哲族谚语</div>
+                  <div class="lit-type">民间智慧</div>
+                </div>
+              </div>
+              
+              <div class="proverb-highlight">
+                <div class="proverb-header">
+                  <div class="proverb-icon">🌟</div>
+                  <h4 class="proverb-title">赫哲族谚语 - 生活智慧的结晶</h4>
+                </div>
+                
+                <div class="proverb-features">
+                  <div class="proverb-feature">
+                    <div class="feature-label">
+                      <span class="label-icon">🎣</span>
+                      <span>渔猎智慧</span>
+                    </div>
+                    <div class="feature-value">包含二十四节气捕鱼谚语等传统生态知识</div>
+                  </div>
+                  
+                  <div class="proverb-feature">
+                    <div class="feature-label">
+                      <span class="label-icon">🏠</span>
+                      <span>生活哲理</span>
+                    </div>
+                    <div class="feature-value">体现赫哲族人民的生活经验和人生智慧</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="art-section">
+              <div class="art-header">
+                <div class="art-icon">🎭</div>
+                <h3 class="art-title">曲艺</h3>
+              </div>
+              
+              <div class="quyi-types">
+                <div class="quyi-item">
+                  <div class="quyi-icon">📖</div>
+                  <div class="quyi-name">伊玛堪</div>
+                  <div class="quyi-type">说唱史诗</div>
                 </div>
               </div>
               
