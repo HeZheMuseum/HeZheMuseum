@@ -234,6 +234,7 @@ onMounted(() => {
 <style scoped>
 .crafts {
   min-height: 100vh;
+  width: 100%;
   background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
   padding: 2rem 0;
 }

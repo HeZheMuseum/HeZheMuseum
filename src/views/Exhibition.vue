@@ -564,6 +564,7 @@ const viewDetail = (artworkName) => {
 <style scoped>
 .exhibition {
   min-height: 100vh;
+  width: 100%;
   background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
   padding: 2rem 0;
 }
