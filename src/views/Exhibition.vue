@@ -35,17 +35,16 @@
         <h2>现代设计作品</h2>
         <p>融合传统赫哲族文化元素与现代设计理念的创新作品，展现了传统文化在新时代的传承与发展。</p>
         
-        <div class="artwork-grid">
+        <div class="artwork-list">
           <div class="artwork-item">
             <div class="artwork-image">
               <img src="/Assets/罗列所有作品/乌苏里渔歌-刘欣欣/刘欣欣.jpg" alt="乌苏里渔歌" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
             </div>
-            <div class="artwork-info">
-              <h3>乌苏里渔歌</h3>
-              <p class="description">设计者：刘欣欣</p>
+            <div class="artwork-content">
+              <div class="artwork-header">
+                <h3>乌苏里渔歌</h3>
+                <p class="description">设计者：刘欣欣</p>
+              </div>
               <div class="artwork-detail">
                 <p class="detail-text">《乌苏里渔歌》设计以赫哲族千年渔猎文化与萨满信仰为根基，从鱼皮衣、桦皮器具等传统造物中提炼水波纹、鱼骨纹等自然符号，以现代设计语言重构民族美学。形制上保留交领右衽、及踝袍身的传统制式，融入短上衣与长靴的现代廓形，在传统与现代的碰撞中构建服饰框架。符号系统以抽象化鱼骨符咒纹为核心，搭配皮质流苏、桦皮编织腰带等元素，色彩选用米白与墨黑象征冰雪大地，靛蓝点睛隐喻萨满灵力，通过哑光鱼鳞纹面料与貂皮毛流镶边的肌理反差，营造原始质朴与现代精致的视觉层次。背景以山水意境呼应乌苏里江流域生态，最终以视觉语言完成民族文化与江河共生故事的叙事，实现传统技艺的现代复活。</p>
               </div>
@@ -55,13 +54,12 @@
           <div class="artwork-item">
             <div class="artwork-image">
               <img src="/Assets/罗列所有作品/云织梦-张艺馨/张艺馨.jpg" alt="云织梦" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
             </div>
-            <div class="artwork-info">
-              <h3>云织梦</h3>
-              <p class="description">设计者：张艺馨</p>
+            <div class="artwork-content">
+              <div class="artwork-header">
+                <h3>云织梦</h3>
+                <p class="description">设计者：张艺馨</p>
+              </div>
               <div class="artwork-detail">
                 <p class="detail-text">"云织梦" 系列民族服饰，以传承与创新为脉络。提取民族传统纹样，如鱼纹、云纹等，借细腻工艺织就，让古老符号焕新韵。色彩上，以沉稳大地色系为主调，融入民族特色配色，和谐又具辨识度。款式保留民族服饰经典形制，袍服、长裙等展现传统着装智慧，同时优化剪裁，适配现代生活场景。头饰、腰带等配饰，呼应整体风格，强化民族文化标识。设计旨在以服饰为载体，编织民族文化之梦，让传统与现代对话，在展现民族独特美学的同时，传递对民族文化传承创新的思考，让民族服饰之美，绽放在当代生活的舞台。</p>
               </div>
@@ -71,13 +69,12 @@
           <div class="artwork-item">
             <div class="artwork-image">
               <img src="/Assets/罗列所有作品/冬渔裘歌-李雨婷/李雨婷.jpg" alt="冬渔裘歌" />
-              <div class="artwork-overlay">
-                <button class="view-detail">查看详情</button>
-              </div>
             </div>
-            <div class="artwork-info">
-              <h3>冬渔裘歌</h3>
-              <p class="description">设计者：李雨婷</p>
+            <div class="artwork-content">
+              <div class="artwork-header">
+                <h3>冬渔裘歌</h3>
+                <p class="description">设计者：李雨婷</p>
+              </div>
               <div class="artwork-detail">
                 <p class="detail-text">扎根东北地域文化，以冬季渔猎传统为脉络，融合赫哲族鱼皮文化与鄂伦春族等少数民族裘皮服饰智慧。借冬捕场景里的冰原、渔获、民俗仪式，用服饰传递寒地渔猎的生存哲思与文化传承。核心运用鱼皮与皮草面料，鱼皮取自东北冷水域鱼类，经传统脱脂、晾晒等工艺处理，保留天然纹理与防水特性；皮草选取貉子、狐狸等寒地动物皮毛，模拟冬日保暖需求。采用长款袍式造型，适配东北冬季保暖功能，借鉴少数民族宽袖、大翻领设计，腰间系带收束，融合鱼皮绳编工艺，让穿着者在现代穿搭中，触摸寒地渔猎文化的温度与筋骨。</p>
               </div>
@@ -649,41 +646,44 @@ const viewDetail = (artworkName) => {
   font-size: 1rem;
 }
 
-/* 作品网格 */
-.artwork-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+/* 作品列表 */
+.artwork-list {
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   margin-top: 2rem;
-  align-items: start;
 }
 
 .artwork-item {
+  display: flex;
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: fit-content;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--primary-color);
 }
 
 .artwork-item:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transform: translateX(8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  border-left-color: var(--secondary-color);
 }
 
 .artwork-item.featured {
-  grid-column: span 2;
+  border-left-width: 6px;
 }
 
 .artwork-image {
-  aspect-ratio: 4/3;
+  width: 200px;
+  height: 150px;
   background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .artwork-image img {
@@ -736,14 +736,22 @@ const viewDetail = (artworkName) => {
   background: #357abd;
 }
 
-.artwork-info {
+.artwork-content {
+  flex: 1;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.artwork-info h3 {
-  color: #4a90e2;
-  margin-bottom: 0.5rem;
+.artwork-header {
+  margin-bottom: 1rem;
+}
+
+.artwork-header h3 {
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
+  font-weight: 600;
 }
 
 
@@ -774,9 +782,13 @@ const viewDetail = (artworkName) => {
 
 /* 响应式设计 */
 @media (max-width: 1200px) {
-  .artwork-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  .artwork-list {
     gap: 1.2rem;
+  }
+  
+  .artwork-image {
+    width: 180px;
+    height: 135px;
   }
 }
 
@@ -785,13 +797,51 @@ const viewDetail = (artworkName) => {
     padding: 0 1rem;
   }
   
-  .artwork-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+  .artwork-item {
+    flex-direction: column;
+  }
+  
+  .artwork-image {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .artwork-content {
+    padding: 1rem;
   }
   
   .page-title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .artwork-list {
+    gap: 1rem;
+  }
+  
+  .artwork-item {
+    border-left-width: 3px;
+  }
+  
+  .artwork-image {
+    height: 150px;
+  }
+  
+  .artwork-content {
+    padding: 0.75rem;
+  }
+  
+  .artwork-header h3 {
+    font-size: 1.1rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .detail-text {
+    font-size: 0.85rem;
   }
 }
 

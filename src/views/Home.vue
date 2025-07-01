@@ -42,29 +42,49 @@
     <section class="quick-nav-section">
       <div class="container">
         <h2 class="section-title text-center">快速导航</h2>
-        <div class="quick-nav-grid">
-          <router-link to="/introduction" class="quick-nav-item card">
-            <div class="nav-icon">🏛️</div>
-            <h3>赫哲族介绍</h3>
-            <p>了解赫哲族的历史文化</p>
+        <div class="quick-nav-list">
+          <router-link to="/introduction" class="quick-nav-item">
+            <div class="nav-content">
+              <div class="nav-icon">🏛️</div>
+              <div class="nav-info">
+                <h3>赫哲族介绍</h3>
+                <p>了解赫哲族的历史文化</p>
+              </div>
+            </div>
+            <div class="nav-arrow">→</div>
           </router-link>
           
-          <router-link to="/crafts" class="quick-nav-item card">
-            <div class="nav-icon">🎨</div>
-            <h3>制作工艺</h3>
-            <p>探索传统手工艺技术</p>
+          <router-link to="/crafts" class="quick-nav-item">
+            <div class="nav-content">
+              <div class="nav-icon">🎨</div>
+              <div class="nav-info">
+                <h3>制作工艺</h3>
+                <p>探索传统手工艺技术</p>
+              </div>
+            </div>
+            <div class="nav-arrow">→</div>
           </router-link>
           
-          <router-link to="/exhibition" class="quick-nav-item card">
-            <div class="nav-icon">🖼️</div>
-            <h3>作品展示</h3>
-            <p>欣赏精美的传统作品</p>
+          <router-link to="/exhibition" class="quick-nav-item">
+            <div class="nav-content">
+              <div class="nav-icon">🖼️</div>
+              <div class="nav-info">
+                <h3>作品展示</h3>
+                <p>欣赏精美的传统作品</p>
+              </div>
+            </div>
+            <div class="nav-arrow">→</div>
           </router-link>
           
-          <router-link to="/costumes" class="quick-nav-item card">
-            <div class="nav-icon">👘</div>
-            <h3>传统服饰</h3>
-            <p>领略绚丽的服饰文化</p>
+          <router-link to="/costumes" class="quick-nav-item">
+            <div class="nav-content">
+              <div class="nav-icon">👘</div>
+              <div class="nav-info">
+                <h3>传统服饰</h3>
+                <p>领略绚丽的服饰文化</p>
+              </div>
+            </div>
+            <div class="nav-arrow">→</div>
           </router-link>
         </div>
       </div>
@@ -292,51 +312,75 @@ export default {
   font-weight: 600;
 }
 
-.quick-nav-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-xl);
+.quick-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
   margin-top: var(--spacing-xl);
 }
 
 .quick-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-decoration: none;
   color: var(--text-color);
+  background: var(--panel-bg);
+  border-radius: var(--border-radius-small);
+  padding: var(--spacing-lg);
+  border-left: 4px solid var(--primary-color);
   transition: all var(--transition-normal);
-  text-align: center;
-  padding: var(--spacing-xl);
-  border: 2px solid var(--border-light);
-  box-shadow: 0 4px 12px var(--shadow-light);
+  box-shadow: 0 2px 8px var(--shadow-light);
 }
 
 .quick-nav-item:hover {
-  transform: translateY(-5px);
-  border-color: var(--primary-color);
-  box-shadow: 0 12px 30px var(--shadow-color);
+  transform: translateX(8px);
+  border-left-color: var(--secondary-color);
   background: var(--card-bg);
+  box-shadow: 0 4px 16px var(--shadow-color);
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  flex: 1;
 }
 
 .nav-icon {
-  font-size: var(--font-size-4xl);
-  margin-bottom: var(--spacing-md);
-  display: block;
+  font-size: var(--font-size-3xl);
+  flex-shrink: 0;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
-.quick-nav-item h3 {
-  font-size: var(--font-size-xl);
-  color: var(--primary-color);
-  margin: var(--spacing-md) 0;
-  font-weight: 700;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+.nav-info {
+  flex: 1;
 }
 
-.quick-nav-item p {
+.nav-info h3 {
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
+  margin: 0 0 var(--spacing-xs) 0;
+  font-weight: 600;
+}
+
+.nav-info p {
   color: var(--text-light);
   margin: 0;
-  font-size: var(--font-size-base);
-  font-weight: 500;
-  line-height: 1.5;
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+}
+
+.nav-arrow {
+  font-size: var(--font-size-xl);
+  color: var(--accent-color);
+  transition: transform var(--transition-normal);
+  flex-shrink: 0;
+}
+
+.quick-nav-item:hover .nav-arrow {
+  transform: translateX(4px);
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
@@ -360,17 +404,28 @@ export default {
     width: 200px;
   }
   
-  .quick-nav-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--spacing-lg);
+  .quick-nav-list {
+    gap: var(--spacing-sm);
   }
   
   .quick-nav-item {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
   }
   
-  .quick-nav-item .nav-icon {
-    font-size: 2.5rem;
+  .nav-content {
+    gap: var(--spacing-md);
+  }
+  
+  .nav-icon {
+    font-size: var(--font-size-2xl);
+  }
+  
+  .nav-info h3 {
+    font-size: var(--font-size-lg);
+  }
+  
+  .nav-info p {
+    font-size: var(--font-size-xs);
   }
 }
 
@@ -412,22 +467,40 @@ export default {
     margin-bottom: var(--spacing-lg);
   }
   
-  .quick-nav-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-md);
+  .quick-nav-list {
+    gap: var(--spacing-xs);
   }
   
   .quick-nav-item {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
+    flex-direction: column;
+    text-align: center;
   }
   
-  .quick-nav-item .nav-icon {
-    font-size: 2rem;
-    margin-bottom: var(--spacing-md);
+  .nav-content {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    text-align: center;
   }
   
-  .quick-nav-item h3 {
-    font-size: var(--font-size-lg);
+  .nav-icon {
+    font-size: var(--font-size-xl);
+  }
+  
+  .nav-info h3 {
+    font-size: var(--font-size-base);
+  }
+  
+  .nav-info p {
+    font-size: var(--font-size-xs);
+  }
+  
+  .nav-arrow {
+    margin-top: var(--spacing-xs);
+  }
+  
+  .quick-nav-item:hover {
+    transform: translateY(-2px);
   }
 }
 

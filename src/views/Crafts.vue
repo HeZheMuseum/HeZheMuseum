@@ -7,22 +7,34 @@
       <section class="content-section">
         <h2>传统工艺概述</h2>
         <p>赫哲族拥有丰富的传统手工艺，这些工艺技术是赫哲人在长期的渔猎生活中积累和发展起来的，体现了他们对自然资源的充分利用和精湛的手工技艺。</p>
-        <div class="craft-overview">
-          <div class="overview-card">
-            <h3>鱼皮工艺</h3>
-            <p>世界独有的鱼皮服饰制作技艺</p>
+        <div class="craft-overview-list">
+          <div class="overview-item">
+            <div class="overview-icon">🐟</div>
+            <div class="overview-content">
+              <h3>鱼皮工艺</h3>
+              <p>世界独有的鱼皮服饰制作技艺</p>
+            </div>
           </div>
-          <div class="overview-card">
-            <h3>桦皮工艺</h3>
-            <p>制作各种生活用具和交通工具</p>
+          <div class="overview-item">
+            <div class="overview-icon">🌳</div>
+            <div class="overview-content">
+              <h3>桦皮工艺</h3>
+              <p>制作各种生活用具和交通工具</p>
+            </div>
           </div>
-          <div class="overview-card">
-            <h3>木雕工艺</h3>
-            <p>雕刻各种实用和装饰物品</p>
+          <div class="overview-item">
+            <div class="overview-icon">🪵</div>
+            <div class="overview-content">
+              <h3>木雕工艺</h3>
+              <p>雕刻各种实用和装饰物品</p>
+            </div>
           </div>
-          <div class="overview-card">
-            <h3>骨角工艺</h3>
-            <p>利用动物骨角制作工具和装饰品</p>
+          <div class="overview-item">
+            <div class="overview-icon">🦴</div>
+            <div class="overview-content">
+              <h3>骨角工艺</h3>
+              <p>利用动物骨角制作工具和装饰品</p>
+            </div>
           </div>
         </div>
       </section>
@@ -138,26 +150,34 @@
         <!-- 工具介绍 -->
         <div class="tools-section">
           <h3>制作工具</h3>
-          <div class="tools-grid">
+          <div class="tools-list">
             <div class="tool-item">
               <div class="tool-icon">🔪</div>
-              <h4>刮皮刀</h4>
-              <p>用于刮除鱼皮上的鳞片和杂质</p>
+              <div class="tool-content">
+                <h4>刮皮刀</h4>
+                <p>用于刮除鱼皮上的鳞片和杂质</p>
+              </div>
             </div>
             <div class="tool-item">
               <div class="tool-icon">🪡</div>
-              <h4>骨针</h4>
-              <p>用动物骨头制作的针，用于缝制</p>
+              <div class="tool-content">
+                <h4>骨针</h4>
+                <p>用动物骨头制作的针，用于缝制</p>
+              </div>
             </div>
             <div class="tool-item">
               <div class="tool-icon">🧵</div>
-              <h4>木铡刀</h4>
-              <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
+              <div class="tool-content">
+                <h4>木铡刀</h4>
+                <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
+              </div>
             </div>
             <div class="tool-item">
               <div class="tool-icon">✂️</div>
-              <h4>裁剪工具</h4>
-              <p>用于裁剪鱼皮的各种工具</p>
+              <div class="tool-content">
+                <h4>裁剪工具</h4>
+                <p>用于裁剪鱼皮的各种工具</p>
+              </div>
             </div>
           </div>
         </div>
@@ -188,16 +208,18 @@
         <div class="birch-products">
           <div class="product-category">
             <h3>桦树皮画艺术</h3>
-            <div class="product-grid">
+            <div class="product-list">
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>桦树皮画</h4>
                   <p>在桦树皮上绘制各种图案，展现赫哲族的艺术创造力和对自然的理解，是传统工艺与现代艺术的完美结合。</p>
                 </div>
               </div>
               
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>桦皮雕刻画</h4>
                   <p>在桦树皮上雕刻精美图案，通过层次感和立体效果展现赫哲族的传统文化和生活场景。</p>
                 </div>
@@ -207,16 +229,18 @@
           
           <div class="product-category">
             <h3>交通工具</h3>
-            <div class="product-grid">
+            <div class="product-list">
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>桦皮船（乌莫日沉）</h4>
                   <p>用桦树皮制作的轻便小船，一人即可扛起，划行灵巧，是叉鱼和传递信息的得力助手。</p>
                 </div>
               </div>
               
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>快马子（威呼）</h4>
                   <p>"其快马以桦皮为之，长丈余，宽约二尺，两头渐窄，才容一人，其快如风"。</p>
                 </div>
@@ -226,16 +250,18 @@
           
           <div class="product-category">
             <h3>生活用具</h3>
-            <div class="product-grid">
+            <div class="product-list">
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>桦皮篓</h4>
                   <p>用于储存和运输各种物品的容器，轻便耐用。</p>
                 </div>
               </div>
               
               <div class="product-item">
-                <div class="product-info">
+                <div class="product-marker">•</div>
+                <div class="product-content">
                   <h4>桦皮盒</h4>
                   <p>用于存放小件物品的精美容器，常有装饰图案。</p>
                 </div>
@@ -524,34 +550,49 @@ onMounted(() => {
 }
 
 /* 工艺概述 */
-.craft-overview {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+.craft-overview-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
-.overview-card {
-  background: linear-gradient(135deg, #8B4513, #A0522D);
-  color: white;
+.overview-item {
+  display: flex;
+  align-items: center;
+  background: rgba(139, 69, 19, 0.1);
   padding: 1.5rem;
   border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+  transition: all 0.3s ease;
 }
 
-.overview-card:hover {
-  transform: translateY(-5px);
+.overview-item:hover {
+  transform: translateX(8px);
+  border-left-color: var(--secondary-color);
+  background: rgba(139, 69, 19, 0.15);
 }
 
-.overview-card h3 {
-  color: white;
-  margin-bottom: 0.5rem;
+.overview-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
 }
 
-.overview-card p {
-  color: rgba(255,255,255,0.9);
+.overview-content {
+  flex: 1;
+}
+
+.overview-content h3 {
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.overview-content p {
+  color: #555;
   margin: 0;
+  font-size: 0.95rem;
 }
 
 /* 工艺介绍 */
@@ -674,6 +715,79 @@ onMounted(() => {
   .video-wrapper {
     max-width: 100%;
   }
+  
+  .overview-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .overview-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tool-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .tool-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-item {
+    flex-direction: column;
+  }
+  
+  .product-marker {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .content-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .content-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .overview-item,
+  .tool-item,
+  .product-item {
+    padding: 1rem;
+    border-left-width: 3px;
+  }
+  
+  .overview-content h3,
+  .tool-content h4,
+  .product-content h4 {
+    font-size: 1rem;
+  }
+  
+  .overview-content p,
+  .tool-content p,
+  .product-content p {
+    font-size: 0.85rem;
+  }
+  
+  .craft-overview-list,
+  .tools-list,
+  .product-list {
+    gap: 0.75rem;
+  }
 }
 
 /* 制作流程 */
@@ -742,37 +856,47 @@ onMounted(() => {
   margin-top: 2rem;
 }
 
-.tools-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+.tools-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 
 .tool-item {
+  display: flex;
+  align-items: center;
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
-  text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+  transition: all 0.3s ease;
 }
 
 .tool-item:hover {
-  transform: translateY(-5px);
+  transform: translateX(8px);
+  border-left-color: var(--secondary-color);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .tool-icon {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
 }
 
-.tool-item h4 {
-  color: #8B4513;
-  margin-bottom: 0.5rem;
+.tool-content {
+  flex: 1;
 }
 
-.tool-item p {
+.tool-content h4 {
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.tool-content p {
   color: #666;
   font-size: 0.9rem;
   margin: 0;
@@ -787,38 +911,53 @@ onMounted(() => {
   margin-bottom: 3rem;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 
 .product-item {
+  display: flex;
+  align-items: flex-start;
   background: white;
   border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--primary-color);
+  transition: all 0.3s ease;
 }
 
 .product-item:hover {
-  transform: translateY(-8px);
+  transform: translateX(8px);
+  border-left-color: var(--secondary-color);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
 }
 
-.product-info {
-  padding: 1.5rem;
+.product-marker {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
 }
 
-.product-info h4 {
-  color: #8B4513;
-  margin-bottom: 0.5rem;
+.product-content {
+  flex: 1;
 }
 
-.product-info p {
+.product-content h4 {
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.product-content p {
   color: #555;
   line-height: 1.6;
   margin: 0;
+  font-size: 0.95rem;
 }
 
 /* 桦皮制作步骤 */

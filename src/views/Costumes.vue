@@ -57,13 +57,15 @@
           <p>赫哲族是世界上唯一用鱼皮制作衣服的民族，这一独特的服饰文化体现了赫哲人与自然和谐共生的智慧。</p>
         </div>
         
-        <div class="costume-grid">
+        <div class="costume-list">
           <div class="costume-item featured">
             <div class="costume-image">
               <img src="/Images/鱼皮衣.webp" alt="传统鱼皮衣" />
             </div>
-            <div class="costume-info">
-              <h3>传统鱼皮衣</h3>
+            <div class="costume-content">
+              <div class="costume-header">
+                <h3>传统鱼皮衣</h3>
+              </div>
               <p>用鱼皮制作的衣服，轻便透气，具有独特的光泽和纹理。制作工艺复杂，需要经过多道工序。</p>
             </div>
           </div>
@@ -72,8 +74,10 @@
             <div class="costume-image">
               <img src="/Images/鱼皮衣2.webp" alt="鱼皮服饰" />
             </div>
-            <div class="costume-info">
-              <h3>鱼皮服饰</h3>
+            <div class="costume-content">
+              <div class="costume-header">
+                <h3>鱼皮服饰</h3>
+              </div>
               <p>精美的鱼皮服饰，展现了赫哲族独特的服饰文化和精湛的手工技艺。</p>
             </div>
           </div>
@@ -83,8 +87,10 @@
             <div class="costume-image">
               <img src="/Images/鱼皮晾晒.webp" alt="鱼皮制作工艺" />
             </div>
-            <div class="costume-info">
-              <h3>鱼皮制作工艺</h3>
+            <div class="costume-content">
+              <div class="costume-header">
+                <h3>鱼皮制作工艺</h3>
+              </div>
               <p>鱼皮晾晒是制作鱼皮服饰的重要工序，体现了赫哲族对自然材料的巧妙利用。</p>
             </div>
           </div>
@@ -158,36 +164,48 @@
         
         <div class="process-steps">
           <h3>制作步骤</h3>
-          <div class="steps-grid">
+          <div class="steps-list">
             <div class="step-item">
               <div class="step-number">1</div>
-              <h4>选材</h4>
-              <p>选择优质的鱼皮或兽皮作为原料</p>
+              <div class="step-content">
+                <h4>选材</h4>
+                <p>选择优质的鱼皮或兽皮作为原料</p>
+              </div>
             </div>
             <div class="step-item">
               <div class="step-number">2</div>
-              <h4>处理</h4>
-              <p>对皮料进行清洗、晾晒等预处理</p>
+              <div class="step-content">
+                <h4>处理</h4>
+                <p>对皮料进行清洗、晾晒等预处理</p>
+              </div>
             </div>
             <div class="step-item">
               <div class="step-number">3</div>
-              <h4>裁剪</h4>
-              <p>按照服饰样式进行精确裁剪</p>
+              <div class="step-content">
+                <h4>裁剪</h4>
+                <p>按照服饰样式进行精确裁剪</p>
+              </div>
             </div>
             <div class="step-item">
               <div class="step-number">4</div>
-              <h4>缝制</h4>
-              <p>使用传统针法进行缝制</p>
+              <div class="step-content">
+                <h4>缝制</h4>
+                <p>使用传统针法进行缝制</p>
+              </div>
             </div>
             <div class="step-item">
               <div class="step-number">5</div>
-              <h4>装饰</h4>
-              <p>添加图案、花纹等装饰元素</p>
+              <div class="step-content">
+                <h4>装饰</h4>
+                <p>添加图案、花纹等装饰元素</p>
+              </div>
             </div>
             <div class="step-item">
               <div class="step-number">6</div>
-              <h4>完成</h4>
-              <p>最终检查和整理，完成制作</p>
+              <div class="step-content">
+                <h4>完成</h4>
+                <p>最终检查和整理，完成制作</p>
+              </div>
             </div>
           </div>
         </div>
@@ -286,39 +304,44 @@ onMounted(() => {
   font-size: 1.1rem;
 }
 
-/* 服饰网格 */
-.costume-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+/* 服饰列表 */
+.costume-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .costume-item {
+  display: flex;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-left: 4px solid #2c5530;
+  transition: all 0.3s ease;
 }
 
 .costume-item:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transform: translateX(8px);
+  border-left-color: #8B4513;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
 .costume-item.featured {
-  grid-column: span 2;
+  border-left-width: 6px;
 }
 
 .costume-image {
-  height: 200px;
+  width: 200px;
+  height: 150px;
   background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .costume-image img {
@@ -343,20 +366,29 @@ onMounted(() => {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.costume-info {
+.costume-content {
+  flex: 1;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.costume-info h3 {
+.costume-header {
+  margin-bottom: 1rem;
+}
+
+.costume-header h3 {
   color: #2c5530;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
+  font-weight: 600;
 }
 
-.costume-info p {
+.costume-content p {
   color: #555;
   line-height: 1.6;
   margin: 0;
+  font-size: 0.95rem;
 }
 
 /* 季节信息 */
@@ -566,30 +598,34 @@ onMounted(() => {
   margin-top: 2rem;
 }
 
-.steps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 
 .step-item {
+  display: flex;
+  align-items: center;
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
-  text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  border-left: 4px solid #2c5530;
+  transition: all 0.3s ease;
 }
 
 .step-item:hover {
-  transform: translateY(-5px);
+  transform: translateX(8px);
+  border-left-color: #8B4513;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .step-number {
   width: 40px;
   height: 40px;
-  background: var(--primary-color);
+  background: #2c5530;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -597,15 +633,21 @@ onMounted(() => {
   justify-content: center;
   font-size: 1.2rem;
   font-weight: bold;
-  margin: 0 auto 1rem auto;
+  margin-right: 1rem;
+  flex-shrink: 0;
 }
 
-.step-item h4 {
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
+.step-content {
+  flex: 1;
 }
 
-.step-item p {
+.step-content h4 {
+  color: #2c5530;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.step-content p {
   color: #666;
   font-size: 0.9rem;
   margin: 0;
@@ -656,24 +698,36 @@ onMounted(() => {
     padding: 1.5rem;
   }
   
-  .costume-grid {
-    grid-template-columns: 1fr;
+  .content-section h2 {
+    font-size: 1.5rem;
   }
   
-  .costume-item.featured {
-    grid-column: span 1;
+  .costume-item {
+    flex-direction: column;
+  }
+  
+  .costume-image {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .costume-content {
+    padding: 1rem;
   }
   
   .decoration-types {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   
-  .steps-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  .step-item {
+    flex-direction: column;
+    text-align: center;
   }
   
-  .costume-list {
-    grid-template-columns: 1fr;
+  .step-number {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
 
@@ -686,12 +740,62 @@ onMounted(() => {
     padding: 1rem;
   }
   
+  .content-section h2 {
+    font-size: 1.3rem;
+  }
+  
+  .content-section h3 {
+    font-size: 1.1rem;
+  }
+  
+  .costume-item {
+    border-left-width: 3px;
+    padding: 0;
+  }
+  
+  .costume-image {
+    height: 150px;
+  }
+  
+  .costume-content {
+    padding: 0.75rem;
+  }
+  
+  .costume-header h3 {
+    font-size: 1.1rem;
+  }
+  
+  .costume-content p {
+    font-size: 0.85rem;
+  }
+  
   .video-placeholder {
     padding: 2rem 1rem;
   }
   
-  .steps-grid {
-    grid-template-columns: 1fr;
+  .step-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    border-left-width: 3px;
+  }
+  
+  .step-number {
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+  }
+  
+  .step-content h4 {
+    font-size: 1rem;
+  }
+  
+  .step-content p {
+    font-size: 0.85rem;
+  }
+  
+  .costume-list,
+  .steps-list {
+    gap: 0.75rem;
   }
 }
 
