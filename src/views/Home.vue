@@ -135,7 +135,8 @@ export default {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 .fullscreen-image-container {
@@ -145,7 +146,8 @@ export default {
   align-items: center;
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .fullscreen-image {

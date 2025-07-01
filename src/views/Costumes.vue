@@ -215,9 +215,12 @@ onMounted(() => {
 <style scoped>
 .costumes {
   min-height: 100vh;
-  width: 100%;
-  background: linear-gradient(135deg, #2c5530 0%, #1a3d1f 100%);
+  width: 100vw;
+  margin: 0;
   padding: 2rem 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #2c5530 0%, #1a3d1f 100%);
 }
 
 .container {

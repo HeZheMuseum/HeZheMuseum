@@ -652,32 +652,38 @@ onUnmounted(() => {
 <style scoped>
 .introduction {
   min-height: 100vh;
-  padding: 2rem;
+  width: 100vw;
+  margin: 0;
+  padding: 2rem 0;
   background: 
     radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%),
     linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .introduction::before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: 
     radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 1px, transparent 1px),
     radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
+  z-index: 0;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 2rem;
   position: relative;
   z-index: 1;
 }
