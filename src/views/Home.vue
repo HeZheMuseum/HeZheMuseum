@@ -135,16 +135,17 @@ export default {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .fullscreen-image-container {
-  width: 100%;
-  height: 100vh;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .fullscreen-image {

@@ -9,8 +9,8 @@
           <span class="decoration-icon"></span>
           <div class="decoration-line"></div>
         </div>
-        <h1 class="page-title">赫哲族数字博物馆</h1>
-        <p class="page-subtitle">探索千年文化，传承民族智慧</p>
+        <h1 class="page-title">抚远市非物质文化遗产数字博物馆</h1>
+        <p class="page-subtitle">首期将聚焦国家级非物质文化遗产代表性项目——赫哲族鱼皮制作技艺</p>
       </div>
 
       <!-- 博物馆简介 -->

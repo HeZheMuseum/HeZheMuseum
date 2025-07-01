@@ -194,6 +194,10 @@ export default {
 .main-content {
     min-height: calc(100vh - 200px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .back-to-top {
