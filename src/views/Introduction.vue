@@ -147,41 +147,12 @@
         </div>
       </section>
 
-      <!-- 口头传统与非物质文化遗产 -->
-      <section class="content-section fade-in">
-        <div class="section-header">
-          <div class="section-icon"></div>
-          <h2 class="section-title">口头传统与非物质文化遗产</h2>
-          <div class="section-decoration"></div>
-        </div>
-        <div class="section-content">
-          <div class="intro-highlight">
-            <span class="highlight-icon"></span>
-            <span class="highlight-text">世界级非物质文化遗产</span>
-          </div>
-          
-          <div class="imakan-section">
-            <h3>伊玛堪（说唱文学）</h3>
-            <div class="status-badges">
-              <span class="badge national">国家级文化遗产</span>
-              <span class="badge unesco">联合国急需保护</span>
-            </div>
-            
-            <p>"伊玛堪"是赫哲族口头史诗，内容涵盖部落战争、萨满信仰、渔猎生活与民俗故事等，被列入中国国家级非物质文化遗产（2006年）与联合国教科文组织急需保护名录（2011年）。</p>
-            
-            <h4>传承人代表</h4>
-            <p>赵文，女，赫哲族，1987年5月出生，黑龙江省交通投资集团乌苏中队职员，抚远市赫哲族伊玛堪艺术团团长，省级伊玛堪传承人。从2010年开始学习伊玛堪说唱，荣获省伊玛堪保护先进个人、2024年黑龙江省最美家庭、佳木斯最美巾帼奋斗者，2024年第四季度"龙江好人"等荣誉。她深耕传统文化传承，创办赫哲族伊玛堪艺术团，培养30余名学员，其中5名成员已被评为县级伊玛堪传承人。积极推进文化遗产进校园活动，免费为乌苏镇赫哲族小学教授赫哲语言说唱课程。在2023年黑龙江省赫哲族伊玛堪传习成果大赛中获得二等奖，2024年成为黑龙江省第七批省级非物质文化遗产代表性传承人。她以"小人物"传播大能量，点亮文化传承之光，让古老的赫哲族文化在新时代焕发生机与活力。</p>
-            
-            <h4>保护意义</h4>
-            <p>推动语言保护与说唱艺术传承</p>
-          </div>
-        </div>
-      </section>
+     
       <!-- 地方志与生态记录 -->
       <section class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
-          <h2 class="section-title">地方志与生态记录</h2>
+          <h2 class="section-title">《抚远赫哲族鱼文化系统》</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
@@ -236,32 +207,10 @@
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
-          <div class="intro-highlight">
-            <span class="highlight-icon"></span>
-            <span class="highlight-text">历经磨难，逐步恢复</span>
-          </div>
-          <p class="content-text">赫哲族在遭遇过多次人口剧减的历史灾难。</p>
+
           
           <div class="historical-population">
             <h3 class="subsection-title">历史人口变迁</h3>
-            <div class="population-timeline">
-              <div class="population-period">
-                <span class="period-label">康熙末年</span>
-                <span class="period-data">2398户，约1.2万多人</span>
-              </div>
-              <div class="population-period">
-                <span class="period-label">咸丰年间（1856-1857）</span>
-                <span class="period-data">5016人</span>
-              </div>
-              <div class="population-period">
-                <span class="period-label">民国初年</span>
-                <span class="period-data">约1600人</span>
-              </div>
-              <div class="population-period critical">
-                <span class="period-label">1945年日本战败投降时</span>
-                <span class="period-data">仅剩300余人，濒于灭绝</span>
-              </div>
-            </div>
           </div>
           
           <div class="modern-population">
@@ -314,13 +263,6 @@
                 <div class="population-count">5,373人</div>
                 <div class="population-note">最新统计</div>
                 <div class="population-bar" style="width: 100%;"></div>
-              </div>
-            </div>
-            
-            <div class="population-summary">
-              <div class="summary-item">
-                <span class="summary-label">从濒危到恢复</span>
-                <span class="summary-value">增长17.9倍</span>
               </div>
               <div class="summary-item">
                 <span class="summary-label">主要分布</span>
@@ -421,13 +363,9 @@
                 <div class="activity-icon"></div>
                 <h3 class="activity-title">现代发展</h3>
               </div>
-              <p class="activity-description">改革开放后，赫哲族地区坚持"以渔业为主、粮食自给、多种经营"，经济得到了恢复和发展。赫哲族成功地实现了由渔猎民族向农业民族的历史性跨越，以种植业为主导产业的多元经济格局初步形成。</p>
+              <p class="activity-description">现今，赫哲族地区坚持"以渔业为主、粮食自给、多种经营"，经济得到了恢复和发展。赫哲族成功地实现了由渔猎民族向农业民族的历史性跨越，以种植业为主导产业的多元经济格局初步形成。</p>
               
               <div class="modern-developments">
-                <div class="development-item">
-                  <div class="development-icon"></div>
-                  <div class="development-text">由渔猎民族向农业民族的历史性跨越</div>
-                </div>
                 <div class="development-item">
                   <div class="development-icon"></div>
                   <div class="development-text">以种植业为主导产业的多元经济格局</div>
@@ -446,75 +384,7 @@
         </div>
       </section>
 
-      <!-- 文化信仰 -->
-      <section class="content-section fade-in">
-        <div class="section-header">
-          <div class="section-icon"></div>
-          <h2 class="section-title">文化信仰</h2>
-          <div class="section-decoration"></div>
-        </div>
-        <div class="section-content">
-          <div class="intro-highlight">
-            <span class="highlight-icon"></span>
-            <span class="highlight-text">万物有灵的原始信仰</span>
-          </div>
-          <p class="content-text">新中国成立以前，赫哲人普遍存在图腾崇拜、自然崇拜、灵物崇拜、鬼神崇拜和祖先崇拜等原始崇拜及萨满教信仰。万物有灵论构成了赫哲人原始崇拜和原始宗教信仰的基础。</p>
-          
-          <div class="belief-systems">
-            <div class="belief-section">
-              <div class="belief-header">
-                <div class="belief-icon"></div>
-                <h3 class="belief-title">图腾崇拜</h3>
-              </div>
-              <p class="belief-description">过去赫哲族有熊图腾和虎图腾崇拜的痕迹。赫哲族在猎杀和食用熊、虎肉后，都有谢罪等仪式或举动。</p>
-              
-              <div class="totem-grid">
-                <div class="totem-item">
-                  <div class="totem-symbol"></div>
-                  <div class="totem-name">熊图腾</div>
-                  <div class="totem-meaning">山神的化身</div>
-                  <div class="totem-description">被认为是山林的守护神，猎杀后需要进行谢罪仪式</div>
-                </div>
-                
-                <div class="totem-item">
-                  <div class="totem-symbol"></div>
-                  <div class="totem-name">虎图腾</div>
-                  <div class="totem-meaning">勇猛和力量的象征</div>
-                  <div class="totem-description">代表着勇敢、威武和不可战胜的精神力量</div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="belief-section">
-              <div class="belief-header">
-                <div class="belief-icon"></div>
-                <h3 class="belief-title">萨满教</h3>
-              </div>
-              <p class="belief-description">赫哲人萨满教把宇宙分为三界：天神居住之处的上界（天庭）；人类及天神以外的神灵居住之处中界（人间）；亡灵和恶神居住之处下界（阴间）。</p>
-              
-              <div class="world-structure">
-                <div class="world-level upper">
-                  <div class="level-icon">☁️</div>
-                  <div class="level-name">上界（天庭）</div>
-                  <div class="level-description">天神居住之处</div>
-                </div>
-                
-                <div class="world-level middle">
-                  <div class="level-icon"></div>
-                  <div class="level-name">中界（人间）</div>
-                  <div class="level-description">人类及天神以外的神灵居住之处</div>
-                </div>
-                
-                <div class="world-level lower">
-                  <div class="level-icon"></div>
-                  <div class="level-name">下界（阴间）</div>
-                  <div class="level-description">亡灵和恶神居住之处</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <!-- 艺术 -->
       <section class="content-section fade-in">
@@ -569,7 +439,7 @@
             <div class="art-section">
               <div class="art-header">
                 <div class="art-icon"></div>
-                <h3 class="art-title">文学</h3>
+                <h3 class="art-title">民间文学</h3>
               </div>
               
               <div class="literature-types">
@@ -635,7 +505,7 @@
               <div class="imakan-highlight">
                 <div class="imakan-header">
                   <div class="imakan-icon"></div>
-                  <h4 class="imakan-title">伊玛堪 - 最具影响力的文学形式</h4>
+                  <h4 class="imakan-title">伊玛堪 - 最具影响力的民间文学形式</h4>
                 </div>
                 
                 <div class="imakan-features">
