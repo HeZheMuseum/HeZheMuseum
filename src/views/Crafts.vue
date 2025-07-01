@@ -1,5 +1,5 @@
 <template>
-  <div class="crafts">
+  <div class="crafts d-flex flex-column align-center">
     <div class="container">
       <h1 class="page-title">赫哲族制作工艺</h1>
       
@@ -146,28 +146,26 @@
           <h3>制作工具</h3>
           <div class="tools-list">
             <div class="tool-item">
-              <div class="tool-icon"></div>
+
               <div class="tool-content">
                 <h4>刮皮刀</h4>
                 <p>用于刮除鱼皮上的鳞片和杂质</p>
               </div>
             </div>
             <div class="tool-item">
-              <div class="tool-icon">🪡</div>
               <div class="tool-content">
                 <h4>骨针</h4>
                 <p>用动物骨头制作的针，用于缝制</p>
               </div>
             </div>
             <div class="tool-item">
-              <div class="tool-icon"></div>
+
               <div class="tool-content">
                 <h4>木铡刀</h4>
                 <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
               </div>
             </div>
             <div class="tool-item">
-              <div class="tool-icon">✂️</div>
               <div class="tool-content">
                 <h4>裁剪工具</h4>
                 <p>用于裁剪鱼皮的各种工具</p>

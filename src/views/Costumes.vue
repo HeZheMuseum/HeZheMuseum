@@ -1,5 +1,5 @@
 <template>
-  <div class="costumes">
+  <div class="costumes d-flex flex-column align-center">
     <div class="container">
       <h1 class="page-title">赫哲族传统服饰</h1>
       

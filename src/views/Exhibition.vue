@@ -1,5 +1,5 @@
 <template>
-  <div class="exhibition">
+  <div class="exhibition d-flex flex-column align-center">
     <div class="container">
       <h1 class="page-title">作品展示区</h1>
       

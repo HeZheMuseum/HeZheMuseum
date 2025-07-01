@@ -1,5 +1,5 @@
 <template>
-  <div class="map-page">
+  <div class="map-page d-flex flex-column align-center">
     <div class="page-background"></div>
     <div class="container">
       <!-- 页面标题区域 -->
