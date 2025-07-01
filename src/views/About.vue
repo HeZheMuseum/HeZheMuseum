@@ -4,8 +4,8 @@
       <!-- 页面标题 -->
       <div class="page-header fade-in">
         <div class="header-decoration"></div>
-        <h1 class="page-title">赫哲族数字博物馆</h1>
-        <p class="header-subtitle">探索中国北方古老渔猎民族的文化瑰宝</p>
+        <h1 class="page-title">抚远市非物质文化遗产数字博物馆</h1>
+        <p class="header-subtitle">首期将聚焦国家级非物质文化遗产代表性项目——赫哲族鱼皮制作技艺</p>
         <div class="header-ornament">
           <span class="ornament-line"></span>
           <span class="ornament-center">❋</span>
@@ -19,16 +19,16 @@
         <section class="main-section fade-in" @click="navigateToSection('introduction')">
           <div class="section-background"></div>
           <div class="section-icon">
-            <span class="icon-symbol">🏛️</span>
+            <span class="icon-symbol"></span>
             <div class="icon-glow"></div>
           </div>
           <div class="section-content">
             <h2 class="section-title">赫哲族介绍</h2>
             <p class="section-description">深入了解赫哲族的历史渊源、民族概况、文化特色和现代发展</p>
             <div class="section-features">
-              <span class="feature-tag">📹 实地考察调研纪实</span>
-              <span class="feature-tag">📚 民族历史文化</span>
-              <span class="feature-tag">🌟 现代发展状况</span>
+              <span class="feature-tag">实地考察调研纪实</span>
+              <span class="feature-tag">民族历史文化</span>
+              <span class="feature-tag">现代发展状况</span>
             </div>
           </div>
           <div class="section-arrow">
@@ -41,16 +41,16 @@
         <section class="main-section fade-in" @click="navigateToSection('crafts')">
           <div class="section-background"></div>
           <div class="section-icon">
-            <span class="icon-symbol">🎨</span>
+            <span class="icon-symbol"></span>
             <div class="icon-glow"></div>
           </div>
           <div class="section-content">
             <h2 class="section-title">制作工艺</h2>
             <p class="section-description">探索赫哲族传统手工艺的精湛技艺和制作流程</p>
             <div class="section-features">
-              <span class="feature-tag">🐟 鱼皮制作工艺</span>
-              <span class="feature-tag">🎬 工艺视频介绍</span>
-              <span class="feature-tag">📋 制作步骤详解</span>
+              <span class="feature-tag">鱼皮制作工艺</span>
+              <span class="feature-tag">工艺视频介绍</span>
+              <span class="feature-tag">制作步骤详解</span>
             </div>
           </div>
           <div class="section-arrow">
@@ -63,16 +63,16 @@
         <section class="main-section fade-in" @click="navigateToSection('exhibitions')">
           <div class="section-background"></div>
           <div class="section-icon">
-            <span class="icon-symbol">🖼️</span>
+            <span class="icon-symbol"></span>
             <div class="icon-glow"></div>
           </div>
           <div class="section-content">
             <h2 class="section-title">作品展示区</h2>
             <p class="section-description">欣赏赫哲族传统工艺品和现代传承创新作品</p>
             <div class="section-features">
-              <span class="feature-tag">🏺 传统工艺品</span>
-              <span class="feature-tag">✨ 现代创新作品</span>
-              <span class="feature-tag">🎭 动态效果展示</span>
+              <span class="feature-tag">传统工艺品</span>
+              <span class="feature-tag">现代创新作品</span>
+              <span class="feature-tag">动态效果展示</span>
             </div>
           </div>
           <div class="section-arrow">
@@ -85,16 +85,16 @@
         <section class="main-section fade-in" @click="navigateToSection('costumes')">
           <div class="section-background"></div>
           <div class="section-icon">
-            <span class="icon-symbol">👘</span>
+            <span class="icon-symbol"></span>
             <div class="icon-glow"></div>
           </div>
           <div class="section-content">
             <h2 class="section-title">赫哲族传统服饰</h2>
             <p class="section-description">领略赫哲族绚丽多彩的传统服饰文化和穿着艺术</p>
             <div class="section-features">
-              <span class="feature-tag">👗 传统服饰介绍</span>
-              <span class="feature-tag">📸 服饰图片展示</span>
-              <span class="feature-tag">💎 文化内涵解读</span>
+              <span class="feature-tag">传统服饰介绍</span>
+              <span class="feature-tag">服饰图片展示</span>
+              <span class="feature-tag">文化内涵解读</span>
             </div>
           </div>
           <div class="section-arrow">

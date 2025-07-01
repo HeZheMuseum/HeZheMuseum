@@ -18,8 +18,8 @@
       <!-- 图片覆盖层内容 -->
       <div class="image-overlay" :class="{ 'visible': imageLoaded }">
         <div class="overlay-content fade-in-up">
-          <h1 class="welcome-title">欢迎来到抚远市文化遗产数字博物馆</h1>
-          <p class="welcome-subtitle">探索中国北方古老渔猎民族的文化瑰宝</p>
+          <h1 class="welcome-title">欢迎来到抚远市非物质文化遗产数字博物馆</h1>
+          <p class="welcome-subtitle">首期将聚焦国家级非物质文化遗产代表性项目——赫哲族鱼皮制作技艺</p>
           <div class="welcome-actions">
             <router-link to="/about" class="btn btn-primary">
               开始探索
@@ -45,7 +45,7 @@
         <div class="quick-nav-list">
           <router-link to="/introduction" class="quick-nav-item">
             <div class="nav-content">
-              <div class="nav-icon">🏛️</div>
+              <div class="nav-icon"></div>
               <div class="nav-info">
                 <h3>赫哲族介绍</h3>
                 <p>了解赫哲族的历史文化</p>
@@ -56,7 +56,7 @@
           
           <router-link to="/crafts" class="quick-nav-item">
             <div class="nav-content">
-              <div class="nav-icon">🎨</div>
+              <div class="nav-icon"></div>
               <div class="nav-info">
                 <h3>制作工艺</h3>
                 <p>探索传统手工艺技术</p>
@@ -67,7 +67,7 @@
           
           <router-link to="/exhibition" class="quick-nav-item">
             <div class="nav-content">
-              <div class="nav-icon">🖼️</div>
+              <div class="nav-icon"></div>
               <div class="nav-info">
                 <h3>作品展示</h3>
                 <p>欣赏精美的传统作品</p>
@@ -78,7 +78,7 @@
           
           <router-link to="/costumes" class="quick-nav-item">
             <div class="nav-content">
-              <div class="nav-icon">👘</div>
+              <div class="nav-icon"></div>
               <div class="nav-info">
                 <h3>传统服饰</h3>
                 <p>领略绚丽的服饰文化</p>

@@ -6,49 +6,10 @@
       <!-- 服饰概述 -->
       <section class="content-section">
         <h2>服饰概述</h2>
-        <p>历史上，赫哲人的服饰、被褥等用鱼、兽皮制作。居住在混同江沿岸、同江勤得利以上至松花江下游的赫哲人，主要用狍皮、鹿皮做衣料，只有靰鞡、套裤用鱼皮。勤得利以下至混同江下游、乌苏里江一带的赫哲人多以鱼皮做衣服。</p>
+        <p>历史上，赫哲人的服饰、被褥等用鱼、兽皮制作。历史上，赫哲人的服饰常用鱼、兽皮制作。居住在三江流域的赫哲人，主要用狍皮、鹿皮做衣料，只有靰鞡、套裤用鱼皮。勤得利以下至混同江下游、乌苏里江一带的赫哲人多以鱼皮做衣服。</p>
         <p>布匹虽然很早就传入赫哲人地区，但真正流行于清末。"男以皮为帽，冬则貂帽狐裘。妇女帽如兜鹜，衣服多用鱼皮，而缘以色布，边缀铜铃"，说的就是当时赫哲人的服饰状况。</p>
       </section>
 
-      <!-- 兽皮服饰 -->
-      <section class="content-section">
-        <h2>兽皮服饰</h2>
-        <div class="costume-list">
-          <div class="costume-text-item">
-            <h3>狍（鹿）皮大衣</h3>
-            <p>冬季穿的衣裤用"成皮"缝制，绒毛多，皮板厚，暖和而耐用。</p>
-          </div>
-          
-          <div class="costume-text-item">
-            <h3>狍头皮帽子</h3>
-            <p>用狍头皮制作的帽子，保暖性能极佳，是赫哲人冬季必备的头部装饰。</p>
-          </div>
-          
-          <div class="costume-text-item">
-            <h3>手闷子</h3>
-            <p>用兽皮制作的手套，在严寒的冬季保护双手不受冻伤。</p>
-          </div>
-          
-          <div class="costume-text-item">
-            <h3>靰鞡</h3>
-            <p>用兽皮或鱼皮制作的鞋子，轻便耐用，适合在雪地中行走。</p>
-          </div>
-        </div>
-        
-        <div class="seasonal-info">
-          <h3>季节性服饰</h3>
-          <div class="season-cards">
-            <div class="season-card">
-              <h4>冬季</h4>
-              <p>穿"成皮"缝制的衣裤，绒毛多，皮板厚，暖和而耐用。</p>
-            </div>
-            <div class="season-card">
-              <h4>春夏秋</h4>
-              <p>穿初冬皮、大秋皮和夏季皮（红杠子皮）做成的衣裤，毛短，较凉爽。</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- 鱼皮服饰 -->
       <section class="content-section">
@@ -799,38 +760,7 @@ onMounted(() => {
   }
 }
 
-/* 兽皮服饰文字列表 */
-.costume-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.costume-text-item {
-  background: rgba(139, 69, 19, 0.1);
-  padding: 1.5rem;
-  border-radius: 10px;
-  border-left: 4px solid var(--primary-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.costume-text-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-}
-
-.costume-text-item h3 {
-  color: var(--primary-color);
-  margin-bottom: 0.8rem;
-  font-size: 1.3rem;
-}
-
-.costume-text-item p {
-  color: #555;
-  line-height: 1.6;
-  margin: 0;
-}
 
 @keyframes fadeIn {
   from {

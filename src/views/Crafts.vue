@@ -9,14 +9,14 @@
         <p>赫哲族拥有丰富的传统手工艺，这些工艺技术是赫哲人在长期的渔猎生活中积累和发展起来的，体现了他们对自然资源的充分利用和精湛的手工技艺。</p>
         <div class="craft-overview-list">
           <div class="overview-item">
-            <div class="overview-icon">🐟</div>
+            <div class="overview-icon"></div>
             <div class="overview-content">
               <h3>鱼皮工艺</h3>
               <p>世界独有的鱼皮服饰制作技艺</p>
             </div>
           </div>
           <div class="overview-item">
-            <div class="overview-icon">🌳</div>
+            <div class="overview-icon"></div>
             <div class="overview-content">
               <h3>桦皮工艺</h3>
               <p>制作各种生活用具和交通工具</p>
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="overview-item">
-            <div class="overview-icon">🦴</div>
+            <div class="overview-icon"></div>
             <div class="overview-content">
               <h3>骨角工艺</h3>
               <p>利用动物骨角制作工具和装饰品</p>
@@ -152,7 +152,7 @@
           <h3>制作工具</h3>
           <div class="tools-list">
             <div class="tool-item">
-              <div class="tool-icon">🔪</div>
+              <div class="tool-icon"></div>
               <div class="tool-content">
                 <h4>刮皮刀</h4>
                 <p>用于刮除鱼皮上的鳞片和杂质</p>
@@ -166,7 +166,7 @@
               </div>
             </div>
             <div class="tool-item">
-              <div class="tool-icon">🧵</div>
+              <div class="tool-icon"></div>
               <div class="tool-content">
                 <h4>木铡刀</h4>
                 <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>

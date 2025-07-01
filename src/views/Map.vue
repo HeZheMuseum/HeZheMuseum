@@ -6,7 +6,7 @@
       <div class="page-header fade-in">
         <div class="header-decoration">
           <div class="decoration-line"></div>
-          <span class="decoration-icon">🗺️</span>
+          <span class="decoration-icon"></span>
           <div class="decoration-line"></div>
         </div>
         <h1 class="page-title">赫哲族数字博物馆</h1>
@@ -16,12 +16,12 @@
       <!-- 博物馆简介 -->
       <div class="museum-intro fade-in">
         <div class="intro-header">
-          <div class="intro-icon">🏛️</div>
+          <div class="intro-icon"></div>
           <h2 class="intro-title">博物馆简介</h2>
         </div>
         <div class="intro-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🌊</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">三江流域的古老民族</span>
           </div>
           <p class="intro-description">赫哲族是中国北方古老的渔猎民族，主要分布在黑龙江、松花江、乌苏里江流域。本数字博物馆致力于保护和传承赫哲族珍贵的文化遗产，通过现代科技手段展现这个民族独特的历史文化、传统工艺、服饰艺术和生活方式。</p>
@@ -47,9 +47,9 @@
       <div class="map-container fade-in">
         <div class="map-header">
           <h2 class="map-title">
-            <span class="title-icon">🗺️</span>
+            <span class="title-icon"></span>
             文化展览导览图
-            <span class="title-decoration">✨</span>
+            <span class="title-decoration"></span>
           </h2>
           <p class="map-subtitle">点击地图上的展区进入详细介绍</p>
         </div>

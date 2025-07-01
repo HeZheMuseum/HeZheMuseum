@@ -6,15 +6,15 @@
       <!-- 导航栏 -->
       <nav class="navigation">
         <router-link to="/" class="nav-link">
-          <span class="nav-icon">🏠</span>
+          <span class="nav-icon"></span>
           <span class="nav-text">首页</span>
         </router-link>
         <router-link to="/map" class="nav-link">
-          <span class="nav-icon">🗺️</span>
+          <span class="nav-icon"></span>
           <span class="nav-text">文化地图</span>
         </router-link>
         <router-link to="/about" class="nav-link">
-          <span class="nav-icon">📖</span>
+          <span class="nav-icon"></span>
           <span class="nav-text">详细介绍</span>
         </router-link>
       </nav>

@@ -6,7 +6,7 @@
       <div class="page-header fade-in">
         <div class="header-decoration">
           <div class="decoration-line"></div>
-          <span class="decoration-icon">🏛️</span>
+          <span class="decoration-icon"></span>
           <div class="decoration-line"></div>
         </div>
         <h1 class="page-title">赫哲族介绍</h1>
@@ -22,35 +22,30 @@
       <!-- 概览 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">📖</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">概览</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🏛️</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">三江流域的古老民族</span>
           </div>
           <p class="content-text">赫哲族最早以"赫哲"自称见于《清实录》康熙二年（1663）《康熙实录》卷中，官方认可后逐渐形成民族自觉；清代的《皇清职贡图》《钦定满洲源流考》《西伯利东偏纪要》等典籍，详细记录了其分支、服饰、渔猎习俗和地理分布；1934年凌纯声的《松花江下游的赫哲族》奠定了现代民族志研究基础。</p>
           
           <div class="overview-highlights">
             <div class="highlight-card">
-              <div class="highlight-icon-large">📜</div>
+              <div class="highlight-icon-large"></div>
               <h4 class="highlight-title">历史文献记录</h4>
               <p class="highlight-desc">清代官方典籍详细记录族群分支、服饰、渔猎习俗和地理分布</p>
             </div>
             <div class="highlight-card">
-              <div class="highlight-icon-large">🎭</div>
+              <div class="highlight-icon-large"></div>
               <h4 class="highlight-title">文化遗产传承</h4>
-              <p class="highlight-desc">口头史诗"伊玛堪"入选国家及联合国濒危文化遗产名录</p>
+              <p class="highlight-desc">鱼皮制品是赫哲族特有工艺</p>
             </div>
             <div class="highlight-card">
-              <div class="highlight-icon-large">⚔️</div>
-              <h4 class="highlight-title">抗战历史贡献</h4>
-              <p class="highlight-desc">逾130名赫哲青年加入东北抗联并与苏军协作，获斯大林勋章</p>
-            </div>
-            <div class="highlight-card">
-              <div class="highlight-icon-large">🐟</div>
+              <div class="highlight-icon-large"></div>
               <h4 class="highlight-title">生态文化智慧</h4>
               <p class="highlight-desc">"抚远赫哲族鱼文化系统"揭示生态与技艺智慧</p>
             </div>
@@ -61,20 +56,20 @@
       <!-- 古代史籍与官方文献 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">📜</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">古代史籍与官方文献</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">📚</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">清代官方档案的详实记录</span>
           </div>
           
           <div class="document-grid">
             <div class="document-card">
               <div class="document-header">
-                <div class="document-icon">📋</div>
+                <div class="document-icon"></div>
                 <h4 class="document-title">《清实录》</h4>
                 <span class="document-date">康熙二年（1663年）</span>
               </div>
@@ -83,7 +78,7 @@
             
             <div class="document-card">
               <div class="document-header">
-                <div class="document-icon">🎨</div>
+                <div class="document-icon"></div>
                 <h4 class="document-title">《皇清职贡图》</h4>
                 <span class="document-date">乾隆时期</span>
               </div>
@@ -92,7 +87,7 @@
              
              <div class="document-card">
                <div class="document-header">
-                 <div class="document-icon">📖</div>
+                 <div class="document-icon"></div>
                  <h4 class="document-title">《钦定满洲源流考》</h4>
                  <span class="document-date">乾隆四十二年（1777年）</span>
                </div>
@@ -101,7 +96,7 @@
              
              <div class="document-card">
                <div class="document-header">
-                 <div class="document-icon">🗺️</div>
+                 <div class="document-icon"></div>
                  <h4 class="document-title">《西伯利东偏纪要》</h4>
                  <span class="document-date">光绪十一年（1885年）</span>
                </div>
@@ -114,13 +109,13 @@
       <!-- 民族志与现代学术研究 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🔬</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">民族志与现代学术研究</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">📚</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">现代民族志研究的奠基与发展</span>
           </div>
           
@@ -155,20 +150,20 @@
       <!-- 口头传统与非物质文化遗产 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🎭</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">口头传统与非物质文化遗产</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🏆</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">世界级非物质文化遗产</span>
           </div>
           
           <div class="heritage-grid">
             <div class="heritage-card main">
               <div class="heritage-header">
-                <div class="heritage-icon">📖</div>
+                <div class="heritage-icon"></div>
                 <h4 class="heritage-title">伊玛堪（说唱文学）</h4>
                 <div class="heritage-badges">
                   <span class="heritage-badge national">国家级文化遗产</span>
@@ -192,7 +187,7 @@
             
             <div class="heritage-card">
               <div class="heritage-header">
-                <div class="heritage-icon">🎨</div>
+                <div class="heritage-icon"></div>
                 <h4 class="heritage-title">鱼皮制作技艺与图案艺术</h4>
               </div>
               <p class="heritage-desc">抚远地区赫哲族以鱼皮画记录四季渔猎场景，典型如《赫哲百态图》，融合满族剪裁与汉族纹饰，被誉为"北方渔猎文化的视觉载体"。</p>
@@ -210,14 +205,14 @@
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🎖️</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">英勇抗战的民族精神</span>
           </div>
           
           <div class="war-history">
             <div class="war-section">
               <div class="war-header">
-                <div class="war-icon">🛡️</div>
+                <div class="war-icon"></div>
                 <h4 class="war-title">赫哲族抗日义勇军</h4>
               </div>
               <p class="war-desc">抗战期间，逾130名赫哲族青壮年相继加入东北抗日义勇军、抗联教导旅等队伍，并积极支援苏联红军侦察行动。</p>
@@ -236,18 +231,18 @@
             
             <div class="war-section">
               <div class="war-header">
-                <div class="war-icon">🏅</div>
+                <div class="war-icon"></div>
                 <h4 class="war-title">苏联勋章获颁</h4>
               </div>
               <p class="war-desc">以董贵福为代表的赫哲族侦察员获颁"斯大林奖章""朱可夫勋章"等苏联军事荣誉，彰显其抗战贡献与跨国民族合作史。</p>
               
               <div class="honor-list">
                 <div class="honor-item">
-                  <span class="honor-medal">🏆</span>
+                  <span class="honor-medal"></span>
                   <span class="honor-name">斯大林奖章</span>
                 </div>
                 <div class="honor-item">
-                  <span class="honor-medal">🎖️</span>
+                  <span class="honor-medal"></span>
                   <span class="honor-name">朱可夫勋章</span>
                 </div>
               </div>
@@ -259,20 +254,20 @@
       <!-- 地方志与生态记录 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🌿</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">地方志与生态记录</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🐟</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">国家重要农业文化遗产</span>
           </div>
           
           <div class="ecology-grid">
             <div class="ecology-card featured">
               <div class="ecology-header">
-                <div class="ecology-icon">🏆</div>
+                <div class="ecology-icon"></div>
                 <h4 class="ecology-title">《抚远赫哲族鱼文化系统》</h4>
                 <span class="ecology-badge">国家重要农业文化遗产</span>
               </div>
@@ -280,15 +275,15 @@
               
               <div class="ecology-features">
                 <div class="feature-item">
-                  <span class="feature-icon">🥚</span>
+                  <span class="feature-icon"></span>
                   <span class="feature-text">鲟鳇鱼活体取卵技术</span>
                 </div>
                 <div class="feature-item">
-                  <span class="feature-icon">🌱</span>
+                  <span class="feature-icon"></span>
                   <span class="feature-text">四季人工孵化智慧</span>
                 </div>
                 <div class="feature-item">
-                  <span class="feature-icon">📅</span>
+                  <span class="feature-icon"></span>
                   <span class="feature-text">二十四节气捕鱼谚语</span>
                 </div>
               </div>
@@ -296,7 +291,7 @@
             
             <div class="ecology-card">
               <div class="ecology-header">
-                <div class="ecology-icon">📚</div>
+                <div class="ecology-icon"></div>
                 <h4 class="ecology-title">地方档案与社会变迁</h4>
               </div>
               <p class="ecology-desc">《同江革命斗争史》等地方志档案统计，抗战时期130余名赫哲族青年参军，为研究民族地区的红色记忆提供了重要资料。</p>
@@ -310,13 +305,13 @@
       <!-- 人口 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">👥</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">人口</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">📊</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">历经磨难，逐步恢复</span>
           </div>
           <p class="content-text">赫哲族在遭遇过多次人口剧减的历史灾难。</p>
@@ -413,13 +408,13 @@
       <!-- 经济 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🎣</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">经济</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🐟</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">素有"鱼皮部"之称</span>
           </div>
           <p class="content-text">赫哲族是一个渔猎民族，并且是北方少数民族中惟一曾以渔业为主的民族。</p>
@@ -427,7 +422,7 @@
           <div class="economic-activities">
             <div class="activity-section">
               <div class="activity-header">
-                <div class="activity-icon">🎣</div>
+                <div class="activity-icon"></div>
                 <h3 class="activity-title">传统渔业</h3>
               </div>
               <p class="activity-description">赫哲族在春、秋、冬三季捕鱼。从开江的"谷雨"到"小满"的一个多月时间为春季鱼汛期，是网捕的好季节。端午节前后，为捕捞鲟鱼、鳇鱼的旺季。从"白露"开始为秋季鱼汛期，是捕获大马哈鱼(鲑)的好季节。</p>
@@ -435,7 +430,7 @@
               <div class="activity-details">
                 <div class="detail-group">
                   <div class="detail-label">
-                    <span class="detail-icon">🐟</span>
+                    <span class="detail-icon"></span>
                     <span>主要鱼类</span>
                   </div>
                   <div class="detail-items">
@@ -449,7 +444,7 @@
                 
                 <div class="detail-group">
                   <div class="detail-label">
-                    <span class="detail-icon">🌊</span>
+                    <span class="detail-icon"></span>
                     <span>捕鱼季节</span>
                   </div>
                   <div class="detail-items">
@@ -463,7 +458,7 @@
             
             <div class="activity-section">
               <div class="activity-header">
-                <div class="activity-icon">🏹</div>
+                <div class="activity-icon"></div>
                 <h3 class="activity-title">狩猎活动</h3>
               </div>
               <p class="activity-description">狩猎是过去赫哲人的另一项主要经济来源。居住在松花江流域的赫哲人，主要以鹿和各种细毛兽为猎取对象；居住在乌苏里江流域的赫哲人，除鹿和细毛兽外，貂是其主要的猎取对象。</p>
@@ -471,7 +466,7 @@
               <div class="activity-details">
                 <div class="detail-group">
                   <div class="detail-label">
-                    <span class="detail-icon">🦌</span>
+                    <span class="detail-icon"></span>
                     <span>主要猎物</span>
                   </div>
                   <div class="detail-items">
@@ -485,7 +480,7 @@
                 
                 <div class="detail-group">
                   <div class="detail-label">
-                    <span class="detail-icon">🗺️</span>
+                    <span class="detail-icon"></span>
                     <span>狩猎区域</span>
                   </div>
                   <div class="detail-items">
@@ -498,26 +493,26 @@
             
             <div class="activity-section modern">
               <div class="activity-header">
-                <div class="activity-icon">🏭</div>
+                <div class="activity-icon"></div>
                 <h3 class="activity-title">现代发展</h3>
               </div>
               <p class="activity-description">改革开放后，赫哲族地区坚持"以渔业为主、粮食自给、多种经营"，经济得到了恢复和发展。赫哲族成功地实现了由渔猎民族向农业民族的历史性跨越，以种植业为主导产业的多元经济格局初步形成。</p>
               
               <div class="modern-developments">
                 <div class="development-item">
-                  <div class="development-icon">📈</div>
+                  <div class="development-icon"></div>
                   <div class="development-text">由渔猎民族向农业民族的历史性跨越</div>
                 </div>
                 <div class="development-item">
-                  <div class="development-icon">🌾</div>
+                  <div class="development-icon"></div>
                   <div class="development-text">以种植业为主导产业的多元经济格局</div>
                 </div>
                 <div class="development-item">
-                  <div class="development-icon">🎣</div>
+                  <div class="development-icon"></div>
                   <div class="development-text">以渔业为主、粮食自给、多种经营</div>
                 </div>
                 <div class="development-item">
-                  <div class="development-icon">🏛️</div>
+                  <div class="development-icon"></div>
                   <div class="development-text">发展民族文化旅游业</div>
                 </div>
               </div>
@@ -529,13 +524,13 @@
       <!-- 文化信仰 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🙏</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">文化信仰</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">✨</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">万物有灵的原始信仰</span>
           </div>
           <p class="content-text">新中国成立以前，赫哲人普遍存在图腾崇拜、自然崇拜、灵物崇拜、鬼神崇拜和祖先崇拜等原始崇拜及萨满教信仰。万物有灵论构成了赫哲人原始崇拜和原始宗教信仰的基础。</p>
@@ -543,21 +538,21 @@
           <div class="belief-systems">
             <div class="belief-section">
               <div class="belief-header">
-                <div class="belief-icon">🐻</div>
+                <div class="belief-icon"></div>
                 <h3 class="belief-title">图腾崇拜</h3>
               </div>
               <p class="belief-description">过去赫哲族有熊图腾和虎图腾崇拜的痕迹。赫哲族在猎杀和食用熊、虎肉后，都有谢罪等仪式或举动。</p>
               
               <div class="totem-grid">
                 <div class="totem-item">
-                  <div class="totem-symbol">🐻</div>
+                  <div class="totem-symbol"></div>
                   <div class="totem-name">熊图腾</div>
                   <div class="totem-meaning">山神的化身</div>
                   <div class="totem-description">被认为是山林的守护神，猎杀后需要进行谢罪仪式</div>
                 </div>
                 
                 <div class="totem-item">
-                  <div class="totem-symbol">🐅</div>
+                  <div class="totem-symbol"></div>
                   <div class="totem-name">虎图腾</div>
                   <div class="totem-meaning">勇猛和力量的象征</div>
                   <div class="totem-description">代表着勇敢、威武和不可战胜的精神力量</div>
@@ -567,7 +562,7 @@
             
             <div class="belief-section">
               <div class="belief-header">
-                <div class="belief-icon">🔮</div>
+                <div class="belief-icon"></div>
                 <h3 class="belief-title">萨满教</h3>
               </div>
               <p class="belief-description">赫哲人萨满教把宇宙分为三界：天神居住之处的上界（天庭）；人类及天神以外的神灵居住之处中界（人间）；亡灵和恶神居住之处下界（阴间）。</p>
@@ -580,13 +575,13 @@
                 </div>
                 
                 <div class="world-level middle">
-                  <div class="level-icon">🌍</div>
+                  <div class="level-icon"></div>
                   <div class="level-name">中界（人间）</div>
                   <div class="level-description">人类及天神以外的神灵居住之处</div>
                 </div>
                 
                 <div class="world-level lower">
-                  <div class="level-icon">🌑</div>
+                  <div class="level-icon"></div>
                   <div class="level-name">下界（阴间）</div>
                   <div class="level-description">亡灵和恶神居住之处</div>
                 </div>
@@ -599,13 +594,13 @@
       <!-- 艺术 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">🎭</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">艺术</h2>
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">🎨</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">丰富的艺术传统</span>
           </div>
           <p class="content-text">赫哲族有着丰富的艺术传统，包括歌舞、文学等多种形式。</p>
@@ -613,32 +608,32 @@
           <div class="art-forms">
             <div class="art-section">
               <div class="art-header">
-                <div class="art-icon">💃</div>
+                <div class="art-icon"></div>
                 <h3 class="art-title">歌舞</h3>
               </div>
                           
               <div class="music-types">
                 <div class="music-item">
-                  <div class="music-icon">🎵</div>
+                  <div class="music-icon"></div>
                   <div class="music-name">嫁令阔</div>
                   <div class="music-description">传统民歌</div>
                 </div>
                 
                 <div class="music-item">
-                  <div class="music-icon">🎶</div>
+                  <div class="music-icon"></div>
                   <div class="music-name">白本初</div>
                   <div class="music-description">传统曲调</div>
                 </div>
                 
                 <div class="music-item">
-                  <div class="music-icon">🎼</div>
+                  <div class="music-icon"></div>
                   <div class="music-name">博布力</div>
                   <div class="music-description">民族音乐</div>
                 </div>
               </div>
               
               <div class="famous-song">
-                <div class="song-icon">🚤</div>
+                <div class="song-icon"></div>
                 <div class="song-info">
                   <div class="song-title">《乌苏里船歌》</div>
                   <div class="song-description">在传统民歌曲调《等阿哥》基础上创作，是赫哲族民间音乐的瑰宝</div>
@@ -648,25 +643,25 @@
             
             <div class="art-section">
               <div class="art-header">
-                <div class="art-icon">📚</div>
+                <div class="art-icon"></div>
                 <h3 class="art-title">文学</h3>
               </div>
               
               <div class="literature-types">
                 <div class="literature-item">
-                  <div class="lit-icon">📜</div>
+                  <div class="lit-icon"></div>
                   <div class="lit-name">特仑固</div>
                   <div class="lit-type">传说</div>
                 </div>
                 
                 <div class="literature-item">
-                  <div class="lit-icon">📝</div>
+                  <div class="lit-icon"></div>
                   <div class="lit-name">说胡力</div>
                   <div class="lit-type">故事</div>
                 </div>
                 
                 <div class="literature-item">
-                  <div class="lit-icon">💬</div>
+                  <div class="lit-icon"></div>
                   <div class="lit-name">赫哲族谚语</div>
                   <div class="lit-type">民间智慧</div>
                 </div>
@@ -674,14 +669,14 @@
               
               <div class="proverb-highlight">
                 <div class="proverb-header">
-                  <div class="proverb-icon">🌟</div>
+                  <div class="proverb-icon"></div>
                   <h4 class="proverb-title">赫哲族谚语 - 生活智慧的结晶</h4>
                 </div>
                 
                 <div class="proverb-features">
                   <div class="proverb-feature">
                     <div class="feature-label">
-                      <span class="label-icon">🎣</span>
+                      <span class="label-icon"></span>
                       <span>渔猎智慧</span>
                     </div>
                     <div class="feature-value">包含二十四节气捕鱼谚语等传统生态知识</div>
@@ -689,7 +684,7 @@
                   
                   <div class="proverb-feature">
                     <div class="feature-label">
-                      <span class="label-icon">🏠</span>
+                      <span class="label-icon"></span>
                       <span>生活哲理</span>
                     </div>
                     <div class="feature-value">体现赫哲族人民的生活经验和人生智慧</div>
@@ -700,13 +695,13 @@
             
             <div class="art-section">
               <div class="art-header">
-                <div class="art-icon">🎭</div>
+                <div class="art-icon"></div>
                 <h3 class="art-title">曲艺</h3>
               </div>
               
               <div class="quyi-types">
                 <div class="quyi-item">
-                  <div class="quyi-icon">📖</div>
+                  <div class="quyi-icon"></div>
                   <div class="quyi-name">伊玛堪</div>
                   <div class="quyi-type">说唱史诗</div>
                 </div>
@@ -714,7 +709,7 @@
               
               <div class="imakan-highlight">
                 <div class="imakan-header">
-                  <div class="imakan-icon">🏆</div>
+                  <div class="imakan-icon"></div>
                   <h4 class="imakan-title">伊玛堪 - 最具影响力的文学形式</h4>
                 </div>
                 
@@ -737,7 +732,7 @@
                   
                   <div class="imakan-feature">
                     <div class="feature-label">
-                      <span class="label-icon">🎭</span>
+                      <span class="label-icon"></span>
                       <span>表现形式</span>
                     </div>
                     <div class="feature-value">说唱结合的民间文学艺术</div>
@@ -752,7 +747,7 @@
       <!-- 著名人物 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon">👑</div>
+          <div class="section-icon"></div>
           <h2 class="section-title">著名人物</h2>
           <div class="section-decoration"></div>
         </div>
@@ -765,7 +760,7 @@
           <div class="famous-people">
             <div class="person-card">
               <div class="person-avatar">
-                <div class="avatar-icon">🎤</div>
+                <div class="avatar-icon"></div>
                 <div class="avatar-glow"></div>
               </div>
               <div class="person-info">
@@ -773,15 +768,15 @@
                 <div class="person-title">流行歌手和演员</div>
                 <p class="person-description">中国流行歌手和演员。曾经是Super Junior唯一的中国成员，善于少数民族的传统舞蹈，是2008年北京奥运会的火炬手。</p>
                 <div class="person-tags">
-                  <span class="person-tag">🎵 歌手</span>
-                  <span class="person-tag">🔥 火炬手</span>
+                  <span class="person-tag">歌手</span>
+                  <span class="person-tag">火炬手</span>
                 </div>
               </div>
             </div>
             
             <div class="person-card">
               <div class="person-avatar">
-                <div class="avatar-icon">🎭</div>
+                <div class="avatar-icon"></div>
                 <div class="avatar-glow"></div>
               </div>
               <div class="person-info">
@@ -789,15 +784,15 @@
                 <div class="person-title">戏剧家、文学家</div>
                 <p class="person-description">赫哲族戏剧家、文学家。创作了《冰山上的来客》、《赫哲人的婚礼》等作品，成功地把赫哲族"伊玛堪"形式运用于话剧创作。</p>
                 <div class="person-tags">
-                  <span class="person-tag">📖 伊玛堪</span>
-                  <span class="person-tag">🎬 戏剧</span>
+                  <span class="person-tag">伊玛堪</span>
+                  <span class="person-tag">戏剧</span>
                 </div>
               </div>
             </div>
             
             <div class="person-card">
               <div class="person-avatar">
-                <div class="avatar-icon">🔬</div>
+                <div class="avatar-icon"></div>
                 <div class="avatar-glow"></div>
               </div>
               <div class="person-info">
@@ -805,15 +800,15 @@
                 <div class="person-title">科学家</div>
                 <p class="person-description">赫哲族科学家，中国科学院研究员。主要从事现代控制和软科学的研究，获得多项国家级科技奖项。</p>
                 <div class="person-tags">
-                  <span class="person-tag">🧪 科学家</span>
-                  <span class="person-tag">🏆 国家奖项</span>
+                  <span class="person-tag">科学家</span>
+                  <span class="person-tag">国家奖项</span>
                 </div>
               </div>
             </div>
             
             <div class="person-card">
               <div class="person-avatar">
-                <div class="avatar-icon">🎵</div>
+                <div class="avatar-icon"></div>
                 <div class="avatar-glow"></div>
               </div>
               <div class="person-info">
@@ -821,15 +816,15 @@
                 <div class="person-title">民歌歌手、伊玛堪演唱家</div>
                 <p class="person-description">赫哲族一代出色的民歌歌手、故事能手和"伊玛堪"演唱家，他说唱的伊玛堪《安徒莫日根》曾获全国优秀民间文学奖。</p>
                 <div class="person-tags">
-                  <span class="person-tag">🎶 民歌</span>
-                  <span class="person-tag">🏅 文学奖</span>
+                  <span class="person-tag">民歌</span>
+                  <span class="person-tag">文学奖</span>
                 </div>
               </div>
             </div>
           </div>
           
           <div class="heritage-note">
-            <div class="note-icon">💎</div>
+            <div class="note-icon"></div>
             <div class="note-text">这些杰出人物为赫哲族文化的传承和发展做出了重要贡献</div>
           </div>
         </div>
