@@ -160,97 +160,23 @@
             <span class="highlight-text">世界级非物质文化遗产</span>
           </div>
           
-          <div class="heritage-grid">
-            <div class="heritage-card main">
-              <div class="heritage-header">
-                <div class="heritage-icon"></div>
-                <h4 class="heritage-title">伊玛堪（说唱文学）</h4>
-                <div class="heritage-badges">
-                  <span class="heritage-badge national">国家级文化遗产</span>
-                  <span class="heritage-badge unesco">联合国急需保护</span>
-                </div>
-              </div>
-              <p class="heritage-desc">"伊玛堪"是赫哲族口头史诗，内容涵盖部落战争、萨满信仰、渔猎生活与民俗故事等，被列入中国国家级非物质文化遗产（2006年）与联合国教科文组织急需保护名录（2011年）。</p>
-              
-              <div class="heritage-details">
-                <div class="detail-item">
-                  <span class="detail-label">传承人代表</span>
-                  <span class="detail-value">赵文，女，赫哲族，1987年5月出生，黑龙江省交通投资集团乌苏中队职员，抚远市赫哲族伊玛堪艺术团团长，省级伊玛堪传承人。从2010年开始学习伊玛堪说唱，荣获省伊玛堪保护先进个人、2024年黑龙江省最美家庭、佳木斯最美巾帼奋斗者，2024年第四季度"龙江好人"等荣誉。她深耕传统文化传承，创办赫哲族伊玛堪艺术团，培养30余名学员，其中5名成员已被评为县级伊玛堪传承人。积极推进文化遗产进校园活动，免费为乌苏镇赫哲族小学教授赫哲语言说唱课程。在2023年黑龙江省赫哲族伊玛堪传习成果大赛中获得二等奖，2024年成为黑龙江省第七批省级非物质文化遗产代表性传承人。她以"小人物"传播大能量，点亮文化传承之光，让古老的赫哲族文化在新时代焕发生机与活力</span>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">保护意义</span>
-                  <span class="detail-value">推动语言保护与说唱艺术传承</span>
-                </div>
-              </div>
-
+          <div class="imakan-section">
+            <h3>伊玛堪（说唱文学）</h3>
+            <div class="status-badges">
+              <span class="badge national">国家级文化遗产</span>
+              <span class="badge unesco">联合国急需保护</span>
             </div>
             
-            <div class="heritage-card">
-              <div class="heritage-header">
-                <div class="heritage-icon"></div>
-                <h4 class="heritage-title">鱼皮制作技艺与图案艺术</h4>
-              </div>
-              <p class="heritage-desc">抚远地区赫哲族以鱼皮画记录四季渔猎场景，典型如《赫哲百态图》，融合满族剪裁与汉族纹饰，被誉为"北方渔猎文化的视觉载体"。</p>
-            </div>
+            <p>"伊玛堪"是赫哲族口头史诗，内容涵盖部落战争、萨满信仰、渔猎生活与民俗故事等，被列入中国国家级非物质文化遗产（2006年）与联合国教科文组织急需保护名录（2011年）。</p>
+            
+            <h4>传承人代表</h4>
+            <p>赵文，女，赫哲族，1987年5月出生，黑龙江省交通投资集团乌苏中队职员，抚远市赫哲族伊玛堪艺术团团长，省级伊玛堪传承人。从2010年开始学习伊玛堪说唱，荣获省伊玛堪保护先进个人、2024年黑龙江省最美家庭、佳木斯最美巾帼奋斗者，2024年第四季度"龙江好人"等荣誉。她深耕传统文化传承，创办赫哲族伊玛堪艺术团，培养30余名学员，其中5名成员已被评为县级伊玛堪传承人。积极推进文化遗产进校园活动，免费为乌苏镇赫哲族小学教授赫哲语言说唱课程。在2023年黑龙江省赫哲族伊玛堪传习成果大赛中获得二等奖，2024年成为黑龙江省第七批省级非物质文化遗产代表性传承人。她以"小人物"传播大能量，点亮文化传承之光，让古老的赫哲族文化在新时代焕发生机与活力。</p>
+            
+            <h4>保护意义</h4>
+            <p>推动语言保护与说唱艺术传承</p>
           </div>
         </div>
       </section>
-
-      <!-- 抗战史料与红色记忆 -->
-      <section class="content-section fade-in">
-        <div class="section-header">
-          <div class="section-icon">⚔️</div>
-          <h2 class="section-title">抗战史料与红色记忆</h2>
-          <div class="section-decoration"></div>
-        </div>
-        <div class="section-content">
-          <div class="intro-highlight">
-            <span class="highlight-icon"></span>
-            <span class="highlight-text">英勇抗战的民族精神</span>
-          </div>
-          
-          <div class="war-history">
-            <div class="war-section">
-              <div class="war-header">
-                <div class="war-icon"></div>
-                <h4 class="war-title">赫哲族抗日义勇军</h4>
-              </div>
-              <p class="war-desc">抗战期间，逾130名赫哲族青壮年相继加入东北抗日义勇军、抗联教导旅等队伍，并积极支援苏联红军侦察行动。</p>
-              
-              <div class="war-stats">
-                <div class="stat-item">
-                  <div class="stat-number">130+</div>
-                  <div class="stat-label">参军青年</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">多项</div>
-                  <div class="stat-label">苏联勋章</div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="war-section">
-              <div class="war-header">
-                <div class="war-icon"></div>
-                <h4 class="war-title">苏联勋章获颁</h4>
-              </div>
-              <p class="war-desc">以董贵福为代表的赫哲族侦察员获颁"斯大林奖章""朱可夫勋章"等苏联军事荣誉，彰显其抗战贡献与跨国民族合作史。</p>
-              
-              <div class="honor-list">
-                <div class="honor-item">
-                  <span class="honor-medal"></span>
-                  <span class="honor-name">斯大林奖章</span>
-                </div>
-                <div class="honor-item">
-                  <span class="honor-medal"></span>
-                  <span class="honor-name">朱可夫勋章</span>
-                </div>
-              </div>
-            </div>
-          </div>
-         </div>
-       </section>
-
       <!-- 地方志与生态记录 -->
       <section class="content-section fade-in">
         <div class="section-header">
@@ -425,7 +351,7 @@
                 <div class="activity-icon"></div>
                 <h3 class="activity-title">传统渔业</h3>
               </div>
-              <p class="activity-description">赫哲族在春、秋、冬三季捕鱼。从开江的"谷雨"到"小满"的一个多月时间为春季鱼汛期，是网捕的好季节。端午节前后，为捕捞鲟鱼、鳇鱼的旺季。从"白露"开始为秋季鱼汛期，是捕获大马哈鱼(鲑)的好季节。</p>
+              <p class="activity-description">赫哲族在春、秋、冬三季捕鱼。从开江的"谷雨"到"小满"的一个多月时间为春季鱼汛期，是网捕的好季节。端午节前后，为捕捞鲟鳇鱼、马哈鱼的旺季。从"白露"开始为秋季鱼汛期，是捕获大马哈鱼(鲑)的好季节。</p>
               
               <div class="activity-details">
                 <div class="detail-group">
@@ -434,8 +360,7 @@
                     <span>主要鱼类</span>
                   </div>
                   <div class="detail-items">
-                    <span class="detail-tag">鲟鱼</span>
-                    <span class="detail-tag">鳇鱼</span>
+                    <span class="detail-tag">鲟鳇鱼、马哈鱼</span>
                     <span class="detail-tag">马哈鱼</span>
                     <span class="detail-tag">鲤鱼</span>
                     <span class="detail-tag">鲫鱼</span>
@@ -747,22 +672,14 @@
       <!-- 著名人物 -->
       <section class="content-section fade-in">
         <div class="section-header">
-          <div class="section-icon"></div>
-          <h2 class="section-title">著名人物</h2>
-          <div class="section-decoration"></div>
-        </div>
-        <div class="section-content">
           <div class="intro-highlight">
-            <span class="highlight-icon">⭐</span>
+            <span class="highlight-icon"></span>
             <span class="highlight-text">文化传承的杰出代表</span>
           </div>
           
           <div class="famous-people">
             <div class="person-card">
-              <div class="person-avatar">
-                <div class="avatar-icon"></div>
-                <div class="avatar-glow"></div>
-              </div>
+
               <div class="person-info">
                 <h3 class="person-name">韩庚</h3>
                 <div class="person-title">流行歌手和演员</div>
@@ -775,10 +692,7 @@
             </div>
             
             <div class="person-card">
-              <div class="person-avatar">
-                <div class="avatar-icon"></div>
-                <div class="avatar-glow"></div>
-              </div>
+
               <div class="person-info">
                 <h3 class="person-name">乌·白辛（1920—1966）</h3>
                 <div class="person-title">戏剧家、文学家</div>
@@ -791,10 +705,7 @@
             </div>
             
             <div class="person-card">
-              <div class="person-avatar">
-                <div class="avatar-icon"></div>
-                <div class="avatar-glow"></div>
-              </div>
+
               <div class="person-info">
                 <h3 class="person-name">毕大川（1938—2012）</h3>
                 <div class="person-title">科学家</div>
@@ -807,10 +718,7 @@
             </div>
             
             <div class="person-card">
-              <div class="person-avatar">
-                <div class="avatar-icon"></div>
-                <div class="avatar-glow"></div>
-              </div>
+
               <div class="person-info">
                 <h3 class="person-name">吴进才</h3>
                 <div class="person-title">民歌歌手、伊玛堪演唱家</div>
@@ -3433,6 +3341,74 @@ onUnmounted(() => {
   }
   
   .ecology-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* 伊玛堪布局样式 */
+.imakan-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border-left: 4px solid #007bff;
+}
+
+.imakan-section h3 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.imakan-section h4 {
+  color: #34495e;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.8rem 0;
+  font-weight: 500;
+}
+
+.imakan-section p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.status-badges {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+}
+
+.badge.national {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+}
+
+.badge.unesco {
+  background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+@media (max-width: 768px) {
+  .imakan-section {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  .imakan-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .imakan-section h4 {
     font-size: 1.2rem;
   }
 }

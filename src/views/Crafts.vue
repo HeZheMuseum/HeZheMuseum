@@ -18,14 +18,7 @@
           <div class="overview-item">
             <div class="overview-icon"></div>
             <div class="overview-content">
-              <h3>桦皮工艺</h3>
-              <p>制作各种生活用具和交通工具</p>
-            </div>
-          </div>
-          <div class="overview-item">
-            <div class="overview-icon">🪵</div>
-            <div class="overview-content">
-              <h3>木雕工艺</h3>
+              <h3>鱼鳞工艺</h3>
               <p>雕刻各种实用和装饰物品</p>
             </div>
           </div>
@@ -60,6 +53,7 @@
               </div>
               <p class="video-title">鱼皮加工工艺</p>
             </div>
+            除鱼皮制作技艺之外，还有如下技艺——
             <div class="video-wrapper">
               <div class="video-frame">
                 <video controls width="100%" class="custom-video">
@@ -101,7 +95,7 @@
               <div class="step-number">1</div>
               <div class="step-content">
                 <h4>选材</h4>
-                <p>选择大型鱼类如鲟鱼、鳇鱼、鲤鱼等的鱼皮，要求皮质厚实、完整无损。</p>
+                <p>选择大型鱼类如鲟鳇鱼、马哈鱼、鲤鱼等的鱼皮，要求皮质厚实、完整无损。</p>
               </div>
             </div>
             
@@ -132,7 +126,7 @@
             <div class="process-step">
               <div class="step-number">5</div>
               <div class="step-content">
-                <h4>软化</h4>
+                <h4>熟制</h4>
                 <p>用特殊方法软化鱼皮，使其柔韧易于加工。</p>
               </div>
             </div>
@@ -183,266 +177,7 @@
         </div>
       </section>
 
-      <!-- 桦皮工艺 -->
-      <section class="content-section">
-        <h2>桦皮工艺</h2>
-        <p>桦皮工艺是赫哲族另一项重要的传统技艺，桦树皮质地轻便、防水耐用，是制作各种生活用具和交通工具的理想材料。</p>
-        
-        <!-- 桦皮工艺视频展示 -->
-        <div class="video-section">
-          <h3>桦皮工艺制作视频</h3>
-          <div class="video-container">
-            <div class="video-wrapper">
-              <div class="video-frame">
-                <video controls width="100%" class="custom-video">
-                  <source src="/Videos/桦树皮画制作工艺.mp4" type="video/mp4">
-                  您的浏览器不支持视频播放。
-                </video>
-                <div class="video-overlay-gradient"></div>
-              </div>
-              <p class="video-title">桦树皮画制作工艺</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="birch-products">
-          <div class="product-category">
-            <h3>桦树皮画艺术</h3>
-            <div class="product-list">
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>桦树皮画</h4>
-                  <p>在桦树皮上绘制各种图案，展现赫哲族的艺术创造力和对自然的理解，是传统工艺与现代艺术的完美结合。</p>
-                </div>
-              </div>
-              
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>桦皮雕刻画</h4>
-                  <p>在桦树皮上雕刻精美图案，通过层次感和立体效果展现赫哲族的传统文化和生活场景。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="product-category">
-            <h3>交通工具</h3>
-            <div class="product-list">
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>桦皮船（乌莫日沉）</h4>
-                  <p>用桦树皮制作的轻便小船，一人即可扛起，划行灵巧，是叉鱼和传递信息的得力助手。</p>
-                </div>
-              </div>
-              
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>快马子（威呼）</h4>
-                  <p>"其快马以桦皮为之，长丈余，宽约二尺，两头渐窄，才容一人，其快如风"。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="product-category">
-            <h3>生活用具</h3>
-            <div class="product-list">
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>桦皮篓</h4>
-                  <p>用于储存和运输各种物品的容器，轻便耐用。</p>
-                </div>
-              </div>
-              
-              <div class="product-item">
-                <div class="product-marker">•</div>
-                <div class="product-content">
-                  <h4>桦皮盒</h4>
-                  <p>用于存放小件物品的精美容器，常有装饰图案。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-
-      </section>
-
-      <!-- 传统生活用具制作 -->
-      <section class="content-section">
-        <h2>传统生活用具制作</h2>
-        <p>赫哲族传统生活用具制作工艺体现了民族智慧和对自然资源的充分利用，这些用具不仅实用，更承载着深厚的文化内涵。</p>
-        
-        <!-- 传统生活用具制作视频展示 -->
-        <div class="video-section">
-          <h3>传统生活用具制作工艺视频</h3>
-          <div class="video-container">
-            <div class="video-wrapper">
-              <div class="video-frame">
-                <video controls width="100%" class="custom-video">
-                  <source src="/Videos/赫哲族传统生活用具制作_x264.mp4" type="video/mp4">
-                  您的浏览器不支持视频播放。
-                </video>
-                <div class="video-overlay-gradient"></div>
-              </div>
-              <p class="video-title">赫哲族传统生活用具制作</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="traditional-tools">
-          <div class="tools-category">
-            <h3>渔猎用具</h3>
-            <div class="tools-list">
-              <div class="tool-detail">
-                <h4>鱼叉</h4>
-                <p>用于叉鱼的重要工具，制作精良，使用灵活。</p>
-              </div>
-              <div class="tool-detail">
-                <h4>渔网</h4>
-                <p>编织精密的渔网，是赫哲族重要的捕鱼工具。</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="tools-category">
-            <h3>生活器具</h3>
-            <div class="tools-list">
-              <div class="tool-detail">
-                <h4>储物容器</h4>
-                <p>用各种材料制作的储物容器，实用美观。</p>
-              </div>
-              <div class="tool-detail">
-                <h4>炊具</h4>
-                <p>传统的烹饪用具，适应渔猎生活需要。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 木雕工艺 -->
-      <section class="content-section">
-        <h2>木雕工艺</h2>
-        <p>赫哲族的木雕工艺主要用于制作各种生活用具、渔猎工具和装饰品，体现了实用性与艺术性的完美结合。</p>
-        
-        <div class="woodwork-categories">
-          <div class="category-item">
-            <h3>实用器具</h3>
-            <ul>
-              <li>木碗、木勺</li>
-              <li>木杓、木盆</li>
-              <li>储物箱</li>
-              <li>渔具配件</li>
-            </ul>
-          </div>
-          
-          <div class="category-item">
-            <h3>装饰品</h3>
-            <ul>
-              <li>图腾雕刻</li>
-              <li>动物造型</li>
-              <li>几何图案</li>
-              <li>宗教用品</li>
-            </ul>
-          </div>
-          
-          <div class="category-item">
-            <h3>工艺特点</h3>
-            <ul>
-              <li>造型简洁</li>
-              <li>线条流畅</li>
-              <li>实用为主</li>
-              <li>自然朴素</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- 骨角工艺 -->
-      <section class="content-section">
-        <h2>骨角工艺</h2>
-        <p>赫哲族充分利用动物的骨头和角，制作各种工具和装饰品，体现了对自然资源的充分利用。</p>
-        
-        <!-- 鱼骨工艺视频展示 -->
-        <div class="video-section">
-          <h3>鱼骨工艺制作视频</h3>
-          <div class="video-container">
-            <div class="video-wrapper">
-              <div class="video-frame">
-                <video controls width="100%" class="custom-video">
-                  <source src="/Videos/鱼骨粘贴画_x264.mp4" type="video/mp4">
-                  您的浏览器不支持视频播放。
-                </video>
-                <div class="video-overlay-gradient"></div>
-              </div>
-              <p class="video-title">鱼骨粘贴画制作技艺</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="bone-craft-grid">
-          <div class="craft-item">
-            <h3>工具类</h3>
-            <div class="item-list">
-              <div class="list-item">
-                <span class="item-name">骨针</span>
-                <span class="item-desc">用于缝制衣物</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">骨刀</span>
-                <span class="item-desc">用于切割和加工</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">鱼钩</span>
-                <span class="item-desc">用动物骨头制作的钓鱼工具</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="craft-item">
-            <h3>装饰类</h3>
-            <div class="item-list">
-              <div class="list-item">
-                <span class="item-name">骨雕</span>
-                <span class="item-desc">雕刻各种图案的装饰品</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">角制品</span>
-                <span class="item-desc">用动物角制作的装饰品</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">护身符</span>
-                <span class="item-desc">用兽牙制作的护身符</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="craft-item">
-            <h3>鱼骨工艺</h3>
-            <div class="item-list">
-              <div class="list-item">
-                <span class="item-name">鱼骨粘贴画</span>
-                <span class="item-desc">用鱼骨制作的装饰画作</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">鱼骨雕刻</span>
-                <span class="item-desc">在鱼骨上雕刻图案</span>
-              </div>
-              <div class="list-item">
-                <span class="item-name">鱼骨饰品</span>
-                <span class="item-desc">用鱼骨制作的各种装饰品</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    
       <!-- 现代传承 -->
       <section class="content-section">
         <h2>现代传承与发展</h2>
@@ -462,20 +197,22 @@
           <div class="development-card">
             <h3>创新发展</h3>
             <ul>
+              <li>提升工艺水平</li>
               <li>融入现代设计</li>
               <li>开发文创产品</li>
               <li>拓展应用领域</li>
-              <li>提升工艺水平</li>
+              
             </ul>
           </div>
           
           <div class="development-card">
             <h3>文化推广</h3>
             <ul>
+              <li>媒体宣传推广</li>
               <li>举办展览活动</li>
               <li>开展文化交流</li>
               <li>发展文化旅游</li>
-              <li>媒体宣传推广</li>
+              
             </ul>
           </div>
         </div>
