@@ -523,74 +523,7 @@
         </div>
       </section>
 
-      <!-- 著名人物 -->
-      <section class="content-section fade-in">
-        <div class="section-header">
-          <div class="intro-highlight">
-            <span class="highlight-icon"></span>
-            <span class="highlight-text">文化传承的杰出代表</span>
-          </div>
-          
-          <div class="famous-people">
-            <div class="person-card">
 
-              <div class="person-info">
-                <h3 class="person-name">韩庚</h3>
-                <div class="person-title">流行歌手和演员</div>
-                <p class="person-description">中国流行歌手和演员。曾经是Super Junior唯一的中国成员，善于少数民族的传统舞蹈，是2008年北京奥运会的火炬手。</p>
-                <div class="person-tags">
-                  <span class="person-tag">歌手</span>
-                  <span class="person-tag">火炬手</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="person-card">
-
-              <div class="person-info">
-                <h3 class="person-name">乌·白辛（1920—1966）</h3>
-                <div class="person-title">戏剧家、文学家</div>
-                <p class="person-description">赫哲族戏剧家、文学家。创作了《冰山上的来客》、《赫哲人的婚礼》等作品，成功地把赫哲族"伊玛堪"形式运用于话剧创作。</p>
-                <div class="person-tags">
-                  <span class="person-tag">伊玛堪</span>
-                  <span class="person-tag">戏剧</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="person-card">
-
-              <div class="person-info">
-                <h3 class="person-name">毕大川（1938—2012）</h3>
-                <div class="person-title">科学家</div>
-                <p class="person-description">赫哲族科学家，中国科学院研究员。主要从事现代控制和软科学的研究，获得多项国家级科技奖项。</p>
-                <div class="person-tags">
-                  <span class="person-tag">科学家</span>
-                  <span class="person-tag">国家奖项</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="person-card">
-
-              <div class="person-info">
-                <h3 class="person-name">吴进才</h3>
-                <div class="person-title">民歌歌手、伊玛堪演唱家</div>
-                <p class="person-description">赫哲族一代出色的民歌歌手、故事能手和"伊玛堪"演唱家，他说唱的伊玛堪《安徒莫日根》曾获全国优秀民间文学奖。</p>
-                <div class="person-tags">
-                  <span class="person-tag">民歌</span>
-                  <span class="person-tag">文学奖</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="heritage-note">
-            <div class="note-icon"></div>
-            <div class="note-text">这些杰出人物为赫哲族文化的传承和发展做出了重要贡献</div>
-          </div>
-        </div>
-      </section>
     </div>
   </div>
 </template>
