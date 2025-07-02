@@ -412,18 +412,6 @@
                   <div class="music-name">嫁令阔</div>
                   <div class="music-description">传统民歌</div>
                 </div>
-                
-                <div class="music-item">
-                  <div class="music-icon"></div>
-                  <div class="music-name">白本初</div>
-                  <div class="music-description">传统曲调</div>
-                </div>
-                
-                <div class="music-item">
-                  <div class="music-icon"></div>
-                  <div class="music-name">博布力</div>
-                  <div class="music-description">民族音乐</div>
-                </div>
               </div>
               
               <div class="famous-song">
