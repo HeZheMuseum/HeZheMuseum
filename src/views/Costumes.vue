@@ -46,7 +46,7 @@
           
           <div class="costume-item">
             <div class="costume-image">
-              <img src="/Images/鱼皮晾晒.webp" alt="鱼皮制作工艺" />
+              <img src="/Images/微信图片_2025-07-02_211148_963.jpg" alt="鱼皮制作工艺" />
             </div>
             <div class="costume-content">
               <div class="costume-header">

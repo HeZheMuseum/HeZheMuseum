@@ -302,7 +302,7 @@
                     <span>主要鱼类</span>
                   </div>
                   <div class="detail-items">
-                    <span class="detail-tag">鲟鳇鱼、马哈鱼</span>
+                    <span class="detail-tag">鲟鳇鱼</span>
                     <span class="detail-tag">马哈鱼</span>
                     <span class="detail-tag">鲤鱼</span>
                     <span class="detail-tag">鲫鱼</span>
@@ -328,7 +328,7 @@
                 <div class="activity-icon"></div>
                 <h3 class="activity-title">狩猎活动</h3>
               </div>
-              <p class="activity-description">狩猎是过去赫哲人的另一项主要经济来源。居住在松花江流域的赫哲人，主要以鹿和各种细毛兽为猎取对象；居住在乌苏里江流域的赫哲人，除鹿和细毛兽外，貂是其主要的猎取对象。</p>
+              <p class="activity-description">狩猎是过去赫哲人的另一项主要经济来源。居住在松花江流域的赫哲人，主要以鹿为猎取对象；居住在乌苏里江流域的赫哲人，除鹿和细毛兽外，貂是其主要的猎取对象。</p>
               
               <div class="activity-details">
                 <div class="detail-group">
@@ -338,7 +338,6 @@
                   </div>
                   <div class="detail-items">
                     <span class="detail-tag">鹿</span>
-                    <span class="detail-tag">细毛兽</span>
                     <span class="detail-tag">貂</span>
                     <span class="detail-tag">野猪</span>
                     <span class="detail-tag">狍子</span>
@@ -511,7 +510,6 @@
                 <div class="imakan-features">
                   <div class="imakan-feature">
                     <div class="feature-label">
-                      <span class="label-icon">⏰</span>
                       <span>篇幅特点</span>
                     </div>
                     <div class="feature-value">长篇说唱，可以连续说唱几天几夜</div>
@@ -519,7 +517,6 @@
                   
                   <div class="imakan-feature">
                     <div class="feature-label">
-                      <span class="label-icon">⚔️</span>
                       <span>主要内容</span>
                     </div>
                     <div class="feature-value">古代氏族社会血亲复仇和部落间的战争</div>
@@ -527,7 +524,6 @@
                   
                   <div class="imakan-feature">
                     <div class="feature-label">
-                      <span class="label-icon"></span>
                       <span>表现形式</span>
                     </div>
                     <div class="feature-value">说唱结合的民间文学艺术</div>
