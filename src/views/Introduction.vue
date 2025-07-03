@@ -41,7 +41,7 @@
             </div>
             <div class="highlight-card">
               <div class="highlight-icon-large"></div>
-              <h4 class="highlight-title">文化遗产传承</h4>
+              <h4 class="highlight-title">非物质文化遗产传承</h4>
               <p class="highlight-desc">鱼皮制品是赫哲族特有工艺</p>
             </div>
             <div class="highlight-card">
@@ -186,13 +186,7 @@
               </div>
             </div>
             
-            <div class="ecology-card">
-              <div class="ecology-header">
-                <div class="ecology-icon"></div>
-                <h4 class="ecology-title">地方档案与社会变迁</h4>
-              </div>
-              <p class="ecology-desc">《同江革命斗争史》等地方志档案统计，抗战时期130余名赫哲族青年参军，为研究民族地区的红色记忆提供了重要资料。</p>
-            </div>
+
           </div>
         </div>
       </section>
@@ -410,7 +404,7 @@
                 <div class="music-item">
                   <div class="music-icon"></div>
                   <div class="music-name">嫁令阔</div>
-                  <div class="music-description">传统民歌</div>
+                  <div class="music-description">传统音乐</div>
                 </div>
               </div>
               

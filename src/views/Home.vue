@@ -70,7 +70,7 @@
               <div class="nav-icon"></div>
               <div class="nav-info">
                 <h3>作品展示</h3>
-                <p>欣赏精美的传统作品</p>
+                <p>欣赏传统与AI的交融</p>
               </div>
             </div>
             <div class="nav-arrow">→</div>
