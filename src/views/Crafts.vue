@@ -1,7 +1,7 @@
 <template>
   <div class="crafts d-flex flex-column align-center">
     <div class="container">
-      <h1 class="page-title">赫哲族制作工艺</h1>
+      <h1 class="page-title">赫哲族传统制作工艺</h1>
       
       <!-- 工艺概述 -->
       <section class="content-section">
@@ -11,21 +11,21 @@
           <div class="overview-item">
             <div class="overview-icon"></div>
             <div class="overview-content">
-              <h3>鱼皮工艺</h3>
+              <h3>鱼皮制作工艺</h3>
               <p>世界独有的鱼皮服饰制作技艺</p>
             </div>
           </div>
           <div class="overview-item">
             <div class="overview-icon"></div>
             <div class="overview-content">
-              <h3>鱼鳞工艺</h3>
+              <h3>鱼鳞制作工艺</h3>
               <p>雕刻各种实用和装饰物品</p>
             </div>
           </div>
           <div class="overview-item">
             <div class="overview-icon"></div>
             <div class="overview-content">
-              <h3>骨角工艺</h3>
+              <h3>骨角制作工艺</h3>
               <p>利用动物骨角制作工具和装饰品</p>
             </div>
           </div>
@@ -36,12 +36,12 @@
       <section class="content-section">
         <h2>鱼皮制作工艺</h2>
         <div class="craft-intro">
-          <p>鱼皮制作是赫哲族最具特色的传统工艺，被誉为"世界上唯一的鱼皮服饰文化"。这项技艺需要经过复杂的工序，体现了赫哲人的智慧和技艺。</p>
+          <p>鱼皮制作是赫哲族最具特色的传统工艺，被誉为"国内唯一的鱼皮服饰文化"。这项技艺需要经过复杂的工序，体现了赫哲人的智慧和技艺。</p>
         </div>
         
         <!-- 工艺视频展示 -->
         <div class="video-section">
-          <h3>鱼皮制作工艺视频</h3>
+          <h3>赫哲族鱼皮制作技艺视频</h3>
           <div class="video-container">
             <div class="video-wrapper">
               <div class="video-frame">
@@ -53,6 +53,92 @@
               </div>
               <p class="video-title">鱼皮加工工艺</p>
             </div>
+            
+            <!-- 制作工艺流程 -->
+            <div class="process-section">
+              <h3>制作工艺流程</h3>
+              <div class="process-timeline">
+                <div class="process-step">
+                  <div class="step-number">1</div>
+                  <div class="step-content">
+                    <h4>选材</h4>
+                    <p>选择大型鱼类如鲟鳇鱼、马哈鱼、鲤鱼等的鱼皮，要求皮质厚实、完整无损。</p>
+                  </div>
+                </div>
+                
+                <div class="process-step">
+                  <div class="step-number">2</div>
+                  <div class="step-content">
+                    <h4>剥皮</h4>
+                    <p>小心剥取鱼皮，保持皮张的完整性，避免破损。</p>
+                  </div>
+                </div>
+                
+                <div class="process-step">
+                  <div class="step-number">3</div>
+                  <div class="step-content">
+                    <h4>清洗</h4>
+                    <p>用清水反复清洗鱼皮，去除鱼鳞、血污和杂质。</p>
+                  </div>
+                </div>
+                
+                <div class="process-step">
+                  <div class="step-number">4</div>
+                  <div class="step-content">
+                    <h4>晾晒</h4>
+                    <p>将清洗干净的鱼皮摊开晾晒，使其自然干燥。</p>
+                  </div>
+                </div>
+                
+                <div class="process-step">
+                  <div class="step-number">5</div>
+                  <div class="step-content">
+                    <h4>熟制</h4>
+                    <p>用特殊方法软化鱼皮，使其柔韧易于加工。</p>
+                  </div>
+                </div>
+                
+                <div class="process-step">
+                  <div class="step-number">6</div>
+                  <div class="step-content">
+                    <h4>裁剪缝制</h4>
+                    <p>按照服装样式裁剪鱼皮，用传统针法缝制成衣。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- 制作工具 -->
+            <div class="tools-section">
+              <h3>制作工具</h3>
+              <div class="tools-list">
+                <div class="tool-item">
+                  <div class="tool-content">
+                    <h4>刮皮刀</h4>
+                    <p>用于刮除鱼皮上的鳞片和杂质</p>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-content">
+                    <h4>骨针</h4>
+                    <p>用动物骨头制作的针，用于缝制</p>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-content">
+                    <h4>木铡刀</h4>
+                    <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-content">
+                    <h4>裁剪工具</h4>
+                    <p>用于裁剪鱼皮的各种工具</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             除鱼皮制作技艺之外，还有如下技艺——
             <div class="video-wrapper">
               <div class="video-frame">
@@ -86,96 +172,130 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- 鱼鳞制作工艺 -->
+      <section class="content-section">
+        <h2>鱼鳞制作工艺</h2>
+        <div class="craft-intro">
+          <p>鱼鳞画是赫哲族独特的艺术形式，利用鱼鳞的天然纹理和光泽，粘贴成各种精美的图案，内容多为花鸟鱼虫和人物故事。</p>
+        </div>
         
-        <!-- 制作步骤 -->
-        <div class="process-section">
-          <h3>制作工艺流程</h3>
-          <div class="process-timeline">
-            <div class="process-step">
-              <div class="step-number">1</div>
-              <div class="step-content">
-                <h4>选材</h4>
-                <p>选择大型鱼类如鲟鳇鱼、马哈鱼、鲤鱼等的鱼皮，要求皮质厚实、完整无损。</p>
+        <!-- 工艺视频展示 -->
+        <div class="video-section">
+          <h3>鱼鳞画制作技艺视频</h3>
+          <div class="video-container">
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/鱼鳞画.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
               </div>
-            </div>
-            
-            <div class="process-step">
-              <div class="step-number">2</div>
-              <div class="step-content">
-                <h4>剥皮</h4>
-                <p>小心剥取鱼皮，保持皮张的完整性，避免破损。</p>
-              </div>
-            </div>
-            
-            <div class="process-step">
-              <div class="step-number">3</div>
-              <div class="step-content">
-                <h4>清洗</h4>
-                <p>用清水反复清洗鱼皮，去除鱼鳞、血污和杂质。</p>
-              </div>
-            </div>
-            
-            <div class="process-step">
-              <div class="step-number">4</div>
-              <div class="step-content">
-                <h4>晾晒</h4>
-                <p>将清洗干净的鱼皮摊开晾晒，使其自然干燥。</p>
-              </div>
-            </div>
-            
-            <div class="process-step">
-              <div class="step-number">5</div>
-              <div class="step-content">
-                <h4>熟制</h4>
-                <p>用特殊方法软化鱼皮，使其柔韧易于加工。</p>
-              </div>
-            </div>
-            
-            <div class="process-step">
-              <div class="step-number">6</div>
-              <div class="step-content">
-                <h4>裁剪缝制</h4>
-                <p>按照服装样式裁剪鱼皮，用传统针法缝制成衣。</p>
-              </div>
+              <p class="video-title">鱼鳞画</p>
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- 骨角制作工艺 -->
+      <section class="content-section">
+        <h2>骨角制作工艺</h2>
+        <div class="craft-intro">
+          <p>赫哲族利用兽骨、鱼骨和鹿角等材料，制作出各种生产工具、生活用具和工艺品。鱼骨粘贴画是其中的一种，展现了赫哲人就地取材、变废为宝的智慧。</p>
+        </div>
         
-        <!-- 工具介绍 -->
-        <div class="tools-section">
-          <h3>制作工具</h3>
-          <div class="tools-list">
-            <div class="tool-item">
+        <!-- 工艺视频展示 -->
+        <div class="video-section">
+          <h3>鱼骨粘贴画制作技艺视频</h3>
+          <div class="video-container">
+            <div class="video-wrapper">
+              <div class="video-frame">
+                <video controls width="100%" class="custom-video">
+                  <source src="/Videos/鱼骨粘贴画.mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+                <div class="video-overlay-gradient"></div>
+              </div>
+              <p class="video-title">鱼骨粘贴画</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              <div class="tool-content">
-                <h4>刮皮刀</h4>
-                <p>用于刮除鱼皮上的鳞片和杂质</p>
+      <!-- 鱼皮制品分类 -->
+      <section class="content-section">
+        <h2>鱼皮制品分类</h2>
+        <div class="fish-skin-categories">
+          <!-- 鱼皮服饰 -->
+          <div class="category-section">
+            <div class="category-header">
+              <h3>鱼皮服饰</h3>
+            </div>
+            <div class="category-content">
+              <div class="product-showcase">
+                <div class="showcase-item">
+                  <div class="item-image">
+                    <img src="/Images/鱼皮衣.webp" alt="传统鱼皮衣" />
+                  </div>
+                  <div class="item-info">
+                    <h4>传统鱼皮衣</h4>
+                    <p>赫哲族传统服装，具有防水、保暖、透气等特点，是赫哲人在渔猎生活中的重要服饰。制作工艺复杂，体现了赫哲人的智慧。</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="tool-item">
-              <div class="tool-content">
-                <h4>骨针</h4>
-                <p>用动物骨头制作的针，用于缝制</p>
-              </div>
-            </div>
-            <div class="tool-item">
+          </div>
 
-              <div class="tool-content">
-                <h4>木铡刀</h4>
-                <p>一种用木头铡子制成的钝钝工具，用于切割和雕刻</p>
+          <!-- 鱼皮鞋帽 -->
+          <div class="category-section">
+            <div class="category-header">
+              <h3>鱼皮鞋帽</h3>
+            </div>
+            <div class="category-content">
+              <div class="product-showcase">
+                <div class="showcase-item">
+                  <div class="item-info">
+                    <h4>鱼皮靰鞡</h4>
+                    <p>传统鱼皮制作的鞋子，具有防水防滑的特点，适合在湿润的渔猎环境中穿着。制作精细，实用性强。</p>
+                  </div>
+                </div>
+                <div class="showcase-item">
+                  <div class="item-info">
+                    <h4>鱼皮帽子</h4>
+                    <p>用鱼皮制作的传统帽子，不仅具有保暖功能，还体现了赫哲族独特的审美观念和文化特色。</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="tool-item">
-              <div class="tool-content">
-                <h4>裁剪工具</h4>
-                <p>用于裁剪鱼皮的各种工具</p>
+          </div>
+
+          <!-- 鱼皮挂饰 -->
+          <div class="category-section">
+            <div class="category-header">
+              <h3>鱼皮挂饰</h3>
+            </div>
+            <div class="category-content">
+              <div class="product-showcase">
+                <div class="showcase-item">
+                  <div class="item-info">
+                    <h4>鱼皮装饰画</h4>
+                    <p>运用鱼皮镂刻和拼贴技艺制作的装饰画，图案精美，具有浓郁的民族特色和艺术价值。</p>
+                  </div>
+                </div>
+                <div class="showcase-item">
+                  <div class="item-info">
+                    <h4>鱼皮工艺品</h4>
+                    <p>各种鱼皮制作的小型工艺品和挂饰，既实用又美观，是赫哲族文化的重要载体。</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-    
       <!-- 现代传承 -->
       <section class="content-section">
         <h2>现代传承与发展</h2>
@@ -239,7 +359,7 @@ onMounted(() => {
   padding: 2rem 0;
   overflow-x: hidden;
   box-sizing: border-box;
-  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  background: linear-gradient(135deg, #2E8B57 0%, #3CB371 50%, #20B2AA 100%);
 }
 
 .container {
@@ -874,6 +994,119 @@ onMounted(() => {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+/* 鱼皮制品分类 */
+.fish-skin-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.category-section {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.category-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+.category-header {
+  background: linear-gradient(135deg, #2E8B57, #3CB371);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.category-header h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.category-content {
+  padding: 2rem;
+}
+
+.product-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.showcase-item {
+  display: flex;
+  align-items: center;
+  background: rgba(46, 139, 87, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #2E8B57;
+  transition: all 0.3s ease;
+}
+
+.showcase-item:hover {
+  transform: translateX(8px);
+  border-left-color: #20B2AA;
+  background: rgba(46, 139, 87, 0.1);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.item-image {
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.item-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h4 {
+  color: #2E8B57;
+  margin: 0 0 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.item-info p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .showcase-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .item-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .category-header {
+    padding: 1rem;
+  }
+  
+  .category-content {
+    padding: 1.5rem;
+  }
 }
 
 /* 现代发展 */

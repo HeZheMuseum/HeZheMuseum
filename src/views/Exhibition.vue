@@ -6,26 +6,7 @@
       <!-- 展示区介绍 -->
       <section class="content-section">
         <h2>展示区概述</h2>
-        <p>作品展示区汇集了赫哲族传统工艺的精品之作，展现了赫哲人精湛的手工技艺和深厚的文化底蕴。这些作品不仅具有实用价值，更是珍贵的文化艺术品，承载着赫哲族的历史记忆和文化传承。</p>
-        
-        <div class="exhibition-stats">
-          <div class="stat-item">
-            <div class="stat-number">50+</div>
-            <div class="stat-label">精品展示</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">8</div>
-            <div class="stat-label">工艺类别</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">20+</div>
-            <div class="stat-label">传承人作品</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">100+</div>
-            <div class="stat-label">年历史传承</div>
-          </div>
-        </div>
+        <p>作品展示区汇集了融合赫哲族传统技艺与现代设计的学生优秀作品。这些作品展现了新一代设计者对传统文化的深刻理解和大胆创新，探索了赫哲族文化在当代背景下的新生命力，是传统与现代、艺术与科技结合的生动实践。</p>
       </section>
 
 
@@ -652,26 +633,39 @@ const viewDetail = (artworkName) => {
 
 /* 作品列表 */
 .artwork-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  column-count: 3;
+  column-gap: 1.5rem;
 }
 
+@media (max-width: 992px) {
+  .artwork-list {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .artwork-list {
+    column-count: 1;
+  }
+}
+
+
+
 .artwork-item {
-  display: flex;
   background: white;
   border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
-  border-left: 4px solid var(--primary-color);
+  margin-bottom: 1.5rem;
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
 }
 
 .artwork-item:hover {
-  transform: translateX(8px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-  border-left-color: var(--secondary-color);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.2);
 }
 
 .artwork-item.featured {
@@ -740,19 +734,17 @@ const viewDetail = (artworkName) => {
   background: #357abd;
 }
 
-.artwork-content {
-  flex: 1;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
+.artwork-content,
+.artwork-info {
+  padding: 1.25rem;
 }
 
 .artwork-header {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .artwork-header h3 {
-  color: var(--primary-color);
+  color: #357abd; /* 统一为蓝色 */
   margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 600;
@@ -767,9 +759,7 @@ const viewDetail = (artworkName) => {
 }
 
 .artwork-detail {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+  margin-top: 0.5rem;
 }
 
 .detail-text {
@@ -914,7 +904,7 @@ const viewDetail = (artworkName) => {
 
 .lightbox-info h3 {
   margin: 0 0 10px 0;
-  color: #333;
+  color: #357abd; /* 统一为蓝色 */
   font-size: 1.5rem;
 }
 

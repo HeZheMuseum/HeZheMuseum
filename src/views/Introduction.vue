@@ -27,34 +27,47 @@
           <div class="section-decoration"></div>
         </div>
         <div class="section-content">
+          <!-- 目录 -->
+          <div class="table-of-contents">
+            <h3 class="toc-title">目录</h3>
+            <div class="toc-list">
+              <a href="#ancient-documents" class="toc-item">
+                <span class="toc-number">1</span>
+                <span class="toc-text">古代史籍与官方文献</span>
+              </a>
+              <a href="#modern-research" class="toc-item">
+                <span class="toc-number">2</span>
+                <span class="toc-text">民族志与现代学术研究</span>
+              </a>
+              <a href="#fish-culture" class="toc-item">
+                <span class="toc-number">3</span>
+                <span class="toc-text">《抚远赫哲族鱼文化系统》</span>
+              </a>
+              <a href="#population" class="toc-item">
+                <span class="toc-number">4</span>
+                <span class="toc-text">人口</span>
+              </a>
+              <a href="#economy" class="toc-item">
+                <span class="toc-number">5</span>
+                <span class="toc-text">经济</span>
+              </a>
+              <a href="#art" class="toc-item">
+                <span class="toc-number">6</span>
+                <span class="toc-text">艺术</span>
+              </a>
+            </div>
+          </div>
+          
           <div class="intro-highlight">
             <span class="highlight-icon"></span>
             <span class="highlight-text">三江流域的古老民族</span>
           </div>
-          <p class="content-text">赫哲族最早以"赫哲"自称见于《清实录》康熙二年（1663）《康熙实录》卷中，官方认可后逐渐形成民族自觉；清代的《皇清职贡图》《钦定满洲源流考》《西伯利东偏纪要》等典籍，详细记录了其分支、服饰、渔猎习俗和地理分布；1934年凌纯声的《松花江下游的赫哲族》奠定了现代民族志研究基础。</p>
-          
-          <div class="overview-highlights">
-            <div class="highlight-card">
-              <div class="highlight-icon-large"></div>
-              <h4 class="highlight-title">历史文献记录</h4>
-              <p class="highlight-desc">清代官方典籍详细记录族群分支、服饰、渔猎习俗和地理分布</p>
-            </div>
-            <div class="highlight-card">
-              <div class="highlight-icon-large"></div>
-              <h4 class="highlight-title">非物质文化遗产传承</h4>
-              <p class="highlight-desc">鱼皮制品是赫哲族特有工艺</p>
-            </div>
-            <div class="highlight-card">
-              <div class="highlight-icon-large"></div>
-              <h4 class="highlight-title">生态文化智慧</h4>
-              <p class="highlight-desc">"抚远赫哲族鱼文化系统"揭示生态与技艺智慧</p>
-            </div>
-          </div>
+          <p class="content-text overview-text" style="text-align: left;">赫哲族最早以"赫哲"自称见于《清实录》康熙二年（1663）《康熙实录》卷中，官方认可后逐渐形成民族自觉；清代的《皇清职贡图》《钦定满洲源流考》《西伯利东偏纪要》等典籍，详细记录了其分支、服饰、渔猎习俗和地理分布；1934年凌纯声的《松花江下游的赫哲族》奠定了现代民族志研究基础。</p>
         </div>
       </section>
 
       <!-- 古代史籍与官方文献 -->
-      <section class="content-section fade-in">
+      <section id="ancient-documents" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">古代史籍与官方文献</h2>
@@ -107,7 +120,7 @@
        </section>
 
       <!-- 民族志与现代学术研究 -->
-      <section class="content-section fade-in">
+      <section id="modern-research" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">民族志与现代学术研究</h2>
@@ -149,7 +162,7 @@
 
      
       <!-- 地方志与生态记录 -->
-      <section class="content-section fade-in">
+      <section id="fish-culture" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">《抚远赫哲族鱼文化系统》</h2>
@@ -160,7 +173,7 @@
             <span class="highlight-icon"></span>
             <span class="highlight-text">国家重要农业文化遗产</span>
           </div>
-          
+
           <div class="ecology-grid">
             <div class="ecology-card featured">
               <div class="ecology-header">
@@ -168,8 +181,10 @@
                 <h4 class="ecology-title">《抚远赫哲族鱼文化系统》</h4>
                 <span class="ecology-badge">国家重要农业文化遗产</span>
               </div>
-              <p class="ecology-desc">农业部文献将黑龙江抚远赫哲族鱼文化系统列入国家重要农业文化遗产，详细记述鲟鳇鱼活体取卵、四季人工孵化等生态智慧，以及二十四节气捕鱼谚语等民俗法则。</p>
-              
+              <p class="ecology-desc">
+                农业部文献将黑龙江抚远赫哲族鱼文化系统列入国家重要农业文化遗产，详细记述鲟鳇鱼活体取卵、四季人工孵化等生态智慧，以及二十四节气捕鱼谚语等民俗法则。
+              </p>
+
               <div class="ecology-features">
                 <div class="feature-item">
                   <span class="feature-icon"></span>
@@ -185,8 +200,6 @@
                 </div>
               </div>
             </div>
-            
-
           </div>
         </div>
       </section>
@@ -194,7 +207,7 @@
     
 
       <!-- 人口 -->
-      <section class="content-section fade-in">
+      <section id="population" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">人口</h2>
@@ -268,7 +281,7 @@
       </section>
 
       <!-- 经济 -->
-      <section class="content-section fade-in">
+      <section id="economy" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">经济</h2>
@@ -380,7 +393,7 @@
       
 
       <!-- 艺术 -->
-      <section class="content-section fade-in">
+      <section id="art" class="content-section fade-in">
         <div class="section-header">
           <div class="section-icon"></div>
           <h2 class="section-title">艺术</h2>
@@ -397,14 +410,13 @@
             <div class="art-section">
               <div class="art-header">
                 <div class="art-icon"></div>
-                <h3 class="art-title">歌舞</h3>
+                <h3 class="art-title">传统音乐</h3>
               </div>
                           
               <div class="music-types">
                 <div class="music-item">
                   <div class="music-icon"></div>
                   <div class="music-name">嫁令阔</div>
-                  <div class="music-description">传统音乐</div>
                 </div>
               </div>
               
@@ -550,6 +562,22 @@ onMounted(() => {
   const fadeElements = document.querySelectorAll('.fade-in')
   fadeElements.forEach(el => {
     observer.observe(el)
+  })
+  
+  // 目录平滑滚动功能
+  const tocItems = document.querySelectorAll('.toc-item')
+  tocItems.forEach(item => {
+    item.addEventListener('click', (e) => {
+      e.preventDefault()
+      const targetId = item.getAttribute('href').substring(1)
+      const targetElement = document.getElementById(targetId)
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+      }
+    })
   })
 })
 
@@ -944,7 +972,6 @@ onUnmounted(() => {
   line-height: 1.8;
   font-size: 1.1rem;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 /* Name Grid Styles */
@@ -959,7 +986,7 @@ onUnmounted(() => {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
   padding: 1.5rem;
   border-radius: 15px;
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 2px solid rgba(102, 126, 234, 0.5);
   text-align: center;
   transition: all 0.3s ease;
 }
@@ -1693,7 +1720,7 @@ onUnmounted(() => {
 .literature-item {
   text-align: center;
   padding: 1.5rem;
-  background: rgba(255,255,255,0.8);
+  background: rgba(240, 248, 255, 0.9);
   border-radius: 15px;
   border: 1px solid rgba(102, 126, 234, 0.1);
   transition: all 0.3s ease;
@@ -2152,7 +2179,7 @@ onUnmounted(() => {
 /* 地方志与生态记录样式 */
 .ecology-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -3132,6 +3159,97 @@ onUnmounted(() => {
   }
 }
 
+/* 目录样式 */
+.table-of-contents {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9));
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.toc-title {
+  color: #2d3748;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.toc-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 2px;
+}
+
+.toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.toc-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+  border-radius: 12px;
+  text-decoration: none;
+  color: #4a5568;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.toc-item:hover {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  color: #2d3748;
+}
+
+.toc-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.toc-text {
+  font-weight: 500;
+  font-size: 1.1rem;
+  flex: 1;
+}
+
+/* 概览文字样式 - 不居中对齐 */
+.overview-text {
+  text-align: left !important;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(248, 250, 252, 0.6));
+  border-radius: 15px;
+  border-left: 4px solid #667eea;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
 /* 伊玛堪布局样式 */
 .imakan-section {
   margin: 2rem 0;
@@ -3183,6 +3301,68 @@ onUnmounted(() => {
 
 .badge.unesco {
   background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+/* 目录响应式设计 */
+@media (max-width: 768px) {
+  .table-of-contents {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .toc-title {
+    font-size: 1.3rem;
+  }
+  
+  .toc-item {
+    padding: 0.8rem 1rem;
+    gap: 0.8rem;
+  }
+  
+  .toc-number {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+  
+  .toc-text {
+    font-size: 1rem;
+  }
+  
+  .overview-text {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-of-contents {
+    padding: 1rem;
+  }
+  
+  .toc-title {
+    font-size: 1.2rem;
+  }
+  
+  .toc-item {
+    padding: 0.6rem 0.8rem;
+    gap: 0.6rem;
+  }
+  
+  .toc-number {
+    width: 22px;
+    height: 22px;
+    font-size: 0.75rem;
+  }
+  
+  .toc-text {
+    font-size: 0.9rem;
+  }
+  
+  .overview-text {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 768px) {

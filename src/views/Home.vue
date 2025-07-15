@@ -65,6 +65,16 @@
             <div class="nav-arrow">→</div>
           </router-link>
           
+          <router-link to="/costumes" class="quick-nav-item">
+            <div class="nav-content">
+              <div class="nav-icon"></div>
+              <div class="nav-info">
+                <h3>传统服饰</h3>
+                <p>领略绚丽的服饰文化</p>
+              </div>
+            </div>
+            <div class="nav-arrow">→</div>
+          </router-link>
           <router-link to="/exhibition" class="quick-nav-item">
             <div class="nav-content">
               <div class="nav-icon"></div>
@@ -76,16 +86,7 @@
             <div class="nav-arrow">→</div>
           </router-link>
           
-          <router-link to="/costumes" class="quick-nav-item">
-            <div class="nav-content">
-              <div class="nav-icon"></div>
-              <div class="nav-info">
-                <h3>传统服饰</h3>
-                <p>领略绚丽的服饰文化</p>
-              </div>
-            </div>
-            <div class="nav-arrow">→</div>
-          </router-link>
+
         </div>
       </div>
     </section>
