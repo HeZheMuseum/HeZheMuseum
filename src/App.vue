@@ -72,6 +72,12 @@ export default {
 </script>
 
 <style scoped>
+#app {
+  min-height: 100vh;
+  width: 100%;
+  /* Ensure app inherits global background */
+}
+
 .header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
     color: #FFF;

@@ -231,21 +231,8 @@ onMounted(() => {
 </script>
 
 <style scoped>
-:root {
-  --primary-color: #2c5530;
-  --secondary-color: #8B4513;
-  --accent-color: #4a90e2;
-  --background-gradient: linear-gradient(135deg, #2c5530 0%, #1a3d1f 100%);
-  --card-background: rgba(255, 255, 255, 0.95);
-  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  --card-hover-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-  --border-radius: 16px;
-  --spacing-sm: 1rem;
-  --spacing-md: 1.5rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 3rem;
-}
-
+/* Remove the :root override to use global styles */
+/* The rest of the styles remain */
 .costumes {
   min-height: 100vh;
   width: 100vw;
@@ -253,7 +240,7 @@ onMounted(() => {
   padding: var(--spacing-lg) 0;
   overflow-x: hidden;
   box-sizing: border-box;
-  background: var(--background-gradient);
+  /* Remove background to inherit from global styles */
 }
 
 .container {
@@ -265,7 +252,7 @@ onMounted(() => {
 .page-title {
   text-align: center;
   font-size: 3rem;
-  color: white;
+  color: var(--primary-color);
   margin-bottom: var(--spacing-xl);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   animation: fadeIn 1s ease-out;
@@ -285,9 +272,9 @@ onMounted(() => {
 .detail-card,
 .video-card,
 .steps-card {
-  background: var(--card-background);
+  background: var(--card-bg);
   border-radius: var(--border-radius);
-  box-shadow: var(--card-shadow);
+  box-shadow: var(--shadow-color);
   backdrop-filter: blur(10px);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
@@ -300,7 +287,7 @@ onMounted(() => {
 .video-card:hover,
 .steps-card:hover {
   transform: translateY(-8px);
-  box-shadow: var(--card-hover-shadow);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* 卡片头部 */
@@ -309,18 +296,21 @@ onMounted(() => {
   color: white;
   padding: var(--spacing-md);
   margin: 0;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .card-header h2 {
   font-size: 1.8rem;
   margin: 0;
   font-weight: 600;
+  color:whitesmoke;
 }
 
 .card-header h3 {
   font-size: 1.4rem;
   margin: 0;
   font-weight: 600;
+    color:whitesmoke;
 }
 
 /* 卡片内容 */
@@ -361,7 +351,7 @@ onMounted(() => {
 
 /* 高亮文本 */
 .highlight-text {
-  background: linear-gradient(135deg, var(--accent-color), #357abd);
+  background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
   color: white;
   padding: var(--spacing-md);
   border-radius: 12px;

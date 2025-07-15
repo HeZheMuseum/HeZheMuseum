@@ -66,6 +66,12 @@
     box-sizing: border-box;
 }
 
+
+
+html {
+    background: var(--bg-gradient);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -75,10 +81,9 @@ html, body {
 
 body {
     font-family: 'LXGW WenKai', '华文中宋', 'STZhongsong', 'Microsoft YaHei', sans-serif;
-    background: var(--bg-gradient);
+    position: relative;
     color: var(--text-color);
     min-height: 100vh;
-    position: relative;
     line-height: var(--line-height-normal);
     font-size: var(--font-size-base);
     scroll-behavior: smooth;
@@ -86,6 +91,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 /* 古风背景纹理 */
 body::before {
